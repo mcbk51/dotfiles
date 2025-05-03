@@ -1,0 +1,15 @@
+[General]
+FreeFloating=true
+RememberPreviousQueries=false
+RetainPriorSearch=false
+TerminalApplication=ghostty
+TerminalService=ghostty.desktop
+
+[Interface]
+Size=420,500
+
+[Plugins]
+krunner_konsoleprofilesEnabled=false
+
+[Plugins][Favorites]
+plugins=krunner_services,krunner_systemsettings,krunner_webshortcuts,locations,krunner_placesrunner,krunner_shell

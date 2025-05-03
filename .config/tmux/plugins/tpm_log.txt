@@ -1,0 +1,172 @@
+[2025-05-01 21:16:27.795]	List of discovered tpm plugins: tmux-plugins/tmux-copycat christoomey/vim-tmux-navigator tmux-plugins/tmux-yank tmux-plugins/tmux-continuum
+[2025-05-01 21:16:27.801]	Invoking /home/bk/.config/tmux/plugins/tpm/bin/install_plugins
+[2025-05-01 21:16:27.819]	Installing "tmux-copycat"
+[2025-05-01 21:16:27.825]	Installing "vim-tmux-navigator"
+[2025-05-01 21:16:27.830]	Installing "tmux-continuum"
+[2025-05-01 21:16:27.837]	Installing "tmux-yank"
+[2025-05-01 21:16:28.204]	  "vim-tmux-navigator" download success
+[2025-05-01 21:16:28.240]	  "tmux-continuum" download success
+[2025-05-01 21:16:28.257]	  "tmux-copycat" download success
+[2025-05-01 21:16:28.296]	  "tmux-yank" download success
+[2025-05-01 21:16:28.302]	Done.
+
+[2025-05-01 21:20:49.332]	List of discovered tpm plugins: tmux-plugins/tmux-copycat christoomey/vim-tmux-navigator tmux-plugins/tmux-yank tmux-plugins/tmux-continuum
+[2025-05-01 21:20:49.338]	Invoking /home/bk/.config/tmux/plugins/tpm/bin/install_plugins
+[2025-05-01 21:20:49.356]	Already installed "vim-tmux-navigator"
+[2025-05-01 21:20:49.361]	Already installed "tmux-continuum"
+[2025-05-01 21:20:49.367]	Already installed "tmux-yank"
+[2025-05-01 21:20:49.373]	Already installed "tmux-copycat"
+[2025-05-01 21:20:49.379]	Invoking /home/bk/.config/tmux/plugins/tpm/bin/update_plugins all
+[2025-05-01 21:20:49.390]	Updating all plugins!
+[2025-05-01 21:20:49.396]	
+[2025-05-01 21:20:49.676]	  "tmux-yank" update success
+[2025-05-01 21:20:49.682]	    | Already up to date.
+[2025-05-01 21:20:49.687]	  "tmux-continuum" update success
+[2025-05-01 21:20:49.693]	    | Already up to date.
+[2025-05-01 21:20:49.699]	  "vim-tmux-navigator" update success
+[2025-05-01 21:20:49.705]	    | Already up to date.
+[2025-05-01 21:20:49.711]	  "tmux-copycat" update success
+[2025-05-01 21:20:49.717]	    | Already up to date.
+[2025-05-01 21:20:49.723]	Invoking /home/bk/.config/tmux/plugins/tpm/bin/clean_plugins all
+[2025-05-01 21:20:49.741]	Done.
+
+[2025-05-01 21:22:45.709]	List of discovered tpm plugins: tmux-plugins/tmux-copycat christoomey/vim-tmux-navigator tmux-plugins/tmux-yank tmux-plugins/tmux-continuum
+[2025-05-01 21:22:45.715]	Invoking /home/bk/.config/tmux/plugins/tpm/bin/install_plugins
+[2025-05-01 21:22:45.733]	Already installed "tmux-copycat"
+[2025-05-01 21:22:45.739]	Already installed "tmux-continuum"
+[2025-05-01 21:22:45.745]	Already installed "vim-tmux-navigator"
+[2025-05-01 21:22:45.751]	Already installed "tmux-yank"
+[2025-05-01 21:22:45.757]	Invoking /home/bk/.config/tmux/plugins/tpm/bin/update_plugins all
+[2025-05-01 21:22:45.768]	Updating all plugins!
+[2025-05-01 21:22:45.773]	
+[2025-05-01 21:22:46.028]	  "tmux-yank" update success
+[2025-05-01 21:22:46.034]	    | Already up to date.
+[2025-05-01 21:22:46.040]	  "vim-tmux-navigator" update success
+[2025-05-01 21:22:46.046]	    | Already up to date.
+[2025-05-01 21:22:46.055]	  "tmux-copycat" update success
+[2025-05-01 21:22:46.061]	    | Already up to date.
+[2025-05-01 21:22:46.086]	  "tmux-continuum" update success
+[2025-05-01 21:22:46.092]	    | Already up to date.
+[2025-05-01 21:22:46.098]	Invoking /home/bk/.config/tmux/plugins/tpm/bin/clean_plugins all
+[2025-05-01 21:22:46.117]	Done.
+
+[2025-05-01 21:26:24.397]	List of discovered tpm plugins: tmux-plugins/tmux-copycat christoomey/vim-tmux-navigator tmux-plugins/tmux-yank tmux-plugins/tmux-continuum
+[2025-05-01 21:26:24.403]	Invoking /home/bk/.config/tmux/plugins/tpm/bin/install_plugins
+[2025-05-01 21:26:24.421]	Already installed "tmux-copycat"
+[2025-05-01 21:26:24.427]	Already installed "vim-tmux-navigator"
+[2025-05-01 21:26:24.432]	Already installed "tmux-yank"
+[2025-05-01 21:26:24.439]	Already installed "tmux-continuum"
+[2025-05-01 21:26:24.444]	Invoking /home/bk/.config/tmux/plugins/tpm/bin/update_plugins all
+[2025-05-01 21:26:24.455]	Updating all plugins!
+[2025-05-01 21:26:24.461]	
+[2025-05-01 21:26:24.703]	  "tmux-copycat" update success
+[2025-05-01 21:26:24.709]	    | Already up to date.
+[2025-05-01 21:26:24.715]	  "tmux-yank" update success
+[2025-05-01 21:26:24.721]	    | Already up to date.
+[2025-05-01 21:26:24.734]	  "vim-tmux-navigator" update success
+[2025-05-01 21:26:24.740]	    | Already up to date.
+[2025-05-01 21:26:24.762]	  "tmux-continuum" update success
+[2025-05-01 21:26:24.768]	    | Already up to date.
+[2025-05-01 21:26:24.773]	Invoking /home/bk/.config/tmux/plugins/tpm/bin/clean_plugins all
+[2025-05-01 21:26:24.792]	Done.
+
+[2025-05-01 21:29:40.658]	List of discovered tpm plugins: tmux-plugins/tmux-copycat christoomey/vim-tmux-navigator tmux-plugins/tmux-yank tmux-plugins/tmux-continuum
+[2025-05-01 21:29:40.664]	Invoking /home/bk/.config/tmux/plugins/tpm/bin/install_plugins
+[2025-05-01 21:29:40.681]	Already installed "vim-tmux-navigator"
+[2025-05-01 21:29:40.687]	Already installed "tmux-copycat"
+[2025-05-01 21:29:40.694]	Already installed "tmux-yank"
+[2025-05-01 21:29:40.700]	Already installed "tmux-continuum"
+[2025-05-01 21:29:40.707]	Invoking /home/bk/.config/tmux/plugins/tpm/bin/update_plugins all
+[2025-05-01 21:29:40.718]	Updating all plugins!
+[2025-05-01 21:29:40.723]	
+[2025-05-01 21:29:40.988]	  "vim-tmux-navigator" update success
+[2025-05-01 21:29:40.994]	    | Already up to date.
+[2025-05-01 21:29:41.000]	  "tmux-copycat" update success
+[2025-05-01 21:29:41.006]	    | Already up to date.
+[2025-05-01 21:29:41.025]	  "tmux-continuum" update success
+[2025-05-01 21:29:41.031]	    | Already up to date.
+[2025-05-01 21:29:41.037]	  "tmux-yank" update success
+[2025-05-01 21:29:41.042]	    | Already up to date.
+[2025-05-01 21:29:41.048]	Invoking /home/bk/.config/tmux/plugins/tpm/bin/clean_plugins all
+[2025-05-01 21:29:41.067]	Done.
+
+[2025-05-01 21:31:24.626]	List of discovered tpm plugins: tmux-plugins/tmux-copycat christoomey/vim-tmux-navigator tmux-plugins/tmux-yank tmux-plugins/tmux-continuum
+[2025-05-01 21:31:24.632]	Invoking /home/bk/.config/tmux/plugins/tpm/bin/install_plugins
+[2025-05-01 21:31:24.650]	Already installed "tmux-copycat"
+[2025-05-01 21:31:24.656]	Already installed "tmux-yank"
+[2025-05-01 21:31:24.662]	Already installed "vim-tmux-navigator"
+[2025-05-01 21:31:24.668]	Already installed "tmux-continuum"
+[2025-05-01 21:31:24.674]	Invoking /home/bk/.config/tmux/plugins/tpm/bin/update_plugins all
+[2025-05-01 21:31:24.685]	Updating all plugins!
+[2025-05-01 21:31:24.691]	
+[2025-05-01 21:31:24.922]	  "vim-tmux-navigator" update success
+[2025-05-01 21:31:24.928]	    | Already up to date.
+[2025-05-01 21:31:24.942]	  "tmux-continuum" update success
+[2025-05-01 21:31:24.948]	    | Already up to date.
+[2025-05-01 21:31:24.971]	  "tmux-copycat" update success
+[2025-05-01 21:31:24.977]	  "tmux-yank" update success
+[2025-05-01 21:31:24.983]	    | Already up to date.
+[2025-05-01 21:31:24.989]	    | Already up to date.
+[2025-05-01 21:31:24.996]	Invoking /home/bk/.config/tmux/plugins/tpm/bin/clean_plugins all
+[2025-05-01 21:31:25.014]	Done.
+
+[2025-05-01 21:32:39.489]	List of discovered tpm plugins: tmux-plugins/tmux-copycat christoomey/vim-tmux-navigator tmux-plugins/tmux-yank tmux-plugins/tmux-continuum
+[2025-05-01 21:32:39.496]	Invoking /home/bk/.config/tmux/plugins/tpm/bin/install_plugins
+[2025-05-01 21:32:39.515]	Already installed "tmux-copycat"
+[2025-05-01 21:32:39.520]	Already installed "vim-tmux-navigator"
+[2025-05-01 21:32:39.526]	Already installed "tmux-yank"
+[2025-05-01 21:32:39.533]	Already installed "tmux-continuum"
+[2025-05-01 21:32:39.539]	Invoking /home/bk/.config/tmux/plugins/tpm/bin/update_plugins all
+[2025-05-01 21:32:39.549]	Updating all plugins!
+[2025-05-01 21:32:39.555]	
+[2025-05-01 21:32:39.824]	  "vim-tmux-navigator" update success
+[2025-05-01 21:32:39.829]	    | Already up to date.
+[2025-05-01 21:32:39.835]	  "tmux-continuum" update success
+[2025-05-01 21:32:39.840]	    | Already up to date.
+[2025-05-01 21:32:39.845]	  "tmux-copycat" update success
+[2025-05-01 21:32:39.851]	    | Already up to date.
+[2025-05-01 21:32:39.856]	  "tmux-yank" update success
+[2025-05-01 21:32:39.862]	    | Already up to date.
+[2025-05-01 21:32:39.868]	Invoking /home/bk/.config/tmux/plugins/tpm/bin/clean_plugins all
+[2025-05-01 21:32:39.886]	Done.
+
+[2025-05-01 21:34:17.679]	List of discovered tpm plugins: tmux-plugins/tmux-copycat christoomey/vim-tmux-navigator tmux-plugins/tmux-yank tmux-plugins/tmux-continuum
+[2025-05-01 21:34:17.689]	Invoking /home/bk/.config/tmux/plugins/tpm/bin/install_plugins
+[2025-05-01 21:34:17.707]	Already installed "vim-tmux-navigator"
+[2025-05-01 21:34:17.713]	Already installed "tmux-copycat"
+[2025-05-01 21:34:17.719]	Already installed "tmux-yank"
+[2025-05-01 21:34:17.725]	Already installed "tmux-continuum"
+[2025-05-01 21:34:17.732]	Invoking /home/bk/.config/tmux/plugins/tpm/bin/update_plugins all
+[2025-05-01 21:34:17.742]	Updating all plugins!
+[2025-05-01 21:34:17.748]	
+[2025-05-01 21:34:17.997]	  "tmux-copycat" update success
+[2025-05-01 21:34:18.003]	    | Already up to date.
+[2025-05-01 21:34:18.026]	  "tmux-yank" update success
+[2025-05-01 21:34:18.031]	    | Already up to date.
+[2025-05-01 21:34:18.037]	  "vim-tmux-navigator" update success
+[2025-05-01 21:34:18.042]	    | Already up to date.
+[2025-05-01 21:34:18.048]	  "tmux-continuum" update success
+[2025-05-01 21:34:18.054]	    | Already up to date.
+[2025-05-01 21:34:18.060]	Invoking /home/bk/.config/tmux/plugins/tpm/bin/clean_plugins all
+[2025-05-01 21:34:18.079]	Done.
+
+[2025-05-01 21:36:21.541]	List of discovered tpm plugins: tmux-plugins/tmux-copycat christoomey/vim-tmux-navigator tmux-plugins/tmux-yank tmux-plugins/tmux-continuum
+[2025-05-01 21:36:21.547]	Invoking /home/bk/.config/tmux/plugins/tpm/bin/install_plugins
+[2025-05-01 21:36:21.565]	Already installed "tmux-copycat"
+[2025-05-01 21:36:21.571]	Already installed "vim-tmux-navigator"
+[2025-05-01 21:36:21.577]	Already installed "tmux-yank"
+[2025-05-01 21:36:21.582]	Already installed "tmux-continuum"
+[2025-05-01 21:36:21.588]	Invoking /home/bk/.config/tmux/plugins/tpm/bin/update_plugins all
+[2025-05-01 21:36:21.599]	Updating all plugins!
+[2025-05-01 21:36:21.604]	
+[2025-05-01 21:36:21.851]	  "vim-tmux-navigator" update success
+[2025-05-01 21:36:21.857]	    | Already up to date.
+[2025-05-01 21:36:21.865]	  "tmux-yank" update success
+[2025-05-01 21:36:21.871]	    | Already up to date.
+[2025-05-01 21:36:21.877]	  "tmux-copycat" update success
+[2025-05-01 21:36:21.883]	    | Already up to date.
+[2025-05-01 21:36:21.900]	  "tmux-continuum" update success
+[2025-05-01 21:36:21.906]	    | Already up to date.
+[2025-05-01 21:36:21.912]	Invoking /home/bk/.config/tmux/plugins/tpm/bin/clean_plugins all
+[2025-05-01 21:36:21.931]	Done.
+
