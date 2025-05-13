@@ -19,7 +19,7 @@ bind n run-shell 'i=1; while tmux has-session -t session_$i 2>/dev/null; do i=$(
 bind z confirm-before -p "Kill session '#{session_name}'? (y/n)" "kill-session"
 
 # To rename window
-bind l command-prompt -I "#W" "rename-window '%%'"
+
 # preserve tmux stock bindings,
 # while adding bindings that don't conflict with these stock bindings
 # /!\ this disables some of Oh my tmux! bindings described in README.md
@@ -472,7 +472,9 @@ set -g @plugin 'tmux-plugins/tmux-copycat'
 set -g @plugin 'christoomey/vim-tmux-navigator'
 set -g @plugin 'tmux-plugins/tmux-yank' 
 set -g @plugin 'tmux-plugins/tmux-continuum'
+set -g @plugin 'tmux-plugins/resurrect'
 set -g @continuum-restore 'on'
+
 
 
 # -- custom variables ----------------------------------------------------------

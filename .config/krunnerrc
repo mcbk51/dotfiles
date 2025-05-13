@@ -4,6 +4,7 @@ RememberPreviousQueries=false
 RetainPriorSearch=false
 TerminalApplication=ghostty
 TerminalService=ghostty.desktop
+historyBehavior=ImmediateCompletion
 
 [Interface]
 Size=420,500

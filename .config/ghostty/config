@@ -33,7 +33,7 @@ theme = rose-pine
   background-opacity = 0.8
 
 # Remove Close Pop-up
-  confirm-close-surface = false
+confirm-close-surface = false
 
 #
 # # Empty values are used to reset config keys to default.

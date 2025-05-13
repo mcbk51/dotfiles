@@ -170,3 +170,730 @@
 [2025-05-01 21:36:21.912]	Invoking /home/bk/.config/tmux/plugins/tpm/bin/clean_plugins all
 [2025-05-01 21:36:21.931]	Done.
 
+[2025-05-03 14:24:12.719]	List of discovered tpm plugins: tmux-plugins/tmux-copycat christoomey/vim-tmux-navigator tmux-plugins/tmux-yank tmux-plugins/tmux-continuum
+[2025-05-03 14:24:12.725]	Invoking /home/bk/.config/tmux/plugins/tpm/bin/install_plugins
+[2025-05-03 14:24:12.742]	Already installed "vim-tmux-navigator"
+[2025-05-03 14:24:12.747]	Already installed "tmux-copycat"
+[2025-05-03 14:24:12.753]	Already installed "tmux-continuum"
+[2025-05-03 14:24:12.758]	Already installed "tmux-yank"
+[2025-05-03 14:24:12.764]	Invoking /home/bk/.config/tmux/plugins/tpm/bin/update_plugins all
+[2025-05-03 14:24:12.775]	Updating all plugins!
+[2025-05-03 14:24:12.780]	
+[2025-05-03 14:24:13.037]	  "tmux-continuum" update success
+[2025-05-03 14:24:13.044]	    | /usr/local/bin/git-credential-manager store: line 1: /usr/local/bin/git-credential-manager: No such file or directory
+[2025-05-03 14:24:13.056]	    | Already up to date.
+[2025-05-03 14:24:13.064]	  "vim-tmux-navigator" update success
+[2025-05-03 14:24:13.073]	    | /usr/local/bin/git-credential-manager store: line 1: /usr/local/bin/git-credential-manager: No such file or directory
+[2025-05-03 14:24:13.080]	    | Already up to date.
+[2025-05-03 14:24:13.123]	  "tmux-yank" update success
+[2025-05-03 14:24:13.130]	    | /usr/local/bin/git-credential-manager store: line 1: /usr/local/bin/git-credential-manager: No such file or directory
+[2025-05-03 14:24:13.147]	    | Already up to date.
+[2025-05-03 14:24:13.166]	  "tmux-copycat" update success
+[2025-05-03 14:24:13.189]	    | /usr/local/bin/git-credential-manager store: line 1: /usr/local/bin/git-credential-manager: No such file or directory
+[2025-05-03 14:24:13.218]	    | Already up to date.
+[2025-05-03 14:24:13.229]	Invoking /home/bk/.config/tmux/plugins/tpm/bin/clean_plugins all
+[2025-05-03 14:24:13.295]	Done.
+
+[2025-05-03 16:20:05.936]	List of discovered tpm plugins: tmux-plugins/tmux-copycat christoomey/vim-tmux-navigator tmux-plugins/tmux-yank tmux-plugins/tmux-continuum
+[2025-05-03 16:20:05.942]	Invoking /home/bk/.config/tmux/plugins/tpm/bin/install_plugins
+[2025-05-03 16:20:05.960]	Already installed "vim-tmux-navigator"
+[2025-05-03 16:20:05.966]	Already installed "tmux-copycat"
+[2025-05-03 16:20:05.971]	Already installed "tmux-yank"
+[2025-05-03 16:20:05.977]	Already installed "tmux-continuum"
+[2025-05-03 16:20:05.983]	Invoking /home/bk/.config/tmux/plugins/tpm/bin/update_plugins all
+[2025-05-03 16:20:05.994]	Updating all plugins!
+[2025-05-03 16:20:06.000]	
+[2025-05-03 16:20:06.247]	  "tmux-copycat" update success
+[2025-05-03 16:20:06.252]	    | /usr/local/bin/git-credential-manager store: line 1: /usr/local/bin/git-credential-manager: No such file or directory
+[2025-05-03 16:20:06.258]	    | Already up to date.
+[2025-05-03 16:20:06.263]	  "vim-tmux-navigator" update success
+[2025-05-03 16:20:06.269]	    | /usr/local/bin/git-credential-manager store: line 1: /usr/local/bin/git-credential-manager: No such file or directory
+[2025-05-03 16:20:06.274]	    | Already up to date.
+[2025-05-03 16:20:06.280]	  "tmux-continuum" update success
+[2025-05-03 16:20:06.286]	    | /usr/local/bin/git-credential-manager store: line 1: /usr/local/bin/git-credential-manager: No such file or directory
+[2025-05-03 16:20:06.291]	    | Already up to date.
+[2025-05-03 16:20:06.297]	  "tmux-yank" update success
+[2025-05-03 16:20:06.302]	    | /usr/local/bin/git-credential-manager store: line 1: /usr/local/bin/git-credential-manager: No such file or directory
+[2025-05-03 16:20:06.309]	    | Already up to date.
+[2025-05-03 16:20:06.315]	Invoking /home/bk/.config/tmux/plugins/tpm/bin/clean_plugins all
+[2025-05-03 16:20:06.333]	Done.
+
+[2025-05-03 16:25:54.776]	List of discovered tpm plugins: tmux-plugins/tmux-copycat christoomey/vim-tmux-navigator tmux-plugins/tmux-yank tmux-plugins/tmux-continuum
+[2025-05-03 16:25:54.782]	Invoking /home/bk/.config/tmux/plugins/tpm/bin/install_plugins
+[2025-05-03 16:25:54.799]	Already installed "tmux-copycat"
+[2025-05-03 16:25:54.805]	Already installed "vim-tmux-navigator"
+[2025-05-03 16:25:54.811]	Already installed "tmux-yank"
+[2025-05-03 16:25:54.818]	Already installed "tmux-continuum"
+[2025-05-03 16:25:54.824]	Invoking /home/bk/.config/tmux/plugins/tpm/bin/update_plugins all
+[2025-05-03 16:25:54.835]	Updating all plugins!
+[2025-05-03 16:25:54.841]	
+[2025-05-03 16:25:55.107]	  "tmux-continuum" update success
+[2025-05-03 16:25:55.112]	    | /usr/local/bin/git-credential-manager store: line 1: /usr/local/bin/git-credential-manager: No such file or directory
+[2025-05-03 16:25:55.118]	    | Already up to date.
+[2025-05-03 16:25:55.124]	  "vim-tmux-navigator" update success
+[2025-05-03 16:25:55.130]	    | /usr/local/bin/git-credential-manager store: line 1: /usr/local/bin/git-credential-manager: No such file or directory
+[2025-05-03 16:25:55.135]	    | Already up to date.
+[2025-05-03 16:25:55.141]	  "tmux-copycat" update success
+[2025-05-03 16:25:55.146]	    | /usr/local/bin/git-credential-manager store: line 1: /usr/local/bin/git-credential-manager: No such file or directory
+[2025-05-03 16:25:55.152]	    | Already up to date.
+[2025-05-03 16:25:55.158]	  "tmux-yank" update success
+[2025-05-03 16:25:55.164]	    | /usr/local/bin/git-credential-manager store: line 1: /usr/local/bin/git-credential-manager: No such file or directory
+[2025-05-03 16:25:55.170]	    | Already up to date.
+[2025-05-03 16:25:55.176]	Invoking /home/bk/.config/tmux/plugins/tpm/bin/clean_plugins all
+[2025-05-03 16:25:55.194]	Done.
+
+[2025-05-04 07:57:51.926]	List of discovered tpm plugins: tmux-plugins/tmux-copycat christoomey/vim-tmux-navigator tmux-plugins/tmux-yank tmux-plugins/tmux-continuum
+[2025-05-04 07:57:51.933]	Invoking /home/bk/.config/tmux/plugins/tpm/bin/install_plugins
+[2025-05-04 07:57:51.960]	Already installed "vim-tmux-navigator"
+[2025-05-04 07:57:51.967]	Already installed "tmux-continuum"
+[2025-05-04 07:57:51.973]	Already installed "tmux-yank"
+[2025-05-04 07:57:51.980]	Already installed "tmux-copycat"
+[2025-05-04 07:57:51.986]	Invoking /home/bk/.config/tmux/plugins/tpm/bin/update_plugins all
+[2025-05-04 07:57:52.002]	Updating all plugins!
+[2025-05-04 07:57:52.010]	
+[2025-05-04 07:57:52.262]	  "tmux-yank" update success
+[2025-05-04 07:57:52.268]	    | /usr/local/bin/git-credential-manager store: line 1: /usr/local/bin/git-credential-manager: No such file or directory
+[2025-05-04 07:57:52.274]	    | Already up to date.
+[2025-05-04 07:57:52.306]	  "vim-tmux-navigator" update success
+[2025-05-04 07:57:52.312]	    | /usr/local/bin/git-credential-manager store: line 1: /usr/local/bin/git-credential-manager: No such file or directory
+[2025-05-04 07:57:52.317]	    | Already up to date.
+[2025-05-04 07:57:52.323]	  "tmux-copycat" update success
+[2025-05-04 07:57:52.328]	    | /usr/local/bin/git-credential-manager store: line 1: /usr/local/bin/git-credential-manager: No such file or directory
+[2025-05-04 07:57:52.334]	    | Already up to date.
+[2025-05-04 07:57:52.339]	  "tmux-continuum" update success
+[2025-05-04 07:57:52.345]	    | /usr/local/bin/git-credential-manager store: line 1: /usr/local/bin/git-credential-manager: No such file or directory
+[2025-05-04 07:57:52.350]	    | Already up to date.
+[2025-05-04 07:57:52.356]	Invoking /home/bk/.config/tmux/plugins/tpm/bin/clean_plugins all
+[2025-05-04 07:57:52.374]	Done.
+
+[2025-05-05 14:21:04.350]	List of discovered tpm plugins: tmux-plugins/tmux-copycat christoomey/vim-tmux-navigator tmux-plugins/tmux-yank tmux-plugins/tmux-continuum
+[2025-05-05 14:21:04.360]	Invoking /home/bk/.config/tmux/plugins/tpm/bin/install_plugins
+[2025-05-05 14:21:04.398]	Already installed "vim-tmux-navigator"
+[2025-05-05 14:21:04.414]	Already installed "tmux-copycat"
+[2025-05-05 14:21:04.424]	Already installed "tmux-yank"
+[2025-05-05 14:21:04.430]	Already installed "tmux-continuum"
+[2025-05-05 14:21:04.438]	Invoking /home/bk/.config/tmux/plugins/tpm/bin/update_plugins all
+[2025-05-05 14:21:04.453]	Updating all plugins!
+[2025-05-05 14:21:04.459]	
+[2025-05-05 14:21:04.744]	  "vim-tmux-navigator" update success
+[2025-05-05 14:21:04.758]	    | /usr/local/bin/git-credential-manager store: line 1: /usr/local/bin/git-credential-manager: No such file or directory
+[2025-05-05 14:21:04.770]	    | Already up to date.
+[2025-05-05 14:21:04.782]	  "tmux-continuum" update success
+[2025-05-05 14:21:04.796]	    | /usr/local/bin/git-credential-manager store: line 1: /usr/local/bin/git-credential-manager: No such file or directory
+[2025-05-05 14:21:04.802]	    | Already up to date.
+[2025-05-05 14:21:04.812]	  "tmux-copycat" update success
+[2025-05-05 14:21:04.821]	    | /usr/local/bin/git-credential-manager store: line 1: /usr/local/bin/git-credential-manager: No such file or directory
+[2025-05-05 14:21:04.828]	    | Already up to date.
+[2025-05-05 14:21:04.835]	  "tmux-yank" update success
+[2025-05-05 14:21:04.849]	    | /usr/local/bin/git-credential-manager store: line 1: /usr/local/bin/git-credential-manager: No such file or directory
+[2025-05-05 14:21:04.855]	    | Already up to date.
+[2025-05-05 14:21:04.864]	Invoking /home/bk/.config/tmux/plugins/tpm/bin/clean_plugins all
+[2025-05-05 14:21:04.900]	Done.
+
+[2025-05-05 15:16:25.375]	List of discovered tpm plugins: tmux-plugins/tmux-copycat christoomey/vim-tmux-navigator tmux-plugins/tmux-yank tmux-plugins/tmux-continuum tmux-plugins/resurrect
+[2025-05-05 15:16:25.382]	Invoking /home/bk/.config/tmux/plugins/tpm/bin/install_plugins
+[2025-05-05 15:16:25.401]	Installing "resurrect"
+[2025-05-05 15:16:25.406]	Already installed "tmux-copycat"
+[2025-05-05 15:16:25.412]	Already installed "vim-tmux-navigator"
+[2025-05-05 15:16:25.418]	Already installed "tmux-yank"
+[2025-05-05 15:16:25.424]	Already installed "tmux-continuum"
+[2025-05-05 15:16:25.634]	  "resurrect" download fail
+[2025-05-05 15:16:25.640]	Invoking /home/bk/.config/tmux/plugins/tpm/bin/update_plugins all
+[2025-05-05 15:16:25.652]	Updating all plugins!
+[2025-05-05 15:16:25.658]	
+[2025-05-05 15:16:25.920]	  "vim-tmux-navigator" update success
+[2025-05-05 15:16:25.926]	    | /usr/local/bin/git-credential-manager store: line 1: /usr/local/bin/git-credential-manager: No such file or directory
+[2025-05-05 15:16:25.931]	    | Already up to date.
+[2025-05-05 15:16:25.938]	  "tmux-continuum" update success
+[2025-05-05 15:16:25.943]	    | /usr/local/bin/git-credential-manager store: line 1: /usr/local/bin/git-credential-manager: No such file or directory
+[2025-05-05 15:16:25.949]	    | Already up to date.
+[2025-05-05 15:16:25.954]	  "tmux-copycat" update success
+[2025-05-05 15:16:25.960]	    | /usr/local/bin/git-credential-manager store: line 1: /usr/local/bin/git-credential-manager: No such file or directory
+[2025-05-05 15:16:25.966]	    | Already up to date.
+[2025-05-05 15:16:25.971]	  "tmux-yank" update success
+[2025-05-05 15:16:25.977]	    | /usr/local/bin/git-credential-manager store: line 1: /usr/local/bin/git-credential-manager: No such file or directory
+[2025-05-05 15:16:25.983]	    | Already up to date.
+[2025-05-05 15:16:25.989]	Invoking /home/bk/.config/tmux/plugins/tpm/bin/clean_plugins all
+[2025-05-05 15:16:26.008]	Done.
+
+[2025-05-05 15:16:51.856]	List of discovered tpm plugins: tmux-plugins/tmux-copycat christoomey/vim-tmux-navigator tmux-plugins/tmux-yank tmux-plugins/tmux-continuum tmux-plugins/resurrect
+[2025-05-05 15:16:51.862]	Invoking /home/bk/.config/tmux/plugins/tpm/bin/install_plugins
+[2025-05-05 15:16:51.882]	Installing "resurrect"
+[2025-05-05 15:16:51.887]	Already installed "vim-tmux-navigator"
+[2025-05-05 15:16:51.893]	Already installed "tmux-continuum"
+[2025-05-05 15:16:51.899]	Already installed "tmux-yank"
+[2025-05-05 15:16:51.905]	Already installed "tmux-copycat"
+[2025-05-05 15:16:51.960]	List of discovered tpm plugins: tmux-plugins/tmux-copycat christoomey/vim-tmux-navigator tmux-plugins/tmux-yank tmux-plugins/tmux-continuum tmux-plugins/resurrect
+[2025-05-05 15:16:51.966]	Invoking /home/bk/.config/tmux/plugins/tpm/bin/install_plugins
+[2025-05-05 15:16:51.982]	Already installed "tmux-copycat"
+[2025-05-05 15:16:51.988]	Already installed "vim-tmux-navigator"
+[2025-05-05 15:16:51.994]	Already installed "tmux-yank"
+[2025-05-05 15:16:52.000]	Already installed "tmux-continuum"
+[2025-05-05 15:16:52.005]	Already installed "resurrect"
+[2025-05-05 15:16:52.012]	Invoking /home/bk/.config/tmux/plugins/tpm/bin/update_plugins all
+[2025-05-05 15:16:52.025]	Updating all plugins!
+[2025-05-05 15:16:52.030]	
+[2025-05-05 15:16:52.092]	  "resurrect" download fail
+[2025-05-05 15:16:52.098]	Invoking /home/bk/.config/tmux/plugins/tpm/bin/update_plugins all
+[2025-05-05 15:16:52.109]	Updating all plugins!
+[2025-05-05 15:16:52.115]	
+[2025-05-05 15:16:52.268]	  "resurrect" update fail
+[2025-05-05 15:16:52.273]	    | shell-init: error retrieving current directory: getcwd: cannot access parent directories: No such file or directory
+[2025-05-05 15:16:52.279]	    | /usr/local/bin/git-credential-manager erase: line 1: /usr/local/bin/git-credential-manager: No such file or directory
+[2025-05-05 15:16:52.284]	    | remote: Support for password authentication was removed on August 13, 2021.
+[2025-05-05 15:16:52.290]	    | remote: Please see https://docs.github.com/get-started/getting-started-with-git/about-remote-repositories#cloning-with-https-urls for information on currently recommended modes of authentication.
+[2025-05-05 15:16:52.296]	    | fatal: Authentication failed for 'https://github.com/tmux-plugins/resurrect/'
+[2025-05-05 15:16:52.308]	  "tmux-yank" update success
+[2025-05-05 15:16:52.314]	  "vim-tmux-navigator" update success
+[2025-05-05 15:16:52.320]	    | /usr/local/bin/git-credential-manager store: line 1: /usr/local/bin/git-credential-manager: No such file or directory
+[2025-05-05 15:16:52.326]	    | Already up to date.
+[2025-05-05 15:16:52.331]	    | /usr/local/bin/git-credential-manager store: line 1: /usr/local/bin/git-credential-manager: No such file or directory
+[2025-05-05 15:16:52.337]	    | Already up to date.
+[2025-05-05 15:16:52.342]	  "tmux-copycat" update success
+[2025-05-05 15:16:52.344]	  "tmux-yank" update success
+[2025-05-05 15:16:52.348]	    | /usr/local/bin/git-credential-manager store: line 1: /usr/local/bin/git-credential-manager: No such file or directory
+[2025-05-05 15:16:52.350]	    | /usr/local/bin/git-credential-manager store: line 1: /usr/local/bin/git-credential-manager: No such file or directory
+[2025-05-05 15:16:52.353]	    | Already up to date.
+[2025-05-05 15:16:52.355]	    | Already up to date.
+[2025-05-05 15:16:52.359]	  "tmux-continuum" update success
+[2025-05-05 15:16:52.362]	  "vim-tmux-navigator" update success
+[2025-05-05 15:16:52.364]	    | /usr/local/bin/git-credential-manager store: line 1: /usr/local/bin/git-credential-manager: No such file or directory
+[2025-05-05 15:16:52.367]	    | /usr/local/bin/git-credential-manager store: line 1: /usr/local/bin/git-credential-manager: No such file or directory
+[2025-05-05 15:16:52.370]	    | Already up to date.
+[2025-05-05 15:16:52.373]	    | Already up to date.
+[2025-05-05 15:16:52.376]	Invoking /home/bk/.config/tmux/plugins/tpm/bin/clean_plugins all
+[2025-05-05 15:16:52.378]	  "tmux-copycat" update success
+[2025-05-05 15:16:52.384]	    | /usr/local/bin/git-credential-manager store: line 1: /usr/local/bin/git-credential-manager: No such file or directory
+[2025-05-05 15:16:52.389]	    | Already up to date.
+[2025-05-05 15:16:52.393]	Done.
+
+[2025-05-05 15:16:52.395]	  "tmux-continuum" update success
+[2025-05-05 15:16:52.402]	    | /usr/local/bin/git-credential-manager store: line 1: /usr/local/bin/git-credential-manager: No such file or directory
+[2025-05-05 15:16:52.408]	    | Already up to date.
+[2025-05-05 15:16:52.414]	Invoking /home/bk/.config/tmux/plugins/tpm/bin/clean_plugins all
+[2025-05-05 15:16:52.428]	Removing "tmux-continuum"
+[2025-05-05 15:16:52.434]	  "tmux-continuum" clean success
+[2025-05-05 15:16:52.440]	Removing "tmux-copycat"
+[2025-05-05 15:16:52.446]	  "tmux-copycat" clean success
+[2025-05-05 15:16:52.452]	Removing "tmux-yank"
+[2025-05-05 15:16:52.457]	  "tmux-yank" clean success
+[2025-05-05 15:16:52.463]	Removing "vim-tmux-navigator"
+[2025-05-05 15:16:52.469]	  "vim-tmux-navigator" clean success
+[2025-05-05 15:16:52.475]	Done.
+
+[2025-05-08 12:08:03.348]	List of discovered tpm plugins: tmux-plugins/tmux-copycat christoomey/vim-tmux-navigator tmux-plugins/tmux-yank tmux-plugins/tmux-continuum tmux-plugins/resurrect
+[2025-05-08 12:08:03.357]	Invoking /home/bk/.config/tmux/plugins/tpm/bin/install_plugins
+[2025-05-08 12:08:03.420]	Installing "resurrect"
+[2025-05-08 12:08:03.446]	Installing "tmux-continuum"
+[2025-05-08 12:08:03.458]	Installing "vim-tmux-navigator"
+[2025-05-08 12:08:03.468]	Installing "tmux-copycat"
+[2025-05-08 12:08:03.489]	Installing "tmux-yank"
+[2025-05-08 12:08:03.708]	  "resurrect" download fail
+[2025-05-08 12:08:03.844]	  "tmux-continuum" download success
+[2025-05-08 12:08:03.874]	  "vim-tmux-navigator" download success
+[2025-05-08 12:08:03.946]	  "tmux-yank" download success
+[2025-05-08 12:08:03.964]	  "tmux-copycat" download success
+[2025-05-08 12:08:03.972]	Invoking /home/bk/.config/tmux/plugins/tpm/bin/update_plugins all
+[2025-05-08 12:08:04.010]	Updating all plugins!
+[2025-05-08 12:08:04.022]	
+[2025-05-08 12:08:04.286]	  "tmux-copycat" update success
+[2025-05-08 12:08:04.294]	    | /usr/local/bin/git-credential-manager store: line 1: /usr/local/bin/git-credential-manager: No such file or directory
+[2025-05-08 12:08:04.302]	    | Already up to date.
+[2025-05-08 12:08:04.314]	  "vim-tmux-navigator" update success
+[2025-05-08 12:08:04.321]	    | /usr/local/bin/git-credential-manager store: line 1: /usr/local/bin/git-credential-manager: No such file or directory
+[2025-05-08 12:08:04.328]	    | Already up to date.
+[2025-05-08 12:08:04.334]	  "tmux-continuum" update success
+[2025-05-08 12:08:04.341]	    | /usr/local/bin/git-credential-manager store: line 1: /usr/local/bin/git-credential-manager: No such file or directory
+[2025-05-08 12:08:04.351]	    | Already up to date.
+[2025-05-08 12:08:04.366]	  "tmux-yank" update success
+[2025-05-08 12:08:04.372]	    | /usr/local/bin/git-credential-manager store: line 1: /usr/local/bin/git-credential-manager: No such file or directory
+[2025-05-08 12:08:04.378]	    | Already up to date.
+[2025-05-08 12:08:04.385]	Invoking /home/bk/.config/tmux/plugins/tpm/bin/clean_plugins all
+[2025-05-08 12:08:04.404]	Done.
+
+[2025-05-09 18:54:07.350]	List of discovered tpm plugins: tmux-plugins/tmux-copycat christoomey/vim-tmux-navigator tmux-plugins/tmux-yank tmux-plugins/tmux-continuum tmux-plugins/resurrect
+[2025-05-09 18:54:07.356]	Invoking /home/bk/.config/tmux/plugins/tpm/bin/install_plugins
+[2025-05-09 18:54:07.366]	List of discovered tpm plugins: tmux-plugins/tmux-copycat christoomey/vim-tmux-navigator tmux-plugins/tmux-yank tmux-plugins/tmux-continuum tmux-plugins/resurrect
+[2025-05-09 18:54:07.372]	Invoking /home/bk/.config/tmux/plugins/tpm/bin/install_plugins
+[2025-05-09 18:54:07.373]	Installing "resurrect"
+[2025-05-09 18:54:07.379]	Already installed "tmux-continuum"
+[2025-05-09 18:54:07.384]	Already installed "tmux-copycat"
+[2025-05-09 18:54:07.388]	Already installed "tmux-copycat"
+[2025-05-09 18:54:07.389]	Already installed "vim-tmux-navigator"
+[2025-05-09 18:54:07.394]	Already installed "vim-tmux-navigator"
+[2025-05-09 18:54:07.395]	Already installed "tmux-yank"
+[2025-05-09 18:54:07.399]	Already installed "tmux-yank"
+[2025-05-09 18:54:07.405]	Already installed "tmux-continuum"
+[2025-05-09 18:54:07.410]	Already installed "resurrect"
+[2025-05-09 18:54:07.416]	Invoking /home/bk/.config/tmux/plugins/tpm/bin/update_plugins all
+[2025-05-09 18:54:07.428]	Updating all plugins!
+[2025-05-09 18:54:07.433]	
+[2025-05-09 18:54:07.562]	  "resurrect" download fail
+[2025-05-09 18:54:07.568]	Invoking /home/bk/.config/tmux/plugins/tpm/bin/update_plugins all
+[2025-05-09 18:54:07.580]	Updating all plugins!
+[2025-05-09 18:54:07.585]	
+[2025-05-09 18:54:07.674]	  "tmux-copycat" update success
+[2025-05-09 18:54:07.680]	    | /usr/local/bin/git-credential-manager store: line 1: /usr/local/bin/git-credential-manager: No such file or directory
+[2025-05-09 18:54:07.686]	    | Already up to date.
+[2025-05-09 18:54:07.691]	  "resurrect" update fail
+[2025-05-09 18:54:07.697]	    | shell-init: error retrieving current directory: getcwd: cannot access parent directories: No such file or directory
+[2025-05-09 18:54:07.702]	    | /usr/local/bin/git-credential-manager erase: line 1: /usr/local/bin/git-credential-manager: No such file or directory
+[2025-05-09 18:54:07.708]	    | remote: Support for password authentication was removed on August 13, 2021.
+[2025-05-09 18:54:07.714]	    | remote: Please see https://docs.github.com/get-started/getting-started-with-git/about-remote-repositories#cloning-with-https-urls for information on currently recommended modes of authentication.
+[2025-05-09 18:54:07.720]	    | fatal: Authentication failed for 'https://github.com/tmux-plugins/resurrect/'
+[2025-05-09 18:54:07.726]	  "vim-tmux-navigator" update success
+[2025-05-09 18:54:07.731]	    | /usr/local/bin/git-credential-manager store: line 1: /usr/local/bin/git-credential-manager: No such file or directory
+[2025-05-09 18:54:07.737]	    | Already up to date.
+[2025-05-09 18:54:07.743]	  "tmux-continuum" update success
+[2025-05-09 18:54:07.748]	    | /usr/local/bin/git-credential-manager store: line 1: /usr/local/bin/git-credential-manager: No such file or directory
+[2025-05-09 18:54:07.754]	    | Already up to date.
+[2025-05-09 18:54:07.760]	  "tmux-yank" update success
+[2025-05-09 18:54:07.766]	    | /usr/local/bin/git-credential-manager store: line 1: /usr/local/bin/git-credential-manager: No such file or directory
+[2025-05-09 18:54:07.771]	    | Already up to date.
+[2025-05-09 18:54:07.778]	Invoking /home/bk/.config/tmux/plugins/tpm/bin/clean_plugins all
+[2025-05-09 18:54:07.797]	Done.
+
+[2025-05-09 18:54:07.804]	  "tmux-copycat" update success
+[2025-05-09 18:54:07.810]	    | /usr/local/bin/git-credential-manager store: line 1: /usr/local/bin/git-credential-manager: No such file or directory
+[2025-05-09 18:54:07.815]	    | Already up to date.
+[2025-05-09 18:54:07.821]	  "tmux-continuum" update success
+[2025-05-09 18:54:07.827]	    | /usr/local/bin/git-credential-manager store: line 1: /usr/local/bin/git-credential-manager: No such file or directory
+[2025-05-09 18:54:07.833]	    | Already up to date.
+[2025-05-09 18:54:07.839]	  "vim-tmux-navigator" update success
+[2025-05-09 18:54:07.845]	    | /usr/local/bin/git-credential-manager store: line 1: /usr/local/bin/git-credential-manager: No such file or directory
+[2025-05-09 18:54:07.851]	    | Already up to date.
+[2025-05-09 18:54:07.902]	  "tmux-yank" update success
+[2025-05-09 18:54:07.908]	    | /usr/local/bin/git-credential-manager store: line 1: /usr/local/bin/git-credential-manager: No such file or directory
+[2025-05-09 18:54:07.914]	    | Already up to date.
+[2025-05-09 18:54:07.920]	Invoking /home/bk/.config/tmux/plugins/tpm/bin/clean_plugins all
+[2025-05-09 18:54:07.936]	Removing "tmux-continuum"
+[2025-05-09 18:54:07.942]	  "tmux-continuum" clean success
+[2025-05-09 18:54:07.948]	Removing "tmux-copycat"
+[2025-05-09 18:54:07.954]	  "tmux-copycat" clean success
+[2025-05-09 18:54:07.960]	Removing "tmux-yank"
+[2025-05-09 18:54:07.966]	  "tmux-yank" clean success
+[2025-05-09 18:54:07.971]	Removing "vim-tmux-navigator"
+[2025-05-09 18:54:07.977]	  "vim-tmux-navigator" clean success
+[2025-05-09 18:54:07.983]	Done.
+
+[2025-05-09 18:56:17.600]	List of discovered tpm plugins: tmux-plugins/tmux-copycat christoomey/vim-tmux-navigator tmux-plugins/tmux-yank tmux-plugins/tmux-continuum tmux-plugins/resurrect
+[2025-05-09 18:56:17.607]	Invoking /home/bk/.config/tmux/plugins/tpm/bin/install_plugins
+[2025-05-09 18:56:17.624]	Installing "vim-tmux-navigator"
+[2025-05-09 18:56:17.630]	Installing "tmux-continuum"
+[2025-05-09 18:56:17.635]	Installing "tmux-copycat"
+[2025-05-09 18:56:17.641]	Installing "tmux-yank"
+[2025-05-09 18:56:17.648]	Installing "resurrect"
+[2025-05-09 18:56:17.665]	List of discovered tpm plugins: tmux-plugins/tmux-copycat christoomey/vim-tmux-navigator tmux-plugins/tmux-yank tmux-plugins/tmux-continuum tmux-plugins/resurrect
+[2025-05-09 18:56:17.672]	Invoking /home/bk/.config/tmux/plugins/tpm/bin/install_plugins
+[2025-05-09 18:56:17.690]	Already installed "tmux-copycat"
+[2025-05-09 18:56:17.696]	Already installed "tmux-yank"
+[2025-05-09 18:56:17.701]	Already installed "vim-tmux-navigator"
+[2025-05-09 18:56:17.707]	Already installed "tmux-continuum"
+[2025-05-09 18:56:17.714]	Already installed "resurrect"
+[2025-05-09 18:56:17.720]	Invoking /home/bk/.config/tmux/plugins/tpm/bin/update_plugins all
+[2025-05-09 18:56:17.731]	Updating all plugins!
+[2025-05-09 18:56:17.737]	
+[2025-05-09 18:56:17.852]	  "resurrect" download fail
+[2025-05-09 18:56:17.966]	  "resurrect" update fail
+[2025-05-09 18:56:17.972]	    | shell-init: error retrieving current directory: getcwd: cannot access parent directories: No such file or directory
+[2025-05-09 18:56:17.978]	    | /usr/local/bin/git-credential-manager erase: line 1: /usr/local/bin/git-credential-manager: No such file or directory
+[2025-05-09 18:56:17.984]	    | remote: Support for password authentication was removed on August 13, 2021.
+[2025-05-09 18:56:17.990]	    | remote: Please see https://docs.github.com/get-started/getting-started-with-git/about-remote-repositories#cloning-with-https-urls for information on currently recommended modes of authentication.
+[2025-05-09 18:56:17.995]	    | fatal: Authentication failed for 'https://github.com/tmux-plugins/resurrect/'
+[2025-05-09 18:56:17.996]	  "vim-tmux-navigator" download success
+[2025-05-09 18:56:18.007]	  "tmux-continuum" download success
+[2025-05-09 18:56:18.013]	  "tmux-copycat" download success
+[2025-05-09 18:56:18.098]	  "tmux-copycat" update fail
+[2025-05-09 18:56:18.103]	    | /usr/local/bin/git-credential-manager store: line 1: /usr/local/bin/git-credential-manager: No such file or directory
+[2025-05-09 18:56:18.104]	  "tmux-yank" download success
+[2025-05-09 18:56:18.110]	Invoking /home/bk/.config/tmux/plugins/tpm/bin/update_plugins all
+[2025-05-09 18:56:18.110]	    | From https://github.com/tmux-plugins/tmux-copycat
+[2025-05-09 18:56:18.116]	    |  * branch            HEAD       -> FETCH_HEAD
+[2025-05-09 18:56:18.121]	    | error: The following untracked working tree files would be overwritten by merge:
+[2025-05-09 18:56:18.121]	Updating all plugins!
+[2025-05-09 18:56:18.127]	    | 	.gitattributes
+[2025-05-09 18:56:18.127]	
+[2025-05-09 18:56:18.132]	    | 	.gitignore
+[2025-05-09 18:56:18.138]	    | 	.travis.yml
+[2025-05-09 18:56:18.144]	    | 	CHANGELOG.md
+[2025-05-09 18:56:18.150]	    | 	LICENSE.md
+[2025-05-09 18:56:18.155]	    | 	README.md
+[2025-05-09 18:56:18.161]	    | 	Vagrantfile
+[2025-05-09 18:56:18.166]	    | 	copycat.tmux
+[2025-05-09 18:56:18.172]	    | 	docs/customizations.md
+[2025-05-09 18:56:18.177]	    | 	docs/defining_new_stored_searches.md
+[2025-05-09 18:56:18.184]	    | 	docs/installation_for_tmux_2.3.md
+[2025-05-09 18:56:18.190]	    | 	docs/limitations.md
+[2025-05-09 18:56:18.195]	    | 	run-tests
+[2025-05-09 18:56:18.201]	    | 	scripts/check_tmux_version.sh
+[2025-05-09 18:56:18.208]	    | 	scripts/copycat_generate_results.sh
+[2025-05-09 18:56:18.214]	    | 	scripts/copycat_git_special.sh
+[2025-05-09 18:56:18.220]	    | 	scripts/copycat_jump.sh
+[2025-05-09 18:56:18.225]	    | 	scripts/copycat_mode_bindings.sh
+[2025-05-09 18:56:18.232]	    | 	scripts/copycat_mode_quit.sh
+[2025-05-09 18:56:18.238]	    | 	scripts/copycat_mode_start.sh
+[2025-05-09 18:56:18.244]	    | 	scripts/copycat_search.sh
+[2025-05-09 18:56:18.250]	    | 	scripts/helpers.sh
+[2025-05-09 18:56:18.256]	    | 	scripts/stored_search_helpers.sh
+[2025-05-09 18:56:18.262]	    | 	scripts/variables.sh
+[2025-05-09 18:56:18.269]	    | 	test/README.md
+[2025-05-09 18:56:18.274]	    | 	test/helpers/expect_copycat_assertions.exp
+[2025-05-09 18:56:18.280]	    | 	test/helpers/expect_copycat_helpers.exp
+[2025-05-09 18:56:18.286]	    | 	test/helpers/expect_helpers.exp
+[2025-05-09 18:56:18.292]	    | 	test/helpers/run_tmux.exp
+[2025-05-09 18:56:18.299]	    | 	test/helpers/setup.exp
+[2025-05-09 18:56:18.305]	    | 	test/helpers/setup_tmux_conf.sh
+[2025-05-09 18:56:18.311]	    | 	test/helpers/setup_tmux_conf_with_custom_searches.sh
+[2025-05-09 18:56:18.317]	    | 	test/helpers/setup_with_custom_searches.exp
+[2025-05-09 18:56:18.323]	    | 	test/helpers/test.exp
+[2025-05-09 18:56:18.328]	    | 	test/run-tests-within-vm
+[2025-05-09 18:56:18.334]	    | 	test/test_digit_search.exp
+[2025-05-09 18:56:18.340]	    | 	test/test_file_search.exp
+[2025-05-09 18:56:18.345]	    | 	test/test_free_search.exp
+[2025-05-09 18:56:18.351]	    | 	test/test_git_hash_search.exp
+[2025-05-09 18:56:18.357]	    | 	test/test_git_status_search.exp
+[2025-05-09 18:56:18.363]	    | 	test/test_url_search.exp
+[2025-05-09 18:56:18.369]	    | 	test/test_user_defined_search.exp
+[2025-05-09 18:56:18.374]	    | 	vagrant_ubuntu_provisioning_two_five.sh
+[2025-05-09 18:56:18.376]	  "tmux-yank" update success
+[2025-05-09 18:56:18.381]	    | 	video/README.md
+[2025-05-09 18:56:18.381]	    | /usr/local/bin/git-credential-manager store: line 1: /usr/local/bin/git-credential-manager: No such file or directory
+[2025-05-09 18:56:18.387]	    | 	video/screencast_img.png
+[2025-05-09 18:56:18.387]	    | Already up to date.
+[2025-05-09 18:56:18.392]	    | 	video/script.md
+[2025-05-09 18:56:18.398]	    | Please move or remove them before you merge.
+[2025-05-09 18:56:18.404]	    | Aborting
+[2025-05-09 18:56:18.410]	  "vim-tmux-navigator" update fail
+[2025-05-09 18:56:18.415]	    | /usr/local/bin/git-credential-manager store: line 1: /usr/local/bin/git-credential-manager: No such file or directory
+[2025-05-09 18:56:18.421]	    | From https://github.com/christoomey/vim-tmux-navigator
+[2025-05-09 18:56:18.426]	    |  * branch            HEAD       -> FETCH_HEAD
+[2025-05-09 18:56:18.432]	    | error: The following untracked working tree files would be overwritten by merge:
+[2025-05-09 18:56:18.438]	    | 	.gitignore
+[2025-05-09 18:56:18.443]	    | 	License.md
+[2025-05-09 18:56:18.449]	    | 	README.md
+[2025-05-09 18:56:18.455]	    | 	doc/tmux-navigator.txt
+[2025-05-09 18:56:18.461]	    | 	pattern-check
+[2025-05-09 18:56:18.467]	    | 	plugin/tmux_navigator.vim
+[2025-05-09 18:56:18.473]	    | 	vim-tmux-navigator.tmux
+[2025-05-09 18:56:18.479]	    | Please move or remove them before you merge.
+[2025-05-09 18:56:18.486]	    | Aborting
+[2025-05-09 18:56:18.492]	  "tmux-continuum" update fail
+[2025-05-09 18:56:18.498]	    | /usr/local/bin/git-credential-manager store: line 1: /usr/local/bin/git-credential-manager: No such file or directory
+[2025-05-09 18:56:18.505]	    | From https://github.com/tmux-plugins/tmux-continuum
+[2025-05-09 18:56:18.510]	    |  * branch            HEAD       -> FETCH_HEAD
+[2025-05-09 18:56:18.517]	    | error: The following untracked working tree files would be overwritten by merge:
+[2025-05-09 18:56:18.523]	    | 	.gitattributes
+[2025-05-09 18:56:18.528]	    | 	CHANGELOG.md
+[2025-05-09 18:56:18.535]	    | 	CONTRIBUTING.md
+[2025-05-09 18:56:18.541]	    | 	LICENSE.md
+[2025-05-09 18:56:18.548]	    | 	README.md
+[2025-05-09 18:56:18.554]	    | 	continuum.tmux
+[2025-05-09 18:56:18.561]	    | 	docs/automatic_start.md
+[2025-05-09 18:56:18.567]	    | 	docs/continuum_status.md
+[2025-05-09 18:56:18.574]	    | 	docs/faq.md
+[2025-05-09 18:56:18.580]	    | 	docs/multiple_tmux_servers.md
+[2025-05-09 18:56:18.586]	    | 	docs/systemd_details.md
+[2025-05-09 18:56:18.591]	    | 	scripts/check_tmux_version.sh
+[2025-05-09 18:56:18.598]	    | 	scripts/continuum_restore.sh
+[2025-05-09 18:56:18.604]	    | 	scripts/continuum_save.sh
+[2025-05-09 18:56:18.610]	    | 	scripts/continuum_status.sh
+[2025-05-09 18:56:18.615]	    | 	scripts/handle_tmux_automatic_start.sh
+[2025-05-09 18:56:18.620]	  "tmux-continuum" update success
+[2025-05-09 18:56:18.621]	    | 	scripts/handle_tmux_automatic_start/README.md
+[2025-05-09 18:56:18.626]	    | /usr/local/bin/git-credential-manager store: line 1: /usr/local/bin/git-credential-manager: No such file or directory
+[2025-05-09 18:56:18.626]	    | 	scripts/handle_tmux_automatic_start/osx_alacritty_start_tmux.sh
+[2025-05-09 18:56:18.632]	    | 	scripts/handle_tmux_automatic_start/osx_disable.sh
+[2025-05-09 18:56:18.632]	    | From https://github.com/tmux-plugins/tmux-continuum
+[2025-05-09 18:56:18.637]	    | 	scripts/handle_tmux_automatic_start/osx_enable.sh
+[2025-05-09 18:56:18.637]	    |  * [new tag]         v1.0.0     -> v1.0.0
+[2025-05-09 18:56:18.643]	    |  * [new tag]         v2.0.0     -> v2.0.0
+[2025-05-09 18:56:18.643]	    | 	scripts/handle_tmux_automatic_start/osx_iterm_start_tmux.sh
+[2025-05-09 18:56:18.648]	    |  * [new tag]         v2.1.0     -> v2.1.0
+[2025-05-09 18:56:18.649]	    | 	scripts/handle_tmux_automatic_start/osx_kitty_start_tmux.sh
+[2025-05-09 18:56:18.654]	    |  * [new tag]         v2.2.0     -> v2.2.0
+[2025-05-09 18:56:18.654]	    | 	scripts/handle_tmux_automatic_start/osx_terminal_start_tmux.sh
+[2025-05-09 18:56:18.660]	    | 	scripts/handle_tmux_automatic_start/systemd_disable.sh
+[2025-05-09 18:56:18.661]	    |  * [new tag]         v3.0.0     -> v3.0.0
+[2025-05-09 18:56:18.666]	    | 	scripts/handle_tmux_automatic_start/systemd_enable.sh
+[2025-05-09 18:56:18.668]	    |  * [new tag]         v3.1.0     -> v3.1.0
+[2025-05-09 18:56:18.673]	    | 	scripts/helpers.sh
+[2025-05-09 18:56:18.674]	    | Already up to date.
+[2025-05-09 18:56:18.679]	    | 	scripts/shared.sh
+[2025-05-09 18:56:18.680]	  "vim-tmux-navigator" update success
+[2025-05-09 18:56:18.684]	    | 	scripts/variables.sh
+[2025-05-09 18:56:18.686]	    | /usr/local/bin/git-credential-manager store: line 1: /usr/local/bin/git-credential-manager: No such file or directory
+[2025-05-09 18:56:18.690]	    | Please move or remove them before you merge.
+[2025-05-09 18:56:18.692]	    | From https://github.com/christoomey/vim-tmux-navigator
+[2025-05-09 18:56:18.696]	    | Aborting
+[2025-05-09 18:56:18.698]	    |  * [new tag]         v1.0       -> v1.0
+[2025-05-09 18:56:18.702]	  "tmux-yank" update fail
+[2025-05-09 18:56:18.704]	    | Already up to date.
+[2025-05-09 18:56:18.708]	    | /usr/local/bin/git-credential-manager store: line 1: /usr/local/bin/git-credential-manager: No such file or directory
+[2025-05-09 18:56:18.710]	  "tmux-copycat" update success
+[2025-05-09 18:56:18.714]	    | From https://github.com/tmux-plugins/tmux-yank
+[2025-05-09 18:56:18.716]	    | /usr/local/bin/git-credential-manager store: line 1: /usr/local/bin/git-credential-manager: No such file or directory
+[2025-05-09 18:56:18.720]	    |  * branch            HEAD       -> FETCH_HEAD
+[2025-05-09 18:56:18.722]	    | From https://github.com/tmux-plugins/tmux-copycat
+[2025-05-09 18:56:18.726]	    | error: The following untracked working tree files would be overwritten by merge:
+[2025-05-09 18:56:18.728]	    |  * [new tag]         v0.0.1     -> v0.0.1
+[2025-05-09 18:56:18.732]	    | 	.editorconfig
+[2025-05-09 18:56:18.734]	    |  * [new tag]         v0.0.2     -> v0.0.2
+[2025-05-09 18:56:18.738]	    | 	.gitattributes
+[2025-05-09 18:56:18.740]	    |  * [new tag]         v0.0.3     -> v0.0.3
+[2025-05-09 18:56:18.745]	    | 	.gitignore
+[2025-05-09 18:56:18.746]	    |  * [new tag]         v0.0.4     -> v0.0.4
+[2025-05-09 18:56:18.750]	    | 	.travis.yml
+[2025-05-09 18:56:18.751]	    |  * [new tag]         v0.0.5     -> v0.0.5
+[2025-05-09 18:56:18.757]	    | 	CHANGELOG.md
+[2025-05-09 18:56:18.758]	    |  * [new tag]         v0.0.6     -> v0.0.6
+[2025-05-09 18:56:18.763]	    | 	LICENSE.md
+[2025-05-09 18:56:18.764]	    |  * [new tag]         v0.0.7     -> v0.0.7
+[2025-05-09 18:56:18.769]	    | 	README.md
+[2025-05-09 18:56:18.771]	    |  * [new tag]         v0.1.0     -> v0.1.0
+[2025-05-09 18:56:18.775]	    | 	Vagrantfile
+[2025-05-09 18:56:18.777]	    |  * [new tag]         v1.0.0     -> v1.0.0
+[2025-05-09 18:56:18.782]	    | 	_config.yml
+[2025-05-09 18:56:18.784]	    |  * [new tag]         v1.1.0     -> v1.1.0
+[2025-05-09 18:56:18.788]	    | 	citest
+[2025-05-09 18:56:18.790]	    |  * [new tag]         v2.0.0     -> v2.0.0
+[2025-05-09 18:56:18.794]	    | 	scripts/copy_line.sh
+[2025-05-09 18:56:18.795]	    |  * [new tag]         v2.1.0     -> v2.1.0
+[2025-05-09 18:56:18.800]	    | 	scripts/copy_pane_pwd.sh
+[2025-05-09 18:56:18.802]	    |  * [new tag]         v3.0.0     -> v3.0.0
+[2025-05-09 18:56:18.806]	    | 	scripts/helpers.sh
+[2025-05-09 18:56:18.808]	    | Already up to date.
+[2025-05-09 18:56:18.812]	    | 	vagrant_provisioning.sh
+[2025-05-09 18:56:18.815]	Invoking /home/bk/.config/tmux/plugins/tpm/bin/clean_plugins all
+[2025-05-09 18:56:18.817]	    | 	video/README.md
+[2025-05-09 18:56:18.823]	    | 	video/screencast_img.png
+[2025-05-09 18:56:18.829]	    | 	video/script.md
+[2025-05-09 18:56:18.835]	    | 	yank.tmux
+[2025-05-09 18:56:18.835]	Done.
+
+[2025-05-09 18:56:18.840]	    | Please move or remove them before you merge.
+[2025-05-09 18:56:18.846]	    | Aborting
+[2025-05-09 18:56:18.852]	Invoking /home/bk/.config/tmux/plugins/tpm/bin/clean_plugins all
+[2025-05-09 18:56:18.867]	Removing "tmux-continuum"
+[2025-05-09 18:56:18.873]	  "tmux-continuum" clean success
+[2025-05-09 18:56:18.879]	Removing "tmux-copycat"
+[2025-05-09 18:56:18.885]	  "tmux-copycat" clean success
+[2025-05-09 18:56:18.892]	Removing "tmux-yank"
+[2025-05-09 18:56:18.898]	  "tmux-yank" clean success
+[2025-05-09 18:56:18.904]	Removing "vim-tmux-navigator"
+[2025-05-09 18:56:18.910]	  "vim-tmux-navigator" clean success
+[2025-05-09 18:56:18.917]	Done.
+
+[2025-05-09 18:56:24.648]	List of discovered tpm plugins: tmux-plugins/tmux-copycat christoomey/vim-tmux-navigator tmux-plugins/tmux-yank tmux-plugins/tmux-continuum tmux-plugins/resurrect
+[2025-05-09 18:56:24.655]	Invoking /home/bk/.config/tmux/plugins/tpm/bin/install_plugins
+[2025-05-09 18:56:24.674]	Installing "tmux-yank"
+[2025-05-09 18:56:24.680]	Installing "vim-tmux-navigator"
+[2025-05-09 18:56:24.686]	Installing "tmux-continuum"
+[2025-05-09 18:56:24.692]	Installing "resurrect"
+[2025-05-09 18:56:24.698]	Installing "tmux-copycat"
+[2025-05-09 18:56:24.773]	List of discovered tpm plugins: tmux-plugins/tmux-copycat christoomey/vim-tmux-navigator tmux-plugins/tmux-yank tmux-plugins/tmux-continuum tmux-plugins/resurrect
+[2025-05-09 18:56:24.778]	Invoking /home/bk/.config/tmux/plugins/tpm/bin/install_plugins
+[2025-05-09 18:56:24.796]	Already installed "tmux-copycat"
+[2025-05-09 18:56:24.803]	Already installed "tmux-yank"
+[2025-05-09 18:56:24.808]	Already installed "tmux-continuum"
+[2025-05-09 18:56:24.814]	Already installed "vim-tmux-navigator"
+[2025-05-09 18:56:24.820]	Already installed "resurrect"
+[2025-05-09 18:56:24.826]	Invoking /home/bk/.config/tmux/plugins/tpm/bin/update_plugins all
+[2025-05-09 18:56:24.836]	Updating all plugins!
+[2025-05-09 18:56:24.842]	
+[2025-05-09 18:56:24.893]	  "resurrect" download fail
+[2025-05-09 18:56:25.042]	  "tmux-yank" download success
+[2025-05-09 18:56:25.076]	  "vim-tmux-navigator" download success
+[2025-05-09 18:56:25.093]	  "tmux-copycat" download success
+[2025-05-09 18:56:25.106]	  "resurrect" update fail
+[2025-05-09 18:56:25.112]	    | shell-init: error retrieving current directory: getcwd: cannot access parent directories: No such file or directory
+[2025-05-09 18:56:25.118]	    | /usr/local/bin/git-credential-manager erase: line 1: /usr/local/bin/git-credential-manager: No such file or directory
+[2025-05-09 18:56:25.124]	    | remote: Support for password authentication was removed on August 13, 2021.
+[2025-05-09 18:56:25.127]	  "tmux-continuum" download success
+[2025-05-09 18:56:25.130]	    | remote: Please see https://docs.github.com/get-started/getting-started-with-git/about-remote-repositories#cloning-with-https-urls for information on currently recommended modes of authentication.
+[2025-05-09 18:56:25.133]	Invoking /home/bk/.config/tmux/plugins/tpm/bin/update_plugins all
+[2025-05-09 18:56:25.136]	    | fatal: Authentication failed for 'https://github.com/tmux-plugins/resurrect/'
+[2025-05-09 18:56:25.141]	  "vim-tmux-navigator" update fail
+[2025-05-09 18:56:25.144]	Updating all plugins!
+[2025-05-09 18:56:25.147]	    | /usr/local/bin/git-credential-manager store: line 1: /usr/local/bin/git-credential-manager: No such file or directory
+[2025-05-09 18:56:25.149]	
+[2025-05-09 18:56:25.152]	    | From https://github.com/christoomey/vim-tmux-navigator
+[2025-05-09 18:56:25.158]	    |  * branch            HEAD       -> FETCH_HEAD
+[2025-05-09 18:56:25.163]	    | error: The following untracked working tree files would be overwritten by merge:
+[2025-05-09 18:56:25.169]	    | 	.gitignore
+[2025-05-09 18:56:25.175]	    | 	License.md
+[2025-05-09 18:56:25.181]	    | 	README.md
+[2025-05-09 18:56:25.187]	    | 	doc/tmux-navigator.txt
+[2025-05-09 18:56:25.192]	    | 	pattern-check
+[2025-05-09 18:56:25.198]	    | 	plugin/tmux_navigator.vim
+[2025-05-09 18:56:25.204]	    | 	vim-tmux-navigator.tmux
+[2025-05-09 18:56:25.210]	    | Please move or remove them before you merge.
+[2025-05-09 18:56:25.217]	    | Aborting
+[2025-05-09 18:56:25.223]	  "tmux-yank" update fail
+[2025-05-09 18:56:25.229]	    | /usr/local/bin/git-credential-manager store: line 1: /usr/local/bin/git-credential-manager: No such file or directory
+[2025-05-09 18:56:25.235]	    | From https://github.com/tmux-plugins/tmux-yank
+[2025-05-09 18:56:25.241]	    |  * branch            HEAD       -> FETCH_HEAD
+[2025-05-09 18:56:25.247]	    | error: The following untracked working tree files would be overwritten by merge:
+[2025-05-09 18:56:25.254]	    | 	.editorconfig
+[2025-05-09 18:56:25.260]	    | 	.gitattributes
+[2025-05-09 18:56:25.266]	    | 	.gitignore
+[2025-05-09 18:56:25.272]	    | 	.travis.yml
+[2025-05-09 18:56:25.278]	    | 	CHANGELOG.md
+[2025-05-09 18:56:25.283]	    | 	LICENSE.md
+[2025-05-09 18:56:25.289]	    | 	README.md
+[2025-05-09 18:56:25.295]	    | 	Vagrantfile
+[2025-05-09 18:56:25.301]	    | 	_config.yml
+[2025-05-09 18:56:25.307]	    | 	citest
+[2025-05-09 18:56:25.313]	    | 	scripts/copy_line.sh
+[2025-05-09 18:56:25.319]	    | 	scripts/copy_pane_pwd.sh
+[2025-05-09 18:56:25.325]	    | 	scripts/helpers.sh
+[2025-05-09 18:56:25.331]	    | 	vagrant_provisioning.sh
+[2025-05-09 18:56:25.337]	    | 	video/README.md
+[2025-05-09 18:56:25.343]	    | 	video/screencast_img.png
+[2025-05-09 18:56:25.349]	    | 	video/script.md
+[2025-05-09 18:56:25.357]	    | 	yank.tmux
+[2025-05-09 18:56:25.363]	    | Please move or remove them before you merge.
+[2025-05-09 18:56:25.369]	    | Aborting
+[2025-05-09 18:56:25.374]	  "tmux-copycat" update fail
+[2025-05-09 18:56:25.380]	    | /usr/local/bin/git-credential-manager store: line 1: /usr/local/bin/git-credential-manager: No such file or directory
+[2025-05-09 18:56:25.383]	  "vim-tmux-navigator" update success
+[2025-05-09 18:56:25.385]	    | From https://github.com/tmux-plugins/tmux-copycat
+[2025-05-09 18:56:25.389]	    | /usr/local/bin/git-credential-manager store: line 1: /usr/local/bin/git-credential-manager: No such file or directory
+[2025-05-09 18:56:25.391]	    |  * branch            HEAD       -> FETCH_HEAD
+[2025-05-09 18:56:25.394]	    | Already up to date.
+[2025-05-09 18:56:25.397]	    | error: The following untracked working tree files would be overwritten by merge:
+[2025-05-09 18:56:25.400]	  "tmux-continuum" update success
+[2025-05-09 18:56:25.403]	    | 	.gitattributes
+[2025-05-09 18:56:25.406]	    | /usr/local/bin/git-credential-manager store: line 1: /usr/local/bin/git-credential-manager: No such file or directory
+[2025-05-09 18:56:25.408]	    | 	.gitignore
+[2025-05-09 18:56:25.411]	    | Already up to date.
+[2025-05-09 18:56:25.414]	    | 	.travis.yml
+[2025-05-09 18:56:25.417]	  "tmux-copycat" update success
+[2025-05-09 18:56:25.420]	    | 	CHANGELOG.md
+[2025-05-09 18:56:25.423]	    | /usr/local/bin/git-credential-manager store: line 1: /usr/local/bin/git-credential-manager: No such file or directory
+[2025-05-09 18:56:25.426]	    | 	LICENSE.md
+[2025-05-09 18:56:25.429]	    | Already up to date.
+[2025-05-09 18:56:25.432]	    | 	README.md
+[2025-05-09 18:56:25.434]	  "tmux-yank" update success
+[2025-05-09 18:56:25.438]	    | 	Vagrantfile
+[2025-05-09 18:56:25.440]	    | /usr/local/bin/git-credential-manager store: line 1: /usr/local/bin/git-credential-manager: No such file or directory
+[2025-05-09 18:56:25.445]	    | 	copycat.tmux
+[2025-05-09 18:56:25.446]	    | Already up to date.
+[2025-05-09 18:56:25.450]	    | 	docs/customizations.md
+[2025-05-09 18:56:25.451]	Invoking /home/bk/.config/tmux/plugins/tpm/bin/clean_plugins all
+[2025-05-09 18:56:25.456]	    | 	docs/defining_new_stored_searches.md
+[2025-05-09 18:56:25.462]	    | 	docs/installation_for_tmux_2.3.md
+[2025-05-09 18:56:25.467]	    | 	docs/limitations.md
+[2025-05-09 18:56:25.469]	Done.
+
+[2025-05-09 18:56:25.474]	    | 	run-tests
+[2025-05-09 18:56:25.479]	    | 	scripts/check_tmux_version.sh
+[2025-05-09 18:56:25.485]	    | 	scripts/copycat_generate_results.sh
+[2025-05-09 18:56:25.490]	    | 	scripts/copycat_git_special.sh
+[2025-05-09 18:56:25.496]	    | 	scripts/copycat_jump.sh
+[2025-05-09 18:56:25.501]	    | 	scripts/copycat_mode_bindings.sh
+[2025-05-09 18:56:25.507]	    | 	scripts/copycat_mode_quit.sh
+[2025-05-09 18:56:25.513]	    | 	scripts/copycat_mode_start.sh
+[2025-05-09 18:56:25.518]	    | 	scripts/copycat_search.sh
+[2025-05-09 18:56:25.525]	    | 	scripts/helpers.sh
+[2025-05-09 18:56:25.530]	    | 	scripts/stored_search_helpers.sh
+[2025-05-09 18:56:25.537]	    | 	scripts/variables.sh
+[2025-05-09 18:56:25.543]	    | 	test/README.md
+[2025-05-09 18:56:25.549]	    | 	test/helpers/expect_copycat_assertions.exp
+[2025-05-09 18:56:25.556]	    | 	test/helpers/expect_copycat_helpers.exp
+[2025-05-09 18:56:25.563]	    | 	test/helpers/expect_helpers.exp
+[2025-05-09 18:56:25.569]	    | 	test/helpers/run_tmux.exp
+[2025-05-09 18:56:25.575]	    | 	test/helpers/setup.exp
+[2025-05-09 18:56:25.582]	    | 	test/helpers/setup_tmux_conf.sh
+[2025-05-09 18:56:25.588]	    | 	test/helpers/setup_tmux_conf_with_custom_searches.sh
+[2025-05-09 18:56:25.594]	    | 	test/helpers/setup_with_custom_searches.exp
+[2025-05-09 18:56:25.600]	    | 	test/helpers/test.exp
+[2025-05-09 18:56:25.606]	    | 	test/run-tests-within-vm
+[2025-05-09 18:56:25.613]	    | 	test/test_digit_search.exp
+[2025-05-09 18:56:25.619]	    | 	test/test_file_search.exp
+[2025-05-09 18:56:25.625]	    | 	test/test_free_search.exp
+[2025-05-09 18:56:25.632]	    | 	test/test_git_hash_search.exp
+[2025-05-09 18:56:25.638]	    | 	test/test_git_status_search.exp
+[2025-05-09 18:56:25.644]	    | 	test/test_url_search.exp
+[2025-05-09 18:56:25.650]	    | 	test/test_user_defined_search.exp
+[2025-05-09 18:56:25.656]	    | 	vagrant_ubuntu_provisioning_two_five.sh
+[2025-05-09 18:56:25.662]	    | 	video/README.md
+[2025-05-09 18:56:25.667]	    | 	video/screencast_img.png
+[2025-05-09 18:56:25.673]	    | 	video/script.md
+[2025-05-09 18:56:25.680]	    | Please move or remove them before you merge.
+[2025-05-09 18:56:25.685]	    | Aborting
+[2025-05-09 18:56:25.691]	  "tmux-continuum" update fail
+[2025-05-09 18:56:25.697]	    | /usr/local/bin/git-credential-manager store: line 1: /usr/local/bin/git-credential-manager: No such file or directory
+[2025-05-09 18:56:25.703]	    | From https://github.com/tmux-plugins/tmux-continuum
+[2025-05-09 18:56:25.709]	    |  * branch            HEAD       -> FETCH_HEAD
+[2025-05-09 18:56:25.716]	    | error: The following untracked working tree files would be overwritten by merge:
+[2025-05-09 18:56:25.722]	    | 	.gitattributes
+[2025-05-09 18:56:25.728]	    | 	CHANGELOG.md
+[2025-05-09 18:56:25.734]	    | 	CONTRIBUTING.md
+[2025-05-09 18:56:25.740]	    | 	LICENSE.md
+[2025-05-09 18:56:25.747]	    | 	README.md
+[2025-05-09 18:56:25.753]	    | 	continuum.tmux
+[2025-05-09 18:56:25.759]	    | 	docs/automatic_start.md
+[2025-05-09 18:56:25.766]	    | 	docs/continuum_status.md
+[2025-05-09 18:56:25.772]	    | 	docs/faq.md
+[2025-05-09 18:56:25.778]	    | 	docs/multiple_tmux_servers.md
+[2025-05-09 18:56:25.784]	    | 	docs/systemd_details.md
+[2025-05-09 18:56:25.790]	    | 	scripts/check_tmux_version.sh
+[2025-05-09 18:56:25.796]	    | 	scripts/continuum_restore.sh
+[2025-05-09 18:56:25.802]	    | 	scripts/continuum_save.sh
+[2025-05-09 18:56:25.808]	    | 	scripts/continuum_status.sh
+[2025-05-09 18:56:25.814]	    | 	scripts/handle_tmux_automatic_start.sh
+[2025-05-09 18:56:25.820]	    | 	scripts/handle_tmux_automatic_start/README.md
+[2025-05-09 18:56:25.826]	    | 	scripts/handle_tmux_automatic_start/osx_alacritty_start_tmux.sh
+[2025-05-09 18:56:25.833]	    | 	scripts/handle_tmux_automatic_start/osx_disable.sh
+[2025-05-09 18:56:25.839]	    | 	scripts/handle_tmux_automatic_start/osx_enable.sh
+[2025-05-09 18:56:25.846]	    | 	scripts/handle_tmux_automatic_start/osx_iterm_start_tmux.sh
+[2025-05-09 18:56:25.852]	    | 	scripts/handle_tmux_automatic_start/osx_kitty_start_tmux.sh
+[2025-05-09 18:56:25.858]	    | 	scripts/handle_tmux_automatic_start/osx_terminal_start_tmux.sh
+[2025-05-09 18:56:25.864]	    | 	scripts/handle_tmux_automatic_start/systemd_disable.sh
+[2025-05-09 18:56:25.870]	    | 	scripts/handle_tmux_automatic_start/systemd_enable.sh
+[2025-05-09 18:56:25.877]	    | 	scripts/helpers.sh
+[2025-05-09 18:56:25.883]	    | 	scripts/shared.sh
+[2025-05-09 18:56:25.889]	    | 	scripts/variables.sh
+[2025-05-09 18:56:25.895]	    | Please move or remove them before you merge.
+[2025-05-09 18:56:25.901]	    | Aborting
+[2025-05-09 18:56:25.907]	Invoking /home/bk/.config/tmux/plugins/tpm/bin/clean_plugins all
+[2025-05-09 18:56:25.925]	Removing "tmux-continuum"
+[2025-05-09 18:56:25.931]	  "tmux-continuum" clean success
+[2025-05-09 18:56:25.937]	Removing "tmux-copycat"
+[2025-05-09 18:56:25.943]	  "tmux-copycat" clean success
+[2025-05-09 18:56:25.948]	Removing "tmux-yank"
+[2025-05-09 18:56:25.954]	  "tmux-yank" clean success
+[2025-05-09 18:56:25.960]	Removing "vim-tmux-navigator"
+[2025-05-09 18:56:25.967]	  "vim-tmux-navigator" clean success
+[2025-05-09 18:56:25.974]	Done.
+
+[2025-05-13 09:11:53.404]	List of discovered tpm plugins: tmux-plugins/tmux-copycat christoomey/vim-tmux-navigator tmux-plugins/tmux-yank tmux-plugins/tmux-continuum tmux-plugins/resurrect
+[2025-05-13 09:11:53.410]	Invoking /home/bk/.config/tmux/plugins/tpm/bin/install_plugins
+[2025-05-13 09:11:53.435]	Installing "vim-tmux-navigator"
+[2025-05-13 09:11:53.450]	Installing "tmux-continuum"
+[2025-05-13 09:11:53.465]	Installing "tmux-yank"
+[2025-05-13 09:11:53.472]	Installing "tmux-copycat"
+[2025-05-13 09:11:53.480]	Installing "resurrect"
+[2025-05-13 09:11:53.731]	  "resurrect" download fail
+[2025-05-13 09:11:53.849]	  "tmux-continuum" download success
+[2025-05-13 09:11:53.906]	  "tmux-yank" download success
+[2025-05-13 09:11:53.913]	  "vim-tmux-navigator" download success
+[2025-05-13 09:11:53.928]	  "tmux-copycat" download success
+[2025-05-13 09:11:53.933]	Invoking /home/bk/.config/tmux/plugins/tpm/bin/update_plugins all
+[2025-05-13 09:11:53.946]	Updating all plugins!
+[2025-05-13 09:11:53.951]	
+[2025-05-13 09:11:54.218]	  "vim-tmux-navigator" update success
+[2025-05-13 09:11:54.226]	    | /usr/local/bin/git-credential-manager store: line 1: /usr/local/bin/git-credential-manager: No such file or directory
+[2025-05-13 09:11:54.232]	    | Already up to date.
+[2025-05-13 09:11:54.238]	  "tmux-copycat" update success
+[2025-05-13 09:11:54.243]	    | /usr/local/bin/git-credential-manager store: line 1: /usr/local/bin/git-credential-manager: No such file or directory
+[2025-05-13 09:11:54.250]	    | Already up to date.
+[2025-05-13 09:11:54.256]	  "tmux-continuum" update success
+[2025-05-13 09:11:54.263]	    | /usr/local/bin/git-credential-manager store: line 1: /usr/local/bin/git-credential-manager: No such file or directory
+[2025-05-13 09:11:54.269]	    | Already up to date.
+[2025-05-13 09:11:54.276]	  "tmux-yank" update success
+[2025-05-13 09:11:54.281]	    | /usr/local/bin/git-credential-manager store: line 1: /usr/local/bin/git-credential-manager: No such file or directory
+[2025-05-13 09:11:54.288]	    | Already up to date.
+[2025-05-13 09:11:54.294]	Invoking /home/bk/.config/tmux/plugins/tpm/bin/clean_plugins all
+[2025-05-13 09:11:54.316]	Done.
+
