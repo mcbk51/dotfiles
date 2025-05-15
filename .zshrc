@@ -58,14 +58,13 @@ setopt SHARE_HISTORY # Share history between sessions
 # export ARCHFLAGS="-arch $(uname -m)"
 
 # For a full list of active aliases, run `alias`.
-
+alias c='clear'
 alias syu='sudo pacman -Syu'
 alias sp='sudo pacman'
 alias i='sudo pacman -S'
 alias y='yay -S'
 alias v='nvim'
-alias c='clear'
-alias s='nvim $(fzf --preview="bat --color=always {}")'
+alias vs='nvim $(fzf --preview="bat --color=always {}")'
 alias r='ranger'
 alias n='nnn'
 alias la='ls -lathr'
