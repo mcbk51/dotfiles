@@ -14,7 +14,7 @@ export BROWSER="brave"
 export VIDEO="mpv"
 
 # NNN file manager changes
-export NNN_PLUG='o:fzopen'
+export NNN_PLUG='o:fzopen;y:preview-tui'
 export NNN_TRASH=1
 
 # fzf keybindings & completion (if installed via pacman)
@@ -65,6 +65,7 @@ alias r='ranger'
 alias n='nnn'
 alias la='ls -lathr'
 alias syu='sudo pacman -Syu'
+alias sp='sudo pacman -S'
 alias f='fzf'
 alias fp='fzf --preview="bat --color=always {}"' # find all files recursively and sorts by last modification, ignore hidden files
 #alias lastmod='find . -type  f -not -path "*/\.*" -exec ls -lrt {} +'
@@ -88,6 +89,3 @@ fi
 eval "$(fzf --zsh)"
 eval "$(zoxide init --cmd cd zsh)"
 eval "$(atuin init zsh)"
-
-
-fastfetch
