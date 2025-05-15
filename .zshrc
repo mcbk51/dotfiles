@@ -26,7 +26,7 @@ zstyle  ':fzf-tab:complete:cd:*' fzf-preview 'ls --color $realpath'
 zstyle  'fzf-tab:complete:__zoxide_z:*' fzf-preview 'ls --color $realpath'
 
 #OH-MY-Posh
-POSH_THEME="emodipt-extend"
+POSH_THEME="kali"
 #"clean-detailed"
 eval "$(oh-my-posh init zsh --config /home/bk/Documents/posh-themes/themes/$POSH_THEME.omp.json)"
 
