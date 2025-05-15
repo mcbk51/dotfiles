@@ -58,15 +58,17 @@ setopt SHARE_HISTORY # Share history between sessions
 # export ARCHFLAGS="-arch $(uname -m)"
 
 # For a full list of active aliases, run `alias`.
+
+alias syu='sudo pacman -Syu'
+alias sp='sudo pacman'
+alias i='sudo pacman -S'
+alias y='yay -S'
 alias v='nvim'
 alias c='clear'
 alias s='nvim $(fzf --preview="bat --color=always {}")'
 alias r='ranger'
 alias n='nnn'
 alias la='ls -lathr'
-alias syu='sudo pacman -Syu'
-alias sp='sudo pacman -S'
-alias y='yay -S'
 alias f='fzf'
 alias fp='fzf --preview="bat --color=always {}"' # find all files recursively and sorts by last modification, ignore hidden files
 #alias lastmod='find . -type  f -not -path "*/\.*" -exec ls -lrt {} +'
@@ -76,7 +78,7 @@ alias rmdir='rmdirtrash'
 # Automatically start tmux if not already inside a tmux session
 if command -v tmux >/dev/null 2>&1; then # Auto-start tmux if not already inside one
   if [ -z "$TMUX" ] && [ -n "$PS1" ]; then # Only start tmux for interactive shells and if not already in a tmux session
-    tmux new-session -s "auto-$(date +%s)" # Create a new tmux session with a unique name (based on PID or timestamp)
+    tmux new-session -s "session$(tmux list-sessions 2>/dev/null | wc -l | awk '{print $1 + 1}')" # Create a new tmux session with a new number 
     exit  # prevent duplicate shell inside the new tmux session
   fi
 fi
