@@ -73,13 +73,13 @@ alias fp='fzf --preview="bat --color=always {}"' # find all files recursively an
 alias rm='rmtrash'
 alias rmdir='rmdirtrash'
 
-## Automatically start tmux if not already inside a tmux session
-#if command -v tmux >/dev/null 2>&1; then # Auto-start tmux if not already inside one
-#  if [ -z "$TMUX" ] && [ -n "$PS1" ]; then # Only start tmux for interactive shells and if not already in a tmux session
-#    tmux new-session -s "auto-$(date +%s)" # Create a new tmux session with a unique name (based on PID or timestamp)
-#    exit  # prevent duplicate shell inside the new tmux session
-#  fi
-#fi
+# Automatically start tmux if not already inside a tmux session
+if command -v tmux >/dev/null 2>&1; then # Auto-start tmux if not already inside one
+  if [ -z "$TMUX" ] && [ -n "$PS1" ]; then # Only start tmux for interactive shells and if not already in a tmux session
+    tmux new-session -s "auto-$(date +%s)" # Create a new tmux session with a unique name (based on PID or timestamp)
+    exit  # prevent duplicate shell inside the new tmux session
+  fi
+fi
 
 # Fix Ctrl+L (clear screen) in tmux
 if [[ $TERM == screen* ]]; then
