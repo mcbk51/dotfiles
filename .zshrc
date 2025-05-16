@@ -73,6 +73,8 @@ alias fp='fzf --preview="bat --color=always {}"' # find all files recursively an
 #alias lastmod='find . -type  f -not -path "*/\.*" -exec ls -lrt {} +'
 alias rm='rmtrash'
 alias rmdir='rmdirtrash'
+alias sz='source ~/.zshrc'
+alias st='tmux source ~/.config/tmux/tmux.conf'
 
 # Automatically start tmux if not already inside a tmux session
 if command -v tmux >/dev/null 2>&1; then # Auto-start tmux if not already inside one
