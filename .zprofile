@@ -1,0 +1,2 @@
+[[ -o login ]] && source ~/.zshrc
+
