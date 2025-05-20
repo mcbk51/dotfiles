@@ -8,6 +8,9 @@ source $ZSH/oh-my-zsh.sh
 
 # Set to editing mode
 set -o vi
+
+# Exports
+export KEYTIMEOUT=1
 export EDITOR=nvim
 export VISUAL=nvim
 export BROWSER="brave"
@@ -44,6 +47,28 @@ else
   export EDITOR='nvim'
 fi
 
+# Change cursor shape for different vi modes.
+function zle-keymap-select {
+  if [[ ${KEYMAP} == vicmd ]] ||
+     [[ $1 = 'block' ]]; then
+    echo -ne '\e[1 q'
+  elif [[ ${KEYMAP} == main ]] ||
+       [[ ${KEYMAP} == viins ]] ||
+       [[ ${KEYMAP} = '' ]] ||
+       [[ $1 = 'beam' ]]; then
+    echo -ne '\e[5 q'
+  fi
+}
+zle -N zle-keymap-select
+zle-line-init() {
+    zle -K viins # initiate `vi insert` as keymap (can be removed if `bindkey -V` has been set elsewhere)
+    echo -ne "\e[5 q"
+}
+zle -N zle-line-init
+echo -ne '\e[5 q' # Use beam shape cursor on startup.
+preexec() { echo -ne '\e[5 q' ;} # Use beam shape cursor for each new prompt.
+
+
 # ------History----- 
 HISTFILE=~/.zsh_history
 HISTSIZE=8000
@@ -62,6 +87,7 @@ alias c='clear'
 alias syu='sudo pacman -Syu'
 alias sp='sudo pacman'
 alias i='sudo pacman -S'
+alias un='sudo pacman -Rs'
 alias y='yay -S'
 alias v='nvim'
 alias vs='nvim $(fzf --preview="bat --color=always {}")'
@@ -75,6 +101,8 @@ alias rm='rmtrash'
 alias rmdir='rmdirtrash'
 alias sz='source ~/.zshrc'
 alias st='tmux source ~/.config/tmux/tmux.conf'
+alias cp='cp -i' 
+alias mv='mv -i'
 
 # Automatically start tmux if not already inside a tmux session
 if command -v tmux >/dev/null 2>&1; then # Auto-start tmux if not already inside one
