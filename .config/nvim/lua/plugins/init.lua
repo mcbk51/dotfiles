@@ -29,6 +29,13 @@ return {
   },
   -- my changes
   {
+    "goolord/alpha-nvim",
+    config = function()
+      require "configs.alpha"
+    end,
+    dependencies = { "nvim-tree/nvim-web-devicons" },
+  },
+  {
     "huytd/vim-quickrun",
     lazy = false,
     cmd = { "QuickRun" }, -- lazy loads only when you use the command
