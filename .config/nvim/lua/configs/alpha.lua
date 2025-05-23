@@ -19,7 +19,7 @@ dashboard.section.buttons.val = {
 dashboard.config.layout = {
   { type = "padding", val = 6 },
   dashboard.section.header,
-  { type = "padding", val = 16 }, -- space between header and buttons
+  { type = "padding", val = 10 }, -- space between header and buttons
   dashboard.section.buttons,
 }
 require("alpha").setup(dashboard.config)
