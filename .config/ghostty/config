@@ -35,6 +35,10 @@ theme = catppuccin-frappe
 # Remove Close Pop-up
 confirm-close-surface = false
 
+ keybind = ctrl+d=scroll_page_fractional:0.5
+ keybind = ctrl+u=scroll_page_fractional:-0.5
+
+
 #
 # # Empty values are used to reset config keys to default.
 # key =
