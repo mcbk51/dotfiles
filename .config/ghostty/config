@@ -10,7 +10,7 @@
 # # The config file consists of simple key-value pairs,
 # # separated by equals signs.
 
-font-family = GeistMono Nerd Font
+font-family = JetBrainsMono Nerd Font Mono 
 
 # window-padding-x = 2
 #

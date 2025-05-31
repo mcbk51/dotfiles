@@ -1,10 +1,9 @@
 # If you come from bash you might have to change your $PATH.
 export PATH="$HOME/bin:$HOME/.local/bin:/usr/local/bin:$HOME/.atuin/bin:/home/bk/bin:$PATH"
 
-# Path to your Oh My Zsh installation.
-export ZSH="$HOME/.oh-my-zsh"
-
+# Source files
 source $ZSH/oh-my-zsh.sh
+[[ -f "$HOME/.zsh_private" ]] && source "$HOME/.zsh_private"
 
 
 # Set to editing mode
@@ -16,6 +15,10 @@ export EDITOR=nvim
 export VISUAL=nvim
 export BROWSER="brave"
 export VIDEO="mpv"
+
+# Path to your Oh My Zsh installation.
+export ZSH="$HOME/.oh-my-zsh"
+
 
 # NNN file manager changes
 export NNN_PLUG='o:fzopen;y:preview-tui'
@@ -49,6 +52,7 @@ alias i='sudo pacman -S'
 alias un='sudo pacman -Rns'
 alias y='yay -S'
 alias v='nvim'
+alias sv='sudo nvim'
 alias vs='nvim $(fzf --preview="bat --color=always {}")'
 alias yz='yazi'
 alias n='nnn'
@@ -58,7 +62,7 @@ alias fp='fzf --preview="bat --color=always {}"' # find all files recursively an
 #alias lastmod='find . -type  f -not -path "*/\.*" -exec ls -lrt {} +'
 alias rm='rmtrash'
 alias rmdir='rmdirtrash'
-alias sz='source ~/.zprofile'
+alias sz='source ~/.zshrc'
 alias st='tmux source ~/.config/tmux/tmux.conf'
 alias cp='cp -i' 
 alias mv='mv -i'
