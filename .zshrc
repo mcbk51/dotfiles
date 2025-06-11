@@ -11,7 +11,6 @@ source $ZSH/oh-my-zsh.sh
 [[ -f /usr/share/fzf/key-bindings.zsh ]] && source /usr/share/fzf/key-bindings.zsh
 [[ -f /usr/share/fzf/completion.zsh ]] && source /usr/share/fzf/completion.zsh
 
-
 # Set to editing mode
 set -o vi
 
@@ -25,13 +24,12 @@ POSH_THEME="kali"
 #"clean-detailed"
 eval "$(oh-my-posh init zsh --config /home/bk/Documents/posh-themes/themes/$POSH_THEME.omp.json)"
 
-# Uncomment the following line to enable command auto-correction.
-ENABLE_CORRECTION="true"
-
 # Standard plugins can be found in $ZSH/plugins/
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 plugins=(git archlinux zsh-syntax-highlighting zsh-autosuggestions vi-mode zsh-completions fzf-tab zoxide command-not-found)
 
+# Uncomment the following line to enable command auto-correction.
+ENABLE_CORRECTION="true"
 
 # ------History----- 
 HISTFILE=~/.zsh_history
@@ -50,3 +48,7 @@ setopt SHARE_HISTORY # Share history between sessions
 eval "$(fzf --zsh)"
 eval "$(zoxide init --cmd cd zsh)"
 eval "$(atuin init zsh)"
+
+# Generated for envman. Do not edit.
+[ -s "$HOME/.config/envman/load.sh" ] && source "$HOME/.config/envman/load.sh"
+export PATH=$PATH:$HOME/go/bin

@@ -94,10 +94,6 @@
             "color": { "key": "blue", "value": "blue" }
         },
         {
-            "type": "vulkan",
-            "color": { "key": "blue", "value": "blue" }
-        },
-        {
             "type": "custom",
             "format": "════ Colors ════",
             "color": "blue"

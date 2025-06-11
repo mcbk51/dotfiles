@@ -1,0 +1,32 @@
+# Exports
+export KEYTIMEOUT=1
+export EDITOR=nvim
+export VISUAL=nvim
+export BROWSER="brave"
+export VIDEO="mpv"
+
+# Path to your Oh My Zsh installation.
+export ZSH="$HOME/.oh-my-zsh"
+
+## follow XDG base dir specification
+export XDG_CONFIG_HOME="$HOME/.config"
+export XDG_DATA_HOME="$HOME/.local/share"
+export XDG_CACHE_HOME="$HOME/.cache"
+
+## moving other files and some other vars
+export CARGO_HOME="$XDG_DATA_HOME"/cargo
+export WINEPREFIX="$XDG_DATA_HOME"/wine
+export DOTNET_CLI_HOME="$XDG_DATA_HOME"/dotnet
+export RUSTUP_HOME="$XDG_DATA_HOME"/rustup
+export GNUPGHOME="$XDG_DATA_HOME"/gnupg
+export XCURSOR_PATH=/usr/share/icons:$XDG_DATA_HOME/icons
+
+export GTK2_RC_FILES="$XDG_CONFIG_HOME"/gtk-2.0/gtkrc
+
+export CUDA_CACHE_PATH="$XDG_CACHE_HOME"/nv
+export NUGET_PACKAGES="$XDG_CACHE_HOME"/NuGetPackages
+
+export XAUTHORITY="$XDG_RUNTIME_DIR"/Xauthority
+
+
+
