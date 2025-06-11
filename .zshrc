@@ -2,7 +2,7 @@
 export PATH="$HOME/bin:$HOME/.local/bin:/usr/local/bin:$HOME/.atuin/bin:/home/bk/bin:$PATH"
 
 # Source files
-source $ZSH/oh-my-zsh.sh
+[[ -f "$ZSH/oh-my-zsh.sh" ]] && source $ZSH/oh-my-zsh.sh
 [[ -f "$HOME/.zsh_private" ]] && source "$HOME/.zsh_private"
 [[ -f "$HOME/.shell_alias" ]] && source "$HOME/.shell_alias"
 [[ -f "$HOME/.shell_exports" ]] && source "$HOME/.shell_exports"
