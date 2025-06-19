@@ -35,12 +35,16 @@ ENABLE_CORRECTION="true"
 HISTFILE=~/.zsh_history
 HISTSIZE=8000
 SAVEHIST=$HISTSIZE
+HISTDUP=erase
 
 setopt HIST_IGNORE_SPACE # Don't save when prefixed with HIST_IGNORE_SPACE
 setopt HIST_IGNORE_DUPS # Don't save duplicate lines
+setopt HIST_SAVE_NO_DUPS # Don't save any duplicate
+setopt HIST_FIND_NO_DUPS # To show no dups when looking though history
 setopt APPEND_HISTORY # to append command to the hisory file 
 setopt SHARE_HISTORY # Share history between sessions
 setopt AUTOCD # type a dir to cd
+
 # Compilation flags
 # export ARCHFLAGS="-arch $(uname -m)"
 
