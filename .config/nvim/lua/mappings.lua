@@ -1,4 +1,4 @@
-
+require "nvchad.mappings"
 
 -- add yours here
 
@@ -86,13 +86,13 @@ map(
 map("t", "<C-x>", "<C-\\><C-N>", { desc = "terminal escape terminal mode" })
 
 -- new terminals
-map("n", "<leader>h", function()
-  require("nvchad.term").new { pos = "sp" }
-end, { desc = "terminal new horizontal term" })
-
-map("n", "<leader>v", function()
-  require("nvchad.term").new { pos = "vsp" }
-end, { desc = "terminal new vertical term" })
+--map("n", "<leader>h", function()
+--  require("nvchad.term").new { pos = "sp" }
+--end, { desc = "terminal new horizontal term" })
+--
+--map("n", "<leader>v", function()
+--  require("nvchad.term").new { pos = "vsp" }
+--end, { desc = "terminal new vertical term" })
 
 -- toggleable
 map({ "n", "t" }, "<A-v>", function()
@@ -113,4 +113,3 @@ map("n", "<leader>wK", "<cmd>WhichKey <CR>", { desc = "whichkey all keymaps" })
 map("n", "<leader>wk", function()
   vim.cmd("WhichKey " .. vim.fn.input "WhichKey: ")
 end, { desc = "whichkey query lookup" })
-
