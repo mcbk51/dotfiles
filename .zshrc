@@ -1,6 +1,11 @@
 # If you come from bash you might have to change your $PATH.
 export PATH="$HOME/bin:$HOME/.local/bin:/usr/local/bin:$HOME/.atuin/bin:/home/bk/bin:$PATH"
 
+#OH-MY-Posh
+POSH_THEME="kali"
+#"clean-detailed"
+eval "$(oh-my-posh init zsh --config /home/bk/Documents/posh-themes/themes/$POSH_THEME.omp.json)"
+
 # Source files
 [[ -f "$ZSH/oh-my-zsh.sh" ]] && source "$ZSH/oh-my-zsh.sh"
 [[ -f "$HOME/.zsh_private" ]] && source "$HOME/.zsh_private"
@@ -19,18 +24,6 @@ zstyle  ':completion:*' menu no
 zstyle  ':fzf-tab:complete:cd:*' fzf-preview 'ls --color $realpath' 
 zstyle  'fzf-tab:complete:__zoxide_z:*' fzf-preview 'ls --color $realpath'
 
-#OH-MY-Posh
-POSH_THEME="kali"
-#"clean-detailed"
-eval "$(oh-my-posh init zsh --config /home/bk/Documents/posh-themes/themes/$POSH_THEME.omp.json)"
-
-# Standard plugins can be found in $ZSH/plugins/
-# Custom plugins may be added to $ZSH_CUSTOM/plugins/
-plugins=(git archlinux zsh-syntax-highlighting zsh-autosuggestions vi-mode zsh-completions fzf-tab zoxide command-not-found)
-
-# Uncomment the following line to enable command auto-correction.
-ENABLE_CORRECTION="true"
-
 # ------History----- 
 HISTFILE=~/.zsh_history
 HISTSIZE=8000
@@ -45,9 +38,12 @@ setopt APPEND_HISTORY # to append command to the hisory file
 setopt SHARE_HISTORY # Share history between sessions
 setopt AUTOCD # type a dir to cd
 
-# Compilation flags
-# export ARCHFLAGS="-arch $(uname -m)"
+# Standard plugins can be found in $ZSH/plugins/
+# Custom plugins may be added to $ZSH_CUSTOM/plugins/
+plugins=(git archlinux zsh-syntax-highlighting zsh-autosuggestions vi-mode zsh-completions fzf-tab zoxide)
 
+# Uncomment the following line to enable command auto-correction.
+ENABLE_CORRECTION="disable"
 # Shell Intergrations
 eval "$(fzf --zsh)"
 eval "$(zoxide init --cmd cd zsh)"
