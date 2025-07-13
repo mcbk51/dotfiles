@@ -12,7 +12,7 @@ dashboard.section.buttons.val = {
   dashboard.button("e", "📄  New file", ":ene <BAR> startinsert <CR>"),
   dashboard.button("f", "🔍  Find file", ":Telescope find_files no_ignore=true hidden=true <CR>"),
   dashboard.button("r", "🕘  Recent files", ":Telescope oldfiles <CR>"),
-  dashboard.button("p", "📁  Find project", ":Telescope projects <CR>"),
+  -- dashboard.button("p", "📁  Find project", ":Telescope projects <CR>"),
   dashboard.button("n", "📝  Note Index", ":VimwikiIndex<CR>"),
   dashboard.button("c", "⚙️  Config", ":Telescope find_files cwd=~/.config/nvim <CR>"),
   dashboard.button("q", "   Quit", ":qa<CR>"),

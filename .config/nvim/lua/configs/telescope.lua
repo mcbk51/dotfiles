@@ -19,6 +19,19 @@ return {
     },
   },
 
-  extensions_list = { "themes", "terms" },
-  extensions = {},
+  -- Add this to enable the `project` extension
+  extensions_list = { "themes", "terms", "project" },
+
+  extensions = {
+    project = {
+      base_dirs = {
+        { path = "~/dev/projects", max_depth = 2 },
+      },
+      hidden_files = false,
+      theme = "dropdown",
+      order_by = "recent",
+      search_by = "title",
+      sync_with_nvim_tree = false,
+    },
+  },
 }

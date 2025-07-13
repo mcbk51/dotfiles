@@ -29,6 +29,13 @@ map("n", "<leader>n", "<cmd>set nu!<CR>", { desc = "toggle line number" })
 map("n", "<leader>rn", "<cmd>set rnu!<CR>", { desc = "toggle relative number" })
 map("n", "<leader>ch", "<cmd>NvCheatsheet<CR>", { desc = "toggle nvcheatsheet" })
 
+-- changing working directory
+map("n", "<leader>cd", function()
+  local path = vim.fn.expand "%:p:h"
+  vim.cmd("cd " .. path)
+  print("CWD set to: " .. path)
+end, { desc = "Set CWD to file directory" })
+
 map({ "n", "x" }, "<leader>fm", function()
   require("conform").format { lsp_fallback = true }
 end, { desc = "general format file" })
