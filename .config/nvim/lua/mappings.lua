@@ -81,6 +81,15 @@ map(
   "<cmd>Telescope find_files follow=true no_ignore=true hidden=true<CR>",
   { desc = "telescope find all files" }
 )
+map("n", "<leader>fe", function()
+  require("telescope").extensions.file_browser.file_browser {
+    path = "%:p:h",
+    select_buffer = true,
+    hidden = true,
+    grouped = true,
+    respect_gitignore = false,
+  }
+end, { desc = "telescope file browser" })
 
 -- terminal
 map("t", "<C-x>", "<C-\\><C-N>", { desc = "terminal escape terminal mode" })

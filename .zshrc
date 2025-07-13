@@ -26,7 +26,7 @@ zstyle  'fzf-tab:complete:__zoxide_z:*' fzf-preview 'ls --color $realpath'
 
 # ------History----- 
 HISTFILE=~/.zsh_history
-HISTSIZE=8000
+HISTSIZE=10000
 SAVEHIST=$HISTSIZE
 HISTDUP=erase
 
