@@ -243,7 +243,17 @@ return {
         return require "nvchad.configs.cmp"
       end,
     },
-
+    -- markdown changes
+    {
+      "MeanderingProgrammer/markdown.nvim",
+      name = "render-markdown",
+      dependencies = { "nvim-treesitter/nvim-treesitter" },
+      ft = { "markdown" },
+      config = function()
+        require("render-markdown").setup(require "configs.render-markdown")
+      end,
+    },
+    -- telescope
     {
       "nvim-telescope/telescope.nvim",
       dependencies = { "nvim-treesitter/nvim-treesitter" },
