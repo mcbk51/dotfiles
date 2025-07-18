@@ -75,6 +75,15 @@ return {
       vim.g.go_info_mode = "gopls"
     end,
   },
+  -- harpoon
+  {
+    "ThePrimeagen/harpoon",
+    dependencies = { "nvim-lua/plenary.nvim" },
+    config = function()
+      require("harpoon").setup()
+      require("telescope").load_extension "harpoon"
+    end,
+  },
   {
     "lukas-reineke/indent-blankline.nvim",
     event = "User FilePost",
