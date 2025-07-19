@@ -1,13 +1,7 @@
 -- plugins/init.lua
 return {
   -- Core NvChad plugins
-  require "plugins.plenary",
-  require "plugins.base46",
-  require "plugins.nvchad-ui",
-  require "plugins.volt",
-  require "plugins.menu",
-  require "plugins.minty",
-
+  require "plugins.nvchad-suite",
   -- UI and Icons
   require "plugins.nvim-web-devicons",
   require "plugins.alpha",
@@ -33,7 +27,6 @@ return {
   require "plugins.gitsigns",
 
   -- Language-specific
-  require "plugins.python-syntax",
   require "plugins.vim-go",
   require "plugins.render-markdown",
 
