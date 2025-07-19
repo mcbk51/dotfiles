@@ -130,38 +130,3 @@ map("n", "<leader>wK", "<cmd>WhichKey <CR>", { desc = "whichkey all keymaps" })
 map("n", "<leader>wk", function()
   vim.cmd("WhichKey " .. vim.fn.input "WhichKey: ")
 end, { desc = "whichkey query lookup" })
-
--- harpoon
-local harpoon = require "harpoon"
-
-map("n", "<leader>ha", function()
-  require("harpoon.mark").add_file()
-end, { desc = "Harpoon add file" })
-
-map("n", "<leader>hf", function()
-  require("telescope").extensions.harpoon.marks()
-end, { desc = "Telescope Harpoon marks" })
-
-map("n", "<leader>hh", function()
-  require("harpoon.ui").toggle_quick_menu()
-end, { desc = "Harpoon quick menu" })
-
-map("n", "<leader>hr", function()
-  require("harpoon.mark").rm_file()
-end, { desc = "Harpoon remove file" })
-
-map("n", "<leader>1", function()
-  require("harpoon.ui").nav_file(1)
-end, { desc = "Harpoon to file 1" })
-
-map("n", "<leader>2", function()
-  require("harpoon.ui").nav_file(2)
-end, { desc = "Harpoon to file 2" })
-
-map("n", "<leader>3", function()
-  require("harpoon.ui").nav_file(3)
-end, { desc = "Harpoon to file 3" })
-
-map("n", "<leader>4", function()
-  require("harpoon.ui").nav_file(4)
-end, { desc = "Harpoon to file 4" })
