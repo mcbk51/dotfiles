@@ -14,6 +14,13 @@ M.base46 = {
   -- 	["@comment"] = { italic = true },
   -- },
 }
+M.ui = {
+  statusline = {
+    theme = "vscode_colored", -- also try "minimal", "vscode", etc.
+    separator_style = "default", -- "default", "round", "arrow", "block", or "none"
+    -- Add `overriden_modules = {}` here if you want to fully customize the content
+  },
+}
 
 -- M.nvdash = { load_on_startup = true }
 -- M.ui = {
