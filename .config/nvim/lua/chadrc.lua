@@ -6,7 +6,7 @@
 local M = {}
 
 M.base46 = {
-  theme = "nightowl",
+  theme = "oxocarbon",
   --transparency = true,
 
   -- hl_override = {
@@ -28,5 +28,10 @@ M.ui = {
 --          lazyload = false
 --      }
 --}
+M.polish = function()
+  -- Highlight fixes for LSP semantic tokens (e.g. fmt.Errorf)
+  vim.api.nvim_set_hl(0, "@lsp.type.namespace", { link = "Include" })  -- fmt
+  vim.api.nvim_set_hl(0, "@lsp.type.method", { link = "Function" })    -- Errorf
+end
 
 return M
