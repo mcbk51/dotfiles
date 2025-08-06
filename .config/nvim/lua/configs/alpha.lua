@@ -1,5 +1,6 @@
 local dashboard = require "alpha.themes.dashboard"
 
+
 dashboard.section.header.val = {
   " __        __   _                            ",
   " \\ \\      / /__| | ___ ___  _ __ ___   ___  ",
@@ -14,7 +15,8 @@ dashboard.section.buttons.val = {
   dashboard.button("r", "🕘  Recent files", ":Telescope oldfiles <CR>"),
   -- dashboard.button("p", "📁  Find project", ":Telescope projects <CR>"),
   dashboard.button("n", "📝  Note Index", ":VimwikiIndex<CR>"),
-  dashboard.button("c", "⚙️  Config", ":Telescope find_files cwd=~/.config/nvim <CR>"),
+  dashboard.button("h", "🌀  Hyperland Config ", ":Telescope find_files cwd=~/dotfiles/.config/hypr <CR>"),
+  dashboard.button("c", "⚙️  Nvim Config", ":Telescope find_files cwd=~/dotfiles/.config/nvim <CR>"),
   dashboard.button("q", "   Quit", ":qa<CR>"),
 }
 
