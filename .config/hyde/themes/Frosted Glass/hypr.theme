@@ -35,7 +35,7 @@ group {
 }
 
 decoration {
-    rounding = 13
+    rounding = 10
     active_opacity = 0.75
     inactive_opacity = 0.75
 
