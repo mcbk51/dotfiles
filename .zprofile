@@ -1,1 +1,1 @@
-[[ -o login ]] && source ~/.zshrc
+[[ -o login ]] && source ~/config/zsh/.zshrc
