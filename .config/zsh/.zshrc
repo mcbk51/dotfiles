@@ -48,7 +48,7 @@ setopt AUTOCD # type a dir to cd
 
 # Standard plugins can be found in $ZSH/plugins/
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
-#plugins=(git archlinux zsh-syntax-highlighting zsh-autosuggestions vi-mode zsh-completions fzf-tab zoxide)
+plugins=(git archlinux zsh-syntax-highlighting zsh-autosuggestions vi-mode zsh-completions fzf-tab zoxide)
 
 # Uncomment the following line to enable command auto-correction.
 ENABLE_CORRECTION="disable"
