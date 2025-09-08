@@ -39,7 +39,7 @@
         "orientation": "inherit",
         "modules": [
             "hyprland/workspaces",
-            "hyprland/window"
+            //"hyprland/window"
         ]
     },
     "modules-right": [
