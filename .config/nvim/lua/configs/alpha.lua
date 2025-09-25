@@ -9,9 +9,10 @@ dashboard.section.header.val = {
 }
 
 dashboard.section.buttons.val = {
-  dashboard.button("e", "📄  New file", ":ene <BAR> startinsert <CR>"),
-  dashboard.button("f", "🔍  Find file", ":Telescope find_files no_ignore=true hidden=true <CR>"),
-  dashboard.button("r", "🕘  Recent files", ":Telescope oldfiles <CR>"),
+  dashboard.button("a", "📄 New file", ":ene <BAR> startinsert <CR>"),
+  dashboard.button("f", "🔍 Find file", ":Telescope find_files no_ignore=true hidden=true <CR>"),
+  dashboard.button("r", "🕘 Recent files", ":Telescope oldfiles <CR>"),
+  dashboard.button("e", "📁 Browser files", ":Telescope file_browser  <CR>"),
   -- dashboard.button("p", "📁  Find project", ":Telescope projects <CR>"),
   dashboard.button("n", "📝  Note Index", ":VimwikiIndex<CR>"),
   dashboard.button("h", "🌀  Hyprland Config ", ":Telescope find_files cwd=~/dotfiles/.config/hypr <CR>"),
