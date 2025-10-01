@@ -61,5 +61,3 @@ eval "$(atuin init zsh)"
 [ -s "$HOME/.config/envman/load.sh" ] && source "$HOME/.config/envman/load.sh"
 export PATH=$PATH:$HOME/go/bin
 
-# Turso
-export PATH="$PATH:/home/bk/.turso"
