@@ -1,13 +1,4 @@
 # Configuration file for HyDE
 # Environment variables should be on top
 # Updated config.toml file can be found at $HOME/.local/share/hyde/config.toml
-
-# Hyprland configuration.
-[hyprland]
-browser = "zen-browser"  # Browser.
-editor = "nvim"  # Editor.
-explorer = "dolphin"  # File manager.
-idle = "hypridle"  # Idle manager.
-lockscreen = "lockscreen.sh"  # Lockscreen.
-terminal = "ghostty"  # Terminal.
-quickapps = "ghostty"  # Quick apps.
+"$schema" = "https://raw.githubusercontent.com/HyDE-Project/HyDE/refs/heads/master/Configs/.local/share/hyde/schema/config.toml.json"

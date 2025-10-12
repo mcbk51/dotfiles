@@ -40,7 +40,7 @@ group {
 }
 
 decoration {
-    rounding = 10
+    rounding = 3
     shadow:enabled = false
 
     blur {

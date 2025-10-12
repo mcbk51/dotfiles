@@ -15,7 +15,7 @@ dashboard.section.buttons.val = {
   dashboard.button("e", "📁 Browser files", ":Telescope file_browser  <CR>"),
   -- dashboard.button("p", "📁  Find project", ":Telescope projects <CR>"),
   dashboard.button("n", "📝  Note Index", ":VimwikiIndex<CR>"),
-  dashboard.button("h", "🌀  Hyprland Config ", ":Telescope find_files cwd=~/dotfiles/.config/hypr <CR>"),
+  dashboard.button("h", "🌀  Hyprland Config ", ":Telescope find_files cwd=~/.config/hypr <CR>"),
   dashboard.button("c", "⚙️  Nvim Config", ":Telescope find_files cwd=~/dotfiles/.config/nvim <CR>"),
   dashboard.button("q", "   Quit", ":qa<CR>"),
 }
