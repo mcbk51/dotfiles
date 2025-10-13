@@ -18,20 +18,21 @@ general {
     col.inactive_border = rgba(434c5ebb) # Nord Polar Night (no. 1) with reduced opacity
     col.active_border = rgba(d8dee9ee) rgba(88c0d0cc) rgba(88c0d0cc) rgba(d8dee9ee) 45deg # Nord Snow Storm and Frost
     resize_on_border = yes
-    gaps_in = 5
+    gaps_in = 3
     gaps_out = 10
 }
 
 decoration {
     
 
+    rounding = 10
     active_opacity = 0.95
     inactive_opacity = 0.95
 
     blur {
         enabled = yes
         size = 5
-        passes = 4
+        passes = 3
         ignore_opacity = true
         new_optimizations = true
         xray = false
@@ -43,7 +44,7 @@ decoration {
     dim_strength = 0.05
 
     shadow {
-        enabled = true
+        enabled = false
         range = 30
         scale = 2
         render_power = 5
