@@ -1,16 +1,15 @@
 {
     "layer": "top",
-    "output": [
-        "*"
-    ],
+    "output": ["*"],
     "height": 10,
     "exclusive": true,
     "passthrough": false,
     "reload_style_on_change": true,
     "include": [
-        "$XDG_CONFIG_HOME/waybar/modules/*json*", 
-        "$XDG_CONFIG_HOME/waybar/includes/includes.json" 
+        "$XDG_CONFIG_HOME/waybar/modules/*json*",
+        "$XDG_CONFIG_HOME/waybar/includes/includes.json"
     ],
+
     "modules-left": [
         "group/pill#left1"
     ],
@@ -18,8 +17,12 @@
         "orientation": "inherit",
         "modules": [
             "hyprland/workspaces",
+            "clock",
+            "custom/hyprsunset",
+            "idle_inhibitor",
         ]
     },
+
     "modules-center": [
         "group/pill#center"
     ],
@@ -30,35 +33,38 @@
             "custom/gpuinfo",
             "custom/cpuinfo",
             "cpu",
-            "memory",
+            "memory"
         ],
         "orientation": "inherit"
     },
+
     "modules-right": [
         "group/pill#right1",
-        "group/pill#right2",
+        "group/pill#right2"
     ],
     "group/pill#right1": {
         "modules": [
             "mpris",
             "privacy",
-            "tray",
+            "battery",
             "custom/dunst",
-            "battery"
-        ],
-        "orientation": "inherit"
-    },
-    "group/pill#right2": {
-        "modules": [
-            "custom/hyprsunset",
-            "idle_inhibitor",
             "backlight",
             "pulseaudio",
             "pulseaudio#microphone",
-            "clock",
+        ],
+        "orientation": "inherit"
+  },
+    "group/pill#right2": {
+        "modules": [
+            "tray",
             "custom/hyde-menu",
             "custom/power"
         ],
         "orientation": "inherit"
+    },
+
+    "clock": {
+        "format": "{:%b-%d %I:%M%p}"
     }
 }
+
