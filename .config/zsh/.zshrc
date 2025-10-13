@@ -48,7 +48,7 @@ setopt AUTOCD # type a dir to cd
 
 # Standard plugins can be found in $ZSH/plugins/
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
-plugins=(git archlinux zsh-syntax-highlighting zsh-autosuggestions vi-mode zsh-completions fzf-tab zoxide)
+plugins=(git archlinux vi-mode )
 
 # Uncomment the following line to enable command auto-correction.
 ENABLE_CORRECTION="disable"
@@ -57,7 +57,7 @@ eval "$(fzf --zsh)"
 eval "$(zoxide init --cmd cd zsh)"
 eval "$(atuin init zsh)"
 
-# Generated for envman. Do not edit.
+# Generated for envman. Do not edit.1
 [ -s "$HOME/.config/envman/load.sh" ] && source "$HOME/.config/envman/load.sh"
 export PATH=$PATH:$HOME/go/bin
 
