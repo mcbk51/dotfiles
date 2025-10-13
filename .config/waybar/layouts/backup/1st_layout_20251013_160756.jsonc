@@ -17,7 +17,11 @@
         "orientation": "inherit",
         "modules": [
             "hyprland/workspaces",
-            "clock"
+            "custom/cpuinfo",
+            "custom/gpuinfo",
+            "custom/updates",
+            "cpu",
+            "memory",
         ]
     },
 
@@ -26,12 +30,9 @@
     ],
     "group/pill#center": {
         "modules": [
-            "custom/updates",
-            "custom/sensorsinfo",
-            "custom/gpuinfo",
-            "custom/cpuinfo",
-            "cpu",
-            "memory"
+            "idle_inhibitor",
+            "clock",
+            "custom/hyprsunset",
         ],
         "orientation": "inherit"
     },
@@ -45,8 +46,6 @@
             "mpris",
             "privacy",
             "battery",
-            "custom/hyprsunset",
-            "idle_inhibitor",
             "custom/dunst",
             "backlight",
             "pulseaudio",
@@ -64,7 +63,7 @@
     },
 
     "clock": {
-        "format": "{:%b-%d %I:%M%p}"
+        "format": "{:%I:%M %p  %b-%d}"
     }
 }
 

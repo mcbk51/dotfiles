@@ -17,9 +17,11 @@
         "orientation": "inherit",
         "modules": [
             "hyprland/workspaces",
-            "clock",
-            "custom/hyprsunset",
-            "idle_inhibitor",
+            "custom/updates",
+            "custom/cpuinfo",
+            "custom/gpuinfo",
+            "cpu",
+            "memory",
         ]
     },
 
@@ -28,12 +30,9 @@
     ],
     "group/pill#center": {
         "modules": [
-            "custom/updates",
-            "custom/sensorsinfo",
-            "custom/gpuinfo",
-            "custom/cpuinfo",
-            "cpu",
-            "memory"
+            "idle_inhibitor",
+            "clock",
+            "custom/hyprsunset",
         ],
         "orientation": "inherit"
     },
@@ -64,7 +63,7 @@
     },
 
     "clock": {
-        "format": "{:%I:%M%p %b-%d}"
+        "format": "{:%I:%M %p  %b-%d}"
     }
 }
 

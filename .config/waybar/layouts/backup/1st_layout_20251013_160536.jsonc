@@ -17,7 +17,12 @@
         "orientation": "inherit",
         "modules": [
             "hyprland/workspaces",
-            "clock"
+            "custom/sensorsinfo",
+            "custom/cpuinfo",
+            "custom/gpuinfo",
+            "custom/updates",
+            "cpu",
+            "memory",
         ]
     },
 
@@ -26,12 +31,9 @@
     ],
     "group/pill#center": {
         "modules": [
-            "custom/updates",
-            "custom/sensorsinfo",
-            "custom/gpuinfo",
-            "custom/cpuinfo",
-            "cpu",
-            "memory"
+            "idle_inhibitor",
+            "clock",
+            "custom/hyprsunset",
         ],
         "orientation": "inherit"
     },
@@ -45,8 +47,6 @@
             "mpris",
             "privacy",
             "battery",
-            "custom/hyprsunset",
-            "idle_inhibitor",
             "custom/dunst",
             "backlight",
             "pulseaudio",
@@ -54,7 +54,7 @@
         ],
         "orientation": "inherit"
   },
-    "group/pill#right1": {
+    "group/pill#right2": {
         "modules": [
             "tray",
             "custom/hyde-menu",
@@ -64,7 +64,7 @@
     },
 
     "clock": {
-        "format": "{:%b-%d %I:%M%p}"
+        "format": "{:%I:%M %p  %b-%d}"
     }
 }
 
