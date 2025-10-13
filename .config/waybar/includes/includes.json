@@ -61,7 +61,9 @@
         "/home/bk/.local/share/waybar/modules/pulseaudio.jsonc",
         "/home/bk/.local/share/waybar/modules/tray.jsonc",
         "/home/bk/.local/share/waybar/modules/wlr-taskbar#windows.jsonc",
-        "/home/bk/.local/share/waybar/modules/wlr-taskbar.jsonc"
+        "/home/bk/.local/share/waybar/modules/wlr-taskbar.jsonc",
+        "/home/bk/.local/share/waybar/modules/group-hide-tray.jsonc",
+        "/home/bk/.local/share/waybar/modules/temperature.jsonc"
     ],
     "image#wallpaper": {
         "size": 30,

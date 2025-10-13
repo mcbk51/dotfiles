@@ -17,7 +17,8 @@
     "group/pill#left1": {
         "orientation": "inherit",
         "modules": [
-            "hyprland/workspaces",
+            "clock",
+            "mpris"
         ]
     },
     "modules-center": [
@@ -25,37 +26,42 @@
     ],
     "group/pill#center": {
         "modules": [
-            "custom/updates",
-            "custom/sensorsinfo",
-            "custom/gpuinfo",
-            "custom/cpuinfo",
-            "cpu",
-            "memory",
+            "hyprland/workspaces",
+            "hyprland/window"
         ],
         "orientation": "inherit"
     },
     "modules-right": [
         "group/pill#right1",
         "group/pill#right2",
+        "group/pill#right3"
     ],
     "group/pill#right1": {
         "modules": [
-            "mpris",
-            "privacy",
-            "tray",
-            "custom/dunst",
-            "battery"
+            "backlight",
+            "network",
+            "pulseaudio",
+            "pulseaudio#microphone",
+            "custom/updates",
+            "custom/hyprsunset",
+            "idle_inhibitor",
         ],
         "orientation": "inherit"
     },
     "group/pill#right2": {
         "modules": [
-            "custom/hyprsunset",
-            "idle_inhibitor",
-            "backlight",
-            "pulseaudio",
-            "pulseaudio#microphone",
-            "clock",
+            "privacy",
+            "tray",
+            "battery"
+        ],
+        "orientation": "inherit"
+    },
+    "group/pill#right3": {
+        "modules": [
+            "custom/sensorsinfo",
+            "cpu",
+            "memory",
+            "custom/dunst",
             "custom/hyde-menu",
             "custom/power"
         ],

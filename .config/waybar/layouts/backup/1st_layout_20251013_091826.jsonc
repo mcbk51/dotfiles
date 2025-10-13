@@ -12,12 +12,23 @@
         "$XDG_CONFIG_HOME/waybar/includes/includes.json" 
     ],
     "modules-left": [
-        "group/pill#left1"
+        "group/pill#left1",
+        "group/pill#left2"
     ],
     "group/pill#left1": {
         "orientation": "inherit",
         "modules": [
-            "hyprland/workspaces",
+            "cpu",
+            "memory"
+        ]
+    },
+    "group/pill#left2": {
+        "orientation": "inherit",
+        "modules": [
+            "custom/hyprsunset",
+            "idle_inhibitor",
+            "clock",
+            "mpris"
         ]
     },
     "modules-center": [
@@ -25,37 +36,43 @@
     ],
     "group/pill#center": {
         "modules": [
-            "custom/updates",
-            "custom/sensorsinfo",
-            "custom/gpuinfo",
-            "custom/cpuinfo",
-            "cpu",
-            "memory",
+            "hyprland/workspaces",
+            "hyprland/window"
         ],
         "orientation": "inherit"
     },
     "modules-right": [
         "group/pill#right1",
         "group/pill#right2",
+        "group/pill#right3"
     ],
     "group/pill#right1": {
         "modules": [
-            "mpris",
-            "privacy",
-            "tray",
-            "custom/dunst",
-            "battery"
+            "backlight",
+            "network",
+            "pulseaudio",
+            "pulseaudio#microphone",
+            "custom/updates",
+            "custom/keybindhint"
         ],
         "orientation": "inherit"
     },
     "group/pill#right2": {
         "modules": [
-            "custom/hyprsunset",
-            "idle_inhibitor",
-            "backlight",
-            "pulseaudio",
-            "pulseaudio#microphone",
-            "clock",
+            "privacy",
+            "tray",
+            "battery"
+        ],
+        "orientation": "inherit"
+    },
+    "group/pill#right3": {
+        "modules": [
+            "custom/wallchange",
+            "custom/theme",
+            "custom/wbar",
+            "custom/cliphist",
+            "custom/sensorsinfo",
+            "custom/dunst",
             "custom/hyde-menu",
             "custom/power"
         ],

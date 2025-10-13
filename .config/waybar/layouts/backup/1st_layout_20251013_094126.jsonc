@@ -18,6 +18,7 @@
         "orientation": "inherit",
         "modules": [
             "hyprland/workspaces",
+            "hyprland/window"
         ]
     },
     "modules-center": [

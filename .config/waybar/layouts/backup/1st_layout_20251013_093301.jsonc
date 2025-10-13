@@ -18,6 +18,7 @@
         "orientation": "inherit",
         "modules": [
             "hyprland/workspaces",
+            "hyprland/window"
         ]
     },
     "modules-center": [
@@ -25,25 +26,21 @@
     ],
     "group/pill#center": {
         "modules": [
-            "custom/updates",
-            "custom/sensorsinfo",
-            "custom/gpuinfo",
-            "custom/cpuinfo",
-            "cpu",
-            "memory",
+            "clock",
+            
         ],
         "orientation": "inherit"
     },
     "modules-right": [
         "group/pill#right1",
         "group/pill#right2",
+        "group/pill#right3"
     ],
     "group/pill#right1": {
         "modules": [
             "mpris",
             "privacy",
             "tray",
-            "custom/dunst",
             "battery"
         ],
         "orientation": "inherit"
@@ -55,7 +52,16 @@
             "backlight",
             "pulseaudio",
             "pulseaudio#microphone",
-            "clock",
+            "custom/updates",
+        ],
+        "orientation": "inherit"
+    },
+    "group/pill#right3": {
+        "modules": [
+            "custom/sensorsinfo",
+            "cpu",
+            "memory",
+            "custom/dunst",
             "custom/hyde-menu",
             "custom/power"
         ],
