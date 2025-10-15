@@ -16,9 +16,9 @@ ZSH_THEME="gnzh"
 # Source files
 [[ -f "$ZSH/oh-my-zsh.sh" ]] && source "$ZSH/oh-my-zsh.sh"
 [[ -f "$HOME/.zsh_private" ]] && source "$HOME/.zsh_private"
-[[ -f "$HOME/.shell_alias" ]] && source "$HOME/.shell_alias"
-[[ -f "$HOME/.shell_exports" ]] && source "$HOME/.shell_exports"
-[[ -f "$HOME/.shell_changes" ]] && source "$HOME/.shell_changes"
+[[ -f "$HOME/.config/zsh/shell_changes/.shell_alias" ]] && source "$HOME/.config/zsh/shell_changes/.shell_alias"
+[[ -f "$HOME/.config/zsh/shell_changes/.shell_exports" ]] && source "$HOME/.config/zsh/shell_changes/.shell_exports"
+[[ -f "$HOME/.config/zsh/shell_changes/.shell_changes" ]] && source "$HOME/.config/zsh/shell_changes/.shell_changes"
 # fzf keybindings & completion (if installed via pacman)
 [[ -f /usr/share/fzf/key-bindings.zsh ]] && source /usr/share/fzf/key-bindings.zsh
 [[ -f /usr/share/fzf/completion.zsh ]] && source /usr/share/fzf/completion.zsh
