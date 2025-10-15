@@ -9,10 +9,8 @@
 # If you come from bash you might have to change your $PATH.
 export PATH="$HOME/bin:$HOME/.local/bin:/usr/local/bin:$HOME/.atuin/bin:/home/bk/bin:$PATH"
 
-#OH-MY-Posh
-POSH_THEME="kali"
-#"clean-detailed"
-eval "$(oh-my-posh init zsh --config /home/bk/Documents/posh-themes/themes/$POSH_THEME.omp.json)"
+#OH-MY-ZSH
+ZSH_THEME="bira"
 
 # Source files
 [[ -f "$ZSH/oh-my-zsh.sh" ]] && source "$ZSH/oh-my-zsh.sh"
@@ -48,7 +46,7 @@ setopt AUTOCD # type a dir to cd
 
 # Standard plugins can be found in $ZSH/plugins/
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
-plugins=(git archlinux zsh-syntax-highlighting zsh-autosuggestions vi-mode zsh-completions fzf-tab zoxide)
+plugins=(git archlinux zsh-syntax-highlighting zsh-autosuggestions vi-mode zoxide)
 
 # Uncomment the following line to enable command auto-correction.
 ENABLE_CORRECTION="disable"
