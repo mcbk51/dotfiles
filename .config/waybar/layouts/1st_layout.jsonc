@@ -35,10 +35,10 @@
     ],
     "group/pill#center": {
         "modules": [
-            "custom/hyprsunset",
+            "custom/updates",
             "idle_inhibitor",
             "clock",
-            "custom/updates",
+            "custom/hyprsunset",
             "custom/dunst",
         ],
         "orientation": "inherit"
