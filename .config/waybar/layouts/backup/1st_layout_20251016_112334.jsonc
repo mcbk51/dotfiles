@@ -17,6 +17,7 @@
     "group/pill#left1": {
         "modules": [
             "hyprland/workspaces",
+            "custom/updates",
         ],
         "orientation": "inherit",
     },
@@ -35,11 +36,9 @@
     ],
     "group/pill#center": {
         "modules": [
-            "custom/hyprsunset",
             "idle_inhibitor",
             "clock",
-            "custom/updates",
-            "custom/dunst",
+            "custom/hyprsunset",
         ],
         "orientation": "inherit"
     },
@@ -61,6 +60,7 @@
   },
     "group/pill#right2": {
         "modules": [
+            "custom/dunst",
             "tray",
             "custom/hyde-menu",
             "custom/power"

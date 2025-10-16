@@ -17,7 +17,6 @@
     "group/pill#left1": {
         "modules": [
             "hyprland/workspaces",
-            "custom/updates",
         ],
         "orientation": "inherit",
     },
@@ -36,9 +35,11 @@
     ],
     "group/pill#center": {
         "modules": [
+            "custom/hyprsunset",
             "idle_inhibitor",
             "clock",
-            "custom/hyprsunset",
+            "custom/updates",
+            "custom/dunst",
         ],
         "orientation": "inherit"
     },
@@ -52,7 +53,6 @@
             "mpris",
             "privacy",
             "battery",
-            "custom/dunst",
             "backlight",
             "pulseaudio",
             "pulseaudio#microphone",

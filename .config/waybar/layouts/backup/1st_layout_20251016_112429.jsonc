@@ -35,8 +35,8 @@
     ],
     "group/pill#center": {
         "modules": [
-            "custom/hyprsunset",
             "idle_inhibitor",
+            "custom/hyprsunset",
             "clock",
             "custom/updates",
             "custom/dunst",
