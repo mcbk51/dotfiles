@@ -1,0 +1,60 @@
+# For a full list of active aliases, run `alias`.
+
+# Basic
+alias c='clear'
+alias cp='cp -i' 
+#alias cd='z'
+alias mv='mv -i'
+
+# ls changes
+alias ls='eza --color=always --long --git --icons=always --no-time --no-user --no-permissions --no-filesize' 
+alias la='eza --color=always --all --long --git --icons=always --header --no-time'
+alias lh='ls --all'
+alias lt='ls --all --tree --git-ignore'
+
+# Sourcing 
+alias sz='source ~/.config/zsh/.zshrc'
+alias st='tmux source ~/.config/tmux/tmux.conf'
+
+# Arch changes
+alias up='sudo pacman -Syu'
+alias sp='sudo pacman'
+alias in='sudo pacman -S'
+alias un='sudo pacman -Rns'
+alias y='yay -S'
+
+# Vim
+alias v='nvim'
+alias sv='sudo nvim'
+alias vs='nvim $(fzf --preview="bat --color=always {}")'
+alias vim='nvim'
+
+alias flatpak='flatpak --user'
+alias lg='lazygit'
+
+# Change directiory
+alias cd..='cd ..'
+alias ..='cd ..'
+alias ...='cd ../..'
+alias ....='cd ../../..'
+alias .....='cd ../../../..'
+
+# fzf
+alias fd='fcd'
+alias fz='fzf --preview "bat --style=numbers --color=always {}" --preview-window right:60%'
+
+# rm changes
+alias rm='rmtrash'
+alias rmd='rmdirtrash'
+
+
+#Keybinds 
+bindkey -s '^F' 'fcd\n'
+
+# Other
+alias senv='source .venv/bin/activate'
+alias sport_sch='~/dev/projects/sports_schedule/sport_schedule' 
+
+## Not in use
+
+#alias n='nnnalias'

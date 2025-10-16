@@ -1,7 +1,2 @@
 #Files to ignore
-
-.shell_alias
-.shell_changes
-.shell_exports
-
 .config/krunnerrc
