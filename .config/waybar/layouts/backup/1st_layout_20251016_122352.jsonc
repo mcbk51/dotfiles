@@ -27,7 +27,6 @@
             "custom/gpuinfo",
             "cpu",
             "memory",
-            "custom/updates",
       ]
     },
 
@@ -59,8 +58,9 @@
   },
     "group/pill#right2": {
         "modules": [
-            "custom/dunst",
             "idle_inhibitor",
+            "custom/updates",
+            "custom/dunst",
             "custom/hyprsunset",
         ],
         "orientation": "inherit"
@@ -75,7 +75,7 @@
     },
 
     "clock": {
-        "format": "{:%I:%M %p %a, %b-%d}"
+        "format": "{:%I:%M %p  %b-%d}"
     }
 }
 

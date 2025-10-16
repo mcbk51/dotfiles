@@ -59,9 +59,9 @@
   },
     "group/pill#right2": {
         "modules": [
-            "custom/dunst",
             "idle_inhibitor",
             "custom/hyprsunset",
+            "custom/dunst",
         ],
         "orientation": "inherit"
   },

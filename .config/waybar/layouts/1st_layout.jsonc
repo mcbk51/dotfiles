@@ -27,6 +27,7 @@
             "custom/gpuinfo",
             "cpu",
             "memory",
+            "custom/updates",
       ]
     },
 
@@ -35,18 +36,15 @@
     ],
     "group/pill#center": {
         "modules": [
-            "custom/updates",
-            "idle_inhibitor",
             "clock",
-            "custom/hyprsunset",
-            "custom/dunst",
         ],
         "orientation": "inherit"
     },
 
     "modules-right": [
         "group/pill#right1",
-        "group/pill#right2"
+        "group/pill#right2",
+        "group/pill#right3"
     ],
     "group/pill#right1": {
         "modules": [
@@ -61,6 +59,14 @@
   },
     "group/pill#right2": {
         "modules": [
+            "custom/dunst",
+            "idle_inhibitor",
+            "custom/hyprsunset",
+        ],
+        "orientation": "inherit"
+  },
+    "group/pill#right3": {
+        "modules": [
             "tray",
             "custom/hyde-menu",
             "custom/power"
@@ -69,7 +75,7 @@
     },
 
     "clock": {
-        "format": "{:%I:%M %p  %b-%d}"
+        "format": "{:%I:%M %p %a, %b-%d}"
     }
 }
 
