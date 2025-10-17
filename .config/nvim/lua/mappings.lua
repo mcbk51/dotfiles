@@ -102,6 +102,12 @@ end, { desc = "telescope file browser" })
 -- terminal
 map("t", "<C-x>", "<C-\\><C-N>", { desc = "terminal escape terminal mode" })
 
+-- adding lazygit
+vim.keymap.set("n", "<leader>gg", function()
+  vim.cmd "split"
+  vim.cmd "terminal lazygit"
+  vim.cmd "startinsert"
+end, { desc = "Open lazygit in new tab" })
 -- new terminals
 --map("n", "<leader>h", function()
 --  require("nvchad.term").new { pos = "sp" }
