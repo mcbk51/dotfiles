@@ -76,6 +76,10 @@
 
     "clock": {
         "format": "{:%a, %b-%d %I:%M%p}"
+    },
+
+    "idle_inhibitor": {
+        "start-activated": true
     }
 }
 
