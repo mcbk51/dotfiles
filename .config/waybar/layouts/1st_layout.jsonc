@@ -12,7 +12,8 @@
 
     "modules-left": [
         "group/pill#left1",
-        "group/pill#left2"
+        "group/pill#left2",
+        "group/pill#left3",
     ],
     "group/pill#left1": {
         "modules": [
@@ -25,9 +26,14 @@
         "modules": [
             "custom/cpuinfo",
             "custom/gpuinfo",
+      ]
+    },
+
+    "group/pill#left3": {
+        "orientation": "inherit",
+        "modules": [
             "cpu",
             "memory",
-            "custom/updates",
       ]
     },
 
@@ -44,7 +50,8 @@
     "modules-right": [
         "group/pill#right1",
         "group/pill#right2",
-        "group/pill#right3"
+        "group/pill#right3",
+        "group/pill#right4"
     ],
     "group/pill#right1": {
         "modules": [
@@ -59,13 +66,20 @@
   },
     "group/pill#right2": {
         "modules": [
-            "custom/dunst",
+            "custom/updates",
             "idle_inhibitor",
             "custom/hyprsunset",
         ],
         "orientation": "inherit"
   },
     "group/pill#right3": {
+        "modules": [
+            "custom/dunst",
+        ],
+        "orientation": "inherit"
+    },
+
+    "group/pill#right4": {
         "modules": [
             "tray",
             "custom/hyde-menu",
