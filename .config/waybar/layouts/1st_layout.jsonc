@@ -74,14 +74,14 @@
   },
     "group/pill#right3": {
         "modules": [
-            "custom/dunst",
+            "tray",
         ],
         "orientation": "inherit"
     },
 
     "group/pill#right4": {
         "modules": [
-            "tray",
+            "custom/dunst",
             "custom/hyde-menu",
             "custom/power"
         ],

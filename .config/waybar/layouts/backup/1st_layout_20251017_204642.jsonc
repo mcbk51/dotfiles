@@ -83,7 +83,7 @@
         "modules": [
             "custom/dunst",
             "custom/hyde-menu",
-            "custom/power"
+           // "custom/power"
         ],
         "orientation": "inherit"
     },
