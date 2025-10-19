@@ -55,6 +55,7 @@ bindkey -s '^F' 'fcd\n'
 alias senv='source .venv/bin/activate'
 alias sport_sch='~/dev/projects/sports_schedule/sport_schedule' 
 alias docker='podman'
+alias pushg='~/dev/scripts/general/push-git.sh'
 ## Not in use
 
 #alias n='nnnalias'
