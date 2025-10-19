@@ -54,9 +54,6 @@ ENABLE_CORRECTION="disable"
 eval "$(fzf --zsh)"
 eval "$(zoxide init --cmd cd zsh)"
 eval "$(atuin init zsh)"
-eval "$(ssh-agent -s)"
-ssh-add ~/.ssh/id_ed25519
-
 
 # Generated for envman. Do not edit.1
 [ -s "$HOME/.config/envman/load.sh" ] && source "$HOME/.config/envman/load.sh"
