@@ -60,7 +60,7 @@ group {
 #Setting the opacity for all apps to 1 as this theme is supposed to be a dark minimal theme with no blur etc
 #Comment the below line to enable blur
 
-windowrulev2 = opacity 1 override 1 override 1 override,class:^(.*)$
+#windowrulev2 = opacity 1 override 1 override 1 override,class:^(.*)$
 
 layerrule = blur, waybar
 layerrule = ignorezero, waybar
