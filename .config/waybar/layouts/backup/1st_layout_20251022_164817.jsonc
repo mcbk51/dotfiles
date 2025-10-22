@@ -51,17 +51,11 @@
         "group/pill#right1",
         "group/pill#right2",
         "group/pill#right3",
-        "group/pill#right4",
-        "group/pill#right5",
+        "group/pill#right4"
     ],
     "group/pill#right1": {
         "modules": [
             "mpris",
-        ],
-        "orientation": "inherit"
-  },
-    "group/pill#right2": {
-        "modules": [
             "privacy",
             "battery",
             "backlight",
@@ -70,7 +64,7 @@
         ],
         "orientation": "inherit"
   },
-    "group/pill#right3": {
+    "group/pill#right2": {
         "modules": [
             "custom/updates",
             "idle_inhibitor",
@@ -78,14 +72,14 @@
         ],
         "orientation": "inherit"
   },
-    "group/pill#right4": {
+    "group/pill#right3": {
         "modules": [
             "tray",
         ],
         "orientation": "inherit"
     },
 
-    "group/pill#right5": {
+    "group/pill#right4": {
         "modules": [
             "custom/dunst",
             "custom/hyde-menu",
