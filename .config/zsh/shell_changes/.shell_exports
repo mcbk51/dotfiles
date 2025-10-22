@@ -4,6 +4,8 @@ export EDITOR=nvim
 export VISUAL=nvim
 export BROWSER="zen-browser"
 export VIDEO="mpv"
+export GOPATH=$HOME/dev/go 
+
 
 # Path to your Oh My Zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
