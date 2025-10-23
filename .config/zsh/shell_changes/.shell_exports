@@ -5,6 +5,7 @@ export VISUAL=nvim
 export BROWSER="zen-browser"
 export VIDEO="mpv"
 export GOPATH=$HOME/dev/go 
+export STARSHIP_CONFIG=~/dotfiles/.config/starship/starship.toml
 
 
 # Path to your Oh My Zsh installation.

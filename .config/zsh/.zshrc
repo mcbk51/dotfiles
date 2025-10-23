@@ -10,7 +10,7 @@
 export PATH="$HOME/bin:$HOME/.local/bin:/usr/local/bin:$HOME/.atuin/bin:/home/bk/bin:$PATH"
 
 #ZSH_THEME="kphoen"
-ZSH_THEME="gnzh"
+#ZSH_THEME="gnzh"
 
 # Source files
 [[ -f "$ZSH/oh-my-zsh.sh" ]] && source "$ZSH/oh-my-zsh.sh"
@@ -54,6 +54,7 @@ ENABLE_CORRECTION="disable"
 eval "$(fzf --zsh)"
 eval "$(zoxide init --cmd cd zsh)"
 eval "$(atuin init zsh)"
+eval "$(starship init zsh)"
 
 #Function to start ssh-agent and add key
 ssh-agent(){
