@@ -7,12 +7,13 @@ $git_state\
 $git_status\
 $git_metrics\
 $fill\
-$go\
+$golang\
 $lua\
-$podman-context\
 $python\
 $nodejs\
-$cmd_duration $jobs\
+$package\
+$jobs\
+$cmd_duration 
 $line_break\
 $character"""
 
@@ -65,6 +66,23 @@ style = "yellow"
 
 [memory_usage]
 symbol = " "
+
+[package]
+symbol = '󰏗 '
+
+[python]
+style = 'teal'
+symbol = ' '
+format = '[${symbol}${pyenv_prefix}(${version} )(\($virtualenv\) )]($style)'
+pyenv_version_name = true
+pyenv_prefix = ''
+
+[lua]
+symbol = ' '
+
+[golang]
+style = 'blue'
+symbol = ' '
 
 [rust]
 symbol = " "
