@@ -87,7 +87,9 @@ truncation_symbol = "…/"
 "Downloads" = " "
 "Music" = "󰝚 "
 "Pictures" = " "
-"Developer" = "󰲋 "
+"dev" = "󰲋 "
+"~" = ""
+"Videos" = "󰕧 "
 
 [character]
 disabled = false
