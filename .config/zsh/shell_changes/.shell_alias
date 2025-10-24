@@ -29,8 +29,10 @@ alias sv='sudo nvim'
 alias vs='nvim $(fzf --preview="bat --color=always {}")'
 alias vim='nvim'
 
+# apps
 alias flatpak='flatpak --user'
 alias lg='lazygit'
+alias yz='yazi'
 
 # Change directiory
 alias cd..='cd ..'
