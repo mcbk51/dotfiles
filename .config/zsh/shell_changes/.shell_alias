@@ -54,8 +54,9 @@ alias rmd='rmdirtrash'
 bindkey -s '^F' 'fcd\n'
 
 # Other
-alias senv='source .venv/bin/activate'
 alias sport_sch='~/dev/projects/sports_schedule/sport_schedule' 
+alias ts='/bin/.local//scripts/tmux/tmux-sessionizer'
+alias tw='/bin/.local//scripts/tmux/tmux-windowizer'
 alias docker='podman'
 alias pushg='~/dev/scripts/general/push_git/push-git.sh'
 ## Not in use
