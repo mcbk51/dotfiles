@@ -25,10 +25,9 @@ export GNUPGHOME="$XDG_DATA_HOME"/gnupg
 export XCURSOR_PATH=/usr/share/icons:$XDG_DATA_HOME/icons
 
 export GTK2_RC_FILES="$XDG_CONFIG_HOME"/gtk-2.0/gtkrc
-
+export DOCKER_HOST=unix:///run/user/1000/podman/podman.sock
 export CUDA_CACHE_PATH="$XDG_CACHE_HOME"/nv
 export NUGET_PACKAGES="$XDG_CACHE_HOME"/NuGetPackages
-
 export XAUTHORITY="$XDG_RUNTIME_DIR"/Xauthority
 
 
