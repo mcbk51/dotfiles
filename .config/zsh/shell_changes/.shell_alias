@@ -15,6 +15,8 @@ alias lt='ls --all --tree --git-ignore'
 # Sourcing 
 alias sz='source ~/.config/zsh/.zshrc'
 alias st='tmux source ~/.config/tmux/tmux.conf'
+alias ts='/bin/.local/scripts/tmux/tmux-sessionizer'
+alias tw='/bin/.local/scripts/tmux/tmux-windowizer'
 
 # Arch changes
 alias up='sudo pacman -Syu'
@@ -54,8 +56,6 @@ bindkey -s '^F' 'fcd\n'
 
 # Other
 alias sport_sch='~/dev/projects/sports_schedule/sport_schedule' 
-alias ts='/bin/.local/scripts/tmux/tmux-sessionizer'
-alias tw='/bin/.local/scripts/tmux/tmux-windowizer'
 alias docker='podman'
 alias pushg='/bin/.local/scripts/general/push_git/push-git.sh'
 ## Not in use
