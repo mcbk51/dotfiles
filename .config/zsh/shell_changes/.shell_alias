@@ -19,9 +19,8 @@ alias st='tmux source ~/.config/tmux/tmux.conf'
 # Arch changes
 alias up='sudo pacman -Syu'
 alias sp='sudo pacman'
-alias in='sudo pacman -S'
+alias in='yay -S'
 alias un='sudo pacman -Rns'
-alias yn='yay -S'
 
 # Vim
 alias v='nvim'
