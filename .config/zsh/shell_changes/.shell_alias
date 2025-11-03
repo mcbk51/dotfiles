@@ -58,6 +58,7 @@ bindkey -s '^F' 'fcd\n'
 alias sport_sch='~/dev/projects/sports_schedule/sport_schedule' 
 alias docker='podman'
 alias pushg='/bin/.local/scripts/general/push_git/push-git.sh'
+alias lapm='/bin/.local/scripts/general/laptop_monitor.sh'
 ## Not in use
 
 #alias n='nnnalias'
