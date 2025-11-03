@@ -12,7 +12,7 @@
       "memory",
       "cpu",
       "custom/cpuinfo",
-      "custom/gpuinfo",
+      "custom/gpuinfo#nvidia",
     ]
   },
   "custom/right#arrow": {

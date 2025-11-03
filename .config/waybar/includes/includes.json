@@ -1,5 +1,6 @@
 {
     "include": [
+        "/home/bk/.config/waybar/modules/group-hide-pcinfo.jsonc",
         "/home/bk/.local/share/waybar/modules/image#wallpaper.json",
         "/home/bk/.local/share/waybar/modules/privacy.json",
         "/home/bk/.local/share/waybar/modules/tray.json",
