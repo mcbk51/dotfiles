@@ -56,11 +56,11 @@
     "group/pill#right1": {
         "modules": [
             "mpris",
+            "pulseaudio",
+            "pulseaudio#microphone",
             "privacy",
             "battery",
             "backlight",
-            "pulseaudio",
-            "pulseaudio#microphone",
         ],
         "orientation": "inherit"
   },
