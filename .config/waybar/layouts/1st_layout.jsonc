@@ -13,7 +13,6 @@
     "modules-left": [
         "group/pill#left1",
         "group/pill#left2",
-        "group/pill#left3",
     ],
     "group/pill#left1": {
         "modules": [
@@ -24,16 +23,10 @@
     "group/pill#left2": {
         "orientation": "inherit",
         "modules": [
+            "memory",
+            "cpu",
             "custom/cpuinfo",
             "custom/gpuinfo",
-      ]
-    },
-
-    "group/pill#left3": {
-        "orientation": "inherit",
-        "modules": [
-            "cpu",
-            "memory",
       ]
     },
 
