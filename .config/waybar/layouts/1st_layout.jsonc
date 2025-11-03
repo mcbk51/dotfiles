@@ -58,9 +58,7 @@
             "mpris",
             "pulseaudio",
             "pulseaudio#microphone",
-            "privacy",
             "battery",
-            "backlight",
         ],
         "orientation": "inherit"
   },
