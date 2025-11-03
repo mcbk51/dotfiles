@@ -61,12 +61,12 @@
   },
     "group/pill#right2": {
         "modules": [
-            "group/hide-tray",
             "privacy",
             "battery",
             "backlight",
             "pulseaudio",
             "pulseaudio#microphone",
+            "group/hide-tray",
         ],
         "orientation": "inherit"
   },

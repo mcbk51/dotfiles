@@ -9,7 +9,6 @@
         "$XDG_CONFIG_HOME/waybar/modules/*json*",
         "$XDG_CONFIG_HOME/waybar/includes/includes.json"
     ],
-
     "modules-left": [
         "group/pill#left1",
         "group/pill#left2",
@@ -28,7 +27,6 @@
             "custom/gpuinfo",
       ]
     },
-
     "group/pill#left3": {
         "orientation": "inherit",
         "modules": [
@@ -36,7 +34,6 @@
             "memory",
       ]
     },
-
     "modules-center": [
         "group/pill#center"
     ],
@@ -47,21 +44,20 @@
         ],
         "orientation": "inherit"
     },
-
     "modules-right": [
         "group/pill#right1",
         "group/pill#right2",
-        "group/pill#right3",
+        "group/hide-tray",
+        "group/pill#right4",
     ],
     "group/pill#right1": {
         "modules": [
             "mpris",
         ],
         "orientation": "inherit"
-  },
+    },
     "group/pill#right2": {
         "modules": [
-            "group/hide-tray",
             "privacy",
             "battery",
             "backlight",
@@ -69,8 +65,23 @@
             "pulseaudio#microphone",
         ],
         "orientation": "inherit"
-  },
-    "group/pill#right3": {
+    },
+    "group/hide-tray": {
+        "orientation": "inherit",
+        "drawer": {
+            "transition-duration": 500,
+            "children-class": "hide-tray-drawer",
+            "transition-left-to-right": false,
+            "click-to-reveal": true
+        },
+        "modules": ["custom/dropdown#arrow", "tray"]
+    },
+    "custom/dropdown#arrow": {
+        "format": "<span size='large'></span> ",
+        "tooltip": true,
+        "tooltip-format": "Reveal tray"
+    },
+    "group/pill#right4": {
         "modules": [
             "custom/updates",
             "custom/dunst",
@@ -79,13 +90,10 @@
         ],
         "orientation": "inherit"
     },
-
     "clock": {
         "format": "{:%a, %b-%d %I:%M%p}"
     },
-
     "idle_inhibitor": {
         "start-activated": true
     }
 }
-

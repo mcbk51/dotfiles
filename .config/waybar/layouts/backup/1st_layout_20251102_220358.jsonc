@@ -42,6 +42,7 @@
     ],
     "group/pill#center": {
         "modules": [
+            "custom/hyprsunset",
             "clock",
             "idle_inhibitor",
         ],
@@ -52,6 +53,7 @@
         "group/pill#right1",
         "group/pill#right2",
         "group/pill#right3",
+        "group/pill#right4",
     ],
     "group/pill#right1": {
         "modules": [
@@ -61,7 +63,6 @@
   },
     "group/pill#right2": {
         "modules": [
-            "group/hide-tray",
             "privacy",
             "battery",
             "backlight",
@@ -71,6 +72,15 @@
         "orientation": "inherit"
   },
     "group/pill#right3": {
+
+    "modules": [
+      "custom/dropdown#arrow", 
+       "tray"
+    ],
+        "orientation": "inherit"
+    },
+
+    "group/pill#right4": {
         "modules": [
             "custom/updates",
             "custom/dunst",
