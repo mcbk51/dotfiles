@@ -58,13 +58,13 @@
             "mpris",
             "pulseaudio",
             "pulseaudio#microphone",
-            "battery",
         ],
         "orientation": "inherit"
   },
     "group/pill#right2": {
         "modules": [
             "group/hide-tray",
+            "battery",
             "custom/updates",
             "custom/dunst",
             "custom/hyde-menu",
