@@ -42,6 +42,7 @@
     ],
     "group/pill#center": {
         "modules": [
+            "custom/hyprsunset",
             "clock",
             "idle_inhibitor",
         ],
@@ -51,17 +52,10 @@
     "modules-right": [
         "group/pill#right1",
         "group/pill#right2",
-        "group/pill#right3",
     ],
     "group/pill#right1": {
         "modules": [
             "mpris",
-        ],
-        "orientation": "inherit"
-  },
-    "group/pill#right2": {
-        "modules": [
-            "group/hide-tray",
             "privacy",
             "battery",
             "backlight",
@@ -70,8 +64,9 @@
         ],
         "orientation": "inherit"
   },
-    "group/pill#right3": {
+    "group/pill#right2": {
         "modules": [
+            "group/hide-tray",
             "custom/updates",
             "custom/dunst",
             "custom/hyde-menu",
