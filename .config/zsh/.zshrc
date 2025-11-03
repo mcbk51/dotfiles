@@ -14,7 +14,7 @@ export PATH="$HOME/bin:$HOME/.local/bin:/usr/local/bin:$HOME/.atuin/bin:/home/bk
 
 # Source files
 [[ -f "$ZSH/oh-my-zsh.sh" ]] && source "$ZSH/oh-my-zsh.sh"
-[[ -f "$HOME/.zsh_private" ]] && source "$HOME/.zsh_private"
+[[ -f "$HOME/Nextcloud/Documents/Important/.zsh_private" ]] && source "$HOME/Nextcloud/Documents/Important/.zsh_private"
 [[ -f "$HOME/.config/zsh/shell_changes/.shell_alias" ]] && source "$HOME/.config/zsh/shell_changes/.shell_alias"
 [[ -f "$HOME/.config/zsh/shell_changes/.shell_exports" ]] && source "$HOME/.config/zsh/shell_changes/.shell_exports"
 [[ -f "$HOME/.config/zsh/shell_changes/.shell_changes" ]] && source "$HOME/.config/zsh/shell_changes/.shell_changes"
