@@ -1,0 +1,24 @@
+{
+  "group/hide-pcinfo": {
+    "orientation": "inherit",
+    "drawer": {
+      "transition-duration": "0.5",
+      "children-class": "hide-pcinfo-drawer",
+      "transition-left-to-right": false,
+      "click-to-reveal": true
+    },
+    "modules": [
+      "custom/right#arrow",
+      "memory",
+      "cpu",
+      "custom/cpuinfo",
+      "custom/gpuinfo",
+    ]
+  },
+  "custom/right#arrow": {
+    "format": "<span size='large'></span> ",
+    "tooltip": true,
+    "tooltip-format": "Reveal pc info"
+    
+  }
+}

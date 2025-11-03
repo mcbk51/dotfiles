@@ -12,6 +12,7 @@
 
     "modules-left": [
         "group/pill#left1",
+        "group/pill#left2",
     ],
     "group/pill#left1": {
         "modules": [
@@ -19,6 +20,15 @@
             "group/hide-pcinfo"
         ],
         "orientation": "inherit",
+    },
+    "group/pill#left2": {
+        "orientation": "inherit",
+        "modules": [
+            "memory",
+            "cpu",
+            "custom/cpuinfo",
+            "custom/gpuinfo",
+      ]
     },
 
     "modules-center": [
