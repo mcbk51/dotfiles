@@ -32,6 +32,7 @@ return {
       "RenderMarkdownH6",
     },
   },
+
   link = {
     enabled = true,
     render_modes = true,
