@@ -37,7 +37,6 @@
         "/home/bk/.local/share/waybar/modules/custom-updates.jsonc",
         "/home/bk/.local/share/waybar/modules/custom-wallchange.jsonc",
         "/home/bk/.local/share/waybar/modules/custom-wbar.jsonc",
-        "/home/bk/.local/share/waybar/modules/custom-weather.jsonc",
         "/home/bk/.local/share/waybar/modules/custom-workflows.jsonc",
         "/home/bk/.local/share/waybar/modules/gamemode.jsonc",
         "/home/bk/.local/share/waybar/modules/group-eyecare.jsonc",
@@ -65,7 +64,8 @@
         "/home/bk/.local/share/waybar/modules/wlr-taskbar.jsonc",
         "/home/bk/.local/share/waybar/modules/temperature.jsonc",
         "/home/bk/.local/share/waybar/modules/group-hide-tray.jsonc",
-        "/home/bk/.local/share/waybar/modules/group-hide-pcinfo.jsonc"
+        "/home/bk/.local/share/waybar/modules/group-hide-pcinfo.jsonc",
+        "/home/bk/.local/share/waybar/modules/custom-weather.jsonc"
     ],
     "image#wallpaper": {
         "size": 30,

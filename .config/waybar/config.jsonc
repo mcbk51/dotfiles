@@ -16,7 +16,8 @@
     "group/pill#left1": {
         "modules": [
             "hyprland/workspaces",
-            "group/hide-pcinfo"
+            "group/hide-pcinfo",
+            "custom/weather"
         ],
         "orientation": "inherit",
     },
