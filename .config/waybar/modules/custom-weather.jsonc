@@ -1,0 +1,9 @@
+{
+  "custom/weather": {
+    "exec": "wttrbar --fahrenheit",
+    "tooltip": true,
+    "format": "{}",
+    "interval": 30,
+    "return-type": "json"
+  }
+}
