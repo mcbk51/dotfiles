@@ -103,11 +103,17 @@ end, { desc = "telescope file browser" })
 map("t", "<C-x>", "<C-\\><C-N>", { desc = "terminal escape terminal mode" })
 
 -- adding lazygit
-vim.keymap.set("n", "<leader>gg", function()
+map("n", "<leader>gg", function()
   vim.cmd "split"
   vim.cmd "terminal lazygit"
   vim.cmd "startinsert"
 end, { desc = "Open lazygit in new tab" })
+
+-- easymotion
+map("n", "<leader><Leader>s", "<Plug>(easymotion-overwin-f2)", {})
+map("n", "<Leader><Leader>j", "<Plug>(easymotion-j)", {})
+map("n", "<Leader><Leader>k", "<Plug>(easymotion-k)", {})
+
 -- new terminals
 --map("n", "<leader>h", function()
 --  require("nvchad.term").new { pos = "sp" }
