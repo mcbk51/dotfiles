@@ -26,7 +26,7 @@ return {
     },
     messages = {
       enabled = true,
-      view = "mini", -- could be "mini", "notify", or "popup"
+      view = "notify", -- could be "mini", "notify", or "popup"
       view_error = "notify",
       view_warn = "notify",
       view_history = "messages",
