@@ -1,5 +1,6 @@
 {
     "include": [
+        "/home/bk/.config/waybar/modules/custom-weather.jsonc",
         "/home/bk/.config/waybar/modules/group-hide-pcinfo.jsonc",
         "/home/bk/.local/share/waybar/modules/image#wallpaper.json",
         "/home/bk/.local/share/waybar/modules/privacy.json",
@@ -64,8 +65,8 @@
         "/home/bk/.local/share/waybar/modules/wlr-taskbar.jsonc",
         "/home/bk/.local/share/waybar/modules/temperature.jsonc",
         "/home/bk/.local/share/waybar/modules/group-hide-tray.jsonc",
-        "/home/bk/.local/share/waybar/modules/group-hide-pcinfo.jsonc",
-        "/home/bk/.local/share/waybar/modules/custom-weather.jsonc"
+        "/home/bk/.local/share/waybar/modules/custom-weather.jsonc",
+        "/home/bk/.local/share/waybar/modules/group-hide-pcinfo.jsonc"
     ],
     "image#wallpaper": {
         "size": 30,

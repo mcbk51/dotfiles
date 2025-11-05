@@ -17,6 +17,7 @@
         "modules": [
             "hyprland/workspaces",
             "group/hide-pcinfo",
+            "custom/weather"
         ],
         "orientation": "inherit",
     },
