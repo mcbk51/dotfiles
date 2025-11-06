@@ -80,7 +80,7 @@ map("n", "<leader>cm", "<cmd>Telescope git_commits<CR>", { desc = "telescope git
 map("n", "<leader>gt", "<cmd>Telescope git_status<CR>", { desc = "telescope git status" })
 map("n", "<leader>pt", "<cmd>Telescope terms<CR>", { desc = "telescope pick hidden term" })
 
-map("n", "<leader>th", function()
+map("n", "<leader>ct", function()
   require("nvchad.themes").open()
 end, { desc = "telescope nvchad themes" })
 
@@ -103,6 +103,13 @@ end, { desc = "telescope file browser" })
 
 -- terminal
 map("t", "<C-x>", "<C-\\><C-N>", { desc = "terminal escape terminal mode" })
+
+-- vim test
+map("n", "<leader>t", ":TestNearest<CR>")
+map("n", "<leader>T", ":TestFile<CR>")
+map("n", "<leader>a", ":TestSuite<CR>")
+map("n", "<leader>ll", ":TestLast<CR>")
+map("n", "<leader>lg", ":TestVisit<CR>")
 
 -- adding lazygit
 map("n", "<leader>gg", function()
