@@ -30,6 +30,8 @@ map("n", "<leader>n", "<cmd>set nu!<CR>", { desc = "toggle line number" })
 map("n", "<leader>rn", "<cmd>set rnu!<CR>", { desc = "toggle relative number" })
 map("n", "<leader>ch", "<cmd>NvCheatsheet<CR>", { desc = "toggle nvcheatsheet" })
 
+map("n", "<leader>cx", "<cmd>!chmod +x %<CR>", { silent = true })
+
 -- changing working directory
 map("n", "<leader>cd", function()
   local path = vim.fn.expand "%:p:h"
