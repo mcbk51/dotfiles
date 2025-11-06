@@ -38,6 +38,7 @@
   "ui": { "branch": "v3.0", "commit": "bea2af0a76c1098fac0988ad296aa028cad2a333" },
   "vim-autoformat": { "branch": "master", "commit": "e89c47a89909a69c4b4426a71e99c197adae7a44" },
   "vim-easymotion": { "branch": "master", "commit": "b3cfab2a6302b3b39f53d9fd2cd997e1127d7878" },
+  "vim-fugitive": { "branch": "master", "commit": "61b51c09b7c9ce04e821f6cf76ea4f6f903e3cf4" },
   "vim-go": { "branch": "master", "commit": "06ac99359b0b1a7de1e213447d92fd0a46cb4cd0" },
   "vim-quickrun": { "branch": "master", "commit": "dfe5bb049827b1319107d2d2d9bb3db4499f0a39" },
   "vim-test": { "branch": "master", "commit": "2c264d2a5dddb3a7ec927e4359a2b619a8c13a8c" },
