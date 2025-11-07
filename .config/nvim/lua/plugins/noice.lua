@@ -54,8 +54,8 @@ return {
           col = "50%",
         },
         size = {
-          width = 30,
-          height = 10,
+          width = 15,
+          height = 5,
         },
       },
     },
