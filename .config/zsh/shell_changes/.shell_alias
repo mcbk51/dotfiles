@@ -15,8 +15,8 @@ alias lt='ls --all --tree --git-ignore'
 # Sourcing 
 alias sz='source ~/.config/zsh/.zshrc'
 alias st='tmux source ~/.config/tmux/tmux.conf'
-alias ts='/bin/.local/scripts/tmux/tmux-sessionizer'
-alias tw='/bin/.local/scripts/tmux/tmux-windowizer'
+alias ts='~/.local/bin/scripts/tmux/tmux-sessionizer'
+alias tw='~/.local/bin/scripts/tmux/tmux-windowizer'
 
 # Arch changes
 alias up='sudo pacman -Syu'
