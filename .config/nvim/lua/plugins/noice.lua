@@ -26,7 +26,7 @@ return {
     },
     messages = {
       enabled = true,
-      view = "notify", -- could be "mini", "notify", or "popup"
+      view = "mini", -- could be "mini", "notify", or "popup"
       view_error = "notify",
       view_warn = "notify",
       view_history = "messages",
@@ -49,13 +49,21 @@ return {
       },
       popupmenu = {
         relative = "editor",
+        anchor = "top_right",
         position = {
-          row = "60%",
-          col = "50%",
+          row = 1,
+          col = "100%",
         },
         size = {
-          width = 15,
+          width = 40,
           height = 5,
+        },
+        border = {
+          style = "rounded",
+        },
+        win_options = {
+          winblend = 20,
+          zindex = 100,
         },
       },
     },
