@@ -99,15 +99,15 @@ return {
     unchecked = {
       icon = "󰄱 ",
       highlight = "RenderMarkdownUnchecked",
-      scope_highlight = nil,
+      scope_highlight = {},
     },
     checked = {
       icon = "󰱒 ",
       highlight = "RenderMarkdownChecked",
-      scope_highlight = nil,
+      scope_highlight = {},
     },
     custom = {
-      todo = { raw = "[-]", rendered = "󰥔 ", highlight = "RenderMarkdownTodo", scope_highlight = nil },
+      todo = { raw = "[-]", rendered = "󰥔 ", highlight = "RenderMarkdownTodo", scope_highlight = {} },
     },
   },
   bullet = {
@@ -149,3 +149,4 @@ return {
     },
   },
 }
+

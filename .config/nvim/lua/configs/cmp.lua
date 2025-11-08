@@ -1,3 +1,4 @@
+return{
 local cmp = require "cmp"
 local options = {
   completion = { completeopt = "menu,menuone" },
@@ -46,3 +47,4 @@ local options = {
 }
 
 cmp.setup(options)
+}

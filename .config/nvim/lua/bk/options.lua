@@ -22,6 +22,7 @@ vim.opt.signcolumn = "yes"     -- Keep space on the left for signs (LSP, git, et
 vim.opt.numberwidth = 4        -- Width of the number column
 
 -- clipboard
+
 vim.g.clipboard = {
   name = "wl-clipboard",
   copy = {
@@ -34,6 +35,7 @@ vim.g.clipboard = {
   },
   cache_enabled = 0,
 }
+vim.opt.clipboard = "unnamedplus"
 
 --removing ~
 vim.opt.fillchars:append({ eob = " " })
