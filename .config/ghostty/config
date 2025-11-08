@@ -19,3 +19,7 @@ confirm-close-surface = false
 keybind = ctrl+j=scroll_page_fractional:0.5
 keybind = ctrl+k=scroll_page_fractional:-0.5
 keybind = ctrl+shift+comma=unbind
+
+# Example: sets top padding to 5px, bottom padding to 0px
+window-padding-y = "0,0"
+window-padding-color = "extend"
