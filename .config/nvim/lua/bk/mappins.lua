@@ -1,5 +1,4 @@
 vim.g.mapleader = " "
-
 local map = vim.keymap.set
 
 --Vim native file system navigator
@@ -32,7 +31,7 @@ map("n", "<C-c>", "<cmd>%y+<CR>", { desc = "general copy whole file" })
 map("n", "<leader>fw", "<cmd>Telescope live_grep<CR>", { desc = "telescope live grep" })
 map("n", "<leader>fb", "<cmd>Telescope buffers<CR>", { desc = "telescope find buffers" })
 map("n", "<leader>fh", "<cmd>Telescope help_tags<CR>", { desc = "telescope help page" })
-map("n", "<leader>fg", require("telescope.builtin").git_files, { desc = "Find Git Files" })
+map("n", "<leader>fg", "<cmd>Telescope git_files<CR>", { desc = "Find Git Files" })
 
 map("n", "<leader>ma", "<cmd>Telescope marks<CR>", { desc = "telescope find marks" })
 map("n", "<leader>fo", "<cmd>Telescope oldfiles<CR>", { desc = "telescope find oldfiles" })
