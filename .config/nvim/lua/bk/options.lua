@@ -21,8 +21,11 @@ vim.opt.relativenumber = true  -- Show relative line numbers
 vim.opt.signcolumn = "yes"     -- Keep space on the left for signs (LSP, git, etc.)
 vim.opt.numberwidth = 4        -- Width of the number column
 
--- clipboard
 
+vim.g.matchparen_timeout = 20
+vim.g.matchparen_insert_timeout = 20
+
+-- clipboard
 vim.g.clipboard = {
   name = "wl-clipboard",
   copy = {

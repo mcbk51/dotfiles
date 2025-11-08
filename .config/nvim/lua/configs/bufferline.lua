@@ -48,7 +48,7 @@ bufferline.setup({
     show_duplicate_prefix = true,
     persist_buffer_sort = true,
     
-    separator_style = "slant", -- "slant" | "thick" | "thin" | "padded_slant" | { 'any', 'any' }
+    separator_style = "thin", -- "slant" | "thick" | "thin" | "padded_slant" | { 'any', 'any' }
     enforce_regular_tabs = false,
     always_show_bufferline = false,
     hover = {
