@@ -28,7 +28,11 @@ map("n", "<C-k>", "<C-w>k", { desc = "switch window up" })
 
 
 map("n", "<C-s>", "<cmd>w<CR>", { desc = "general save file" })
-map("n", "<C-c>", "<cmd>%y+<CR>", { desc = "general copy whole file" })
+-- map("n", "<C-c>", "<cmd>%y+<CR>", { desc = "general copy whole file" })
+map("n", "<C-c>", function()
+  vim.cmd("%y+")
+end, { desc = "general copy whole file" })
+
 
 --telescope
 map("n", "<leader>fw", "<cmd>Telescope live_grep<CR>", { desc = "telescope live grep" })

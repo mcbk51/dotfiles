@@ -25,20 +25,5 @@ vim.opt.numberwidth = 4        -- Width of the number column
 vim.g.matchparen_timeout = 20
 vim.g.matchparen_insert_timeout = 20
 
--- clipboard
-vim.g.clipboard = {
-  name = "wl-clipboard",
-  copy = {
-    ["+"] = { "wl-copy", "--foreground", "--type", "text/plain" },
-    ["*"] = { "wl-copy", "--foreground", "--type", "text/plain" },
-  },
-  paste = {
-    ["+"] = { "wl-paste", "--no-newline" },
-    ["*"] = { "wl-paste", "--no-newline" },
-  },
-  cache_enabled = 0,
-}
-vim.opt.clipboard = "unnamedplus"
-
 --removing ~
 vim.opt.fillchars:append({ eob = " " })
