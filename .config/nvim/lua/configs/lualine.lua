@@ -1,7 +1,7 @@
 return {
   options = {
     icons_enabled = true,
-    theme = 'auto',
+    theme = 'onedark',
     component_separators = { left = '', right = ''},
     section_separators = { left = '', right = ''},
     disabled_filetypes = {
@@ -44,8 +44,8 @@ return {
     lualine_b = {},
     lualine_c = {'filename'},
     lualine_x = {'location'},
-    lualine_y = {},
-    lualine_z = {}
+    lualine_y = {'progress'},
+    lualine_z = {'location'}
   },
   tabline = {},
   winbar = {},

@@ -32,7 +32,7 @@ map("n", "<C-c>", "<cmd>%y+<CR>", { desc = "general copy whole file" })
 map("n", "<leader>fw", "<cmd>Telescope live_grep<CR>", { desc = "telescope live grep" })
 map("n", "<leader>fb", "<cmd>Telescope buffers<CR>", { desc = "telescope find buffers" })
 map("n", "<leader>fh", "<cmd>Telescope help_tags<CR>", { desc = "telescope help page" })
---map("n", "<leader>fg", require("telescope.builtin").git_files, { desc = "Find Git Files" })
+map("n", "<leader>fg", require("telescope.builtin").git_files, { desc = "Find Git Files" })
 
 map("n", "<leader>ma", "<cmd>Telescope marks<CR>", { desc = "telescope find marks" })
 map("n", "<leader>fo", "<cmd>Telescope oldfiles<CR>", { desc = "telescope find oldfiles" })
@@ -49,7 +49,7 @@ map(
 )
 map("n", "<leader>fe", function()
 	require("telescope").extensions.file_browser.file_browser({
-		path = "%:p:h",
+		path = vim.fn.expand("%:p:h"),
 		select_buffer = true,
 		hidden = true,
 		grouped = true,
