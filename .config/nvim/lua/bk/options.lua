@@ -14,3 +14,26 @@ vim.api.nvim_set_hl(0, "NormalNC", { bg = "none" })
 
 -- set color
 vim.opt.termguicolors = true
+
+-- set number line
+vim.opt.number = true          -- Show absolute line numbers
+vim.opt.relativenumber = true  -- Show relative line numbers
+vim.opt.signcolumn = "yes"     -- Keep space on the left for signs (LSP, git, etc.)
+vim.opt.numberwidth = 4        -- Width of the number column
+
+-- clipboard
+vim.g.clipboard = {
+  name = "wl-clipboard",
+  copy = {
+    ["+"] = { "wl-copy", "--foreground", "--type", "text/plain" },
+    ["*"] = { "wl-copy", "--foreground", "--type", "text/plain" },
+  },
+  paste = {
+    ["+"] = { "wl-paste", "--no-newline" },
+    ["*"] = { "wl-paste", "--no-newline" },
+  },
+  cache_enabled = 0,
+}
+
+--removing ~
+vim.opt.fillchars:append({ eob = " " })
