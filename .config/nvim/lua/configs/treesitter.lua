@@ -1,0 +1,19 @@
+return {
+  ensure_installed = {
+    "lua",
+    "luadoc",
+    "vim",
+    "vimdoc",
+    "go",
+    "python",
+  },
+  
+  highlight = {
+    enable = true,
+    use_languagetree = true,
+  },
+  
+  indent = { 
+    enable = true 
+  },
+}

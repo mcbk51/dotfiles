@@ -11,7 +11,6 @@ return {
       opts = { history = true, updateevents = "TextChanged,TextChangedI" },
       config = function(_, opts)
         require("luasnip").config.set_config(opts)
-        require "nvchad.configs.luasnip"
       end,
     },
     -- autopairing of (){}[] etc
@@ -37,7 +36,4 @@ return {
       "hrsh7th/cmp-path",
     },
   },
-  opts = function()
-    return require "nvchad.configs.cmp"
-  end,
 }
