@@ -4,6 +4,5 @@ return {
   cmd = { "NvimTreeToggle", "NvimTreeFocus" },
   lazy = false,
   opts = function()
-    return require "nvchad.configs.nvimtree"
   end,
 }
