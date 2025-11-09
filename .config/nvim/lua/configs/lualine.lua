@@ -5,16 +5,16 @@ end
 lualine.setup ({
   options = {
     icons_enabled = true,
-    theme = 'onedark',
-    component_separators = { left = '', right = ''},
-    section_separators = { left = '', right = ''},
+    theme = 'ayu_dark',
+    component_separators = '',  -- no separator between components
+    section_separators = '',
     disabled_filetypes = {
       statusline = {},
       winbar = {},
     },
     ignore_focus = {},
     always_divide_middle = true,
-    always_show_tabline = true,
+    always_show_tabline = false,
     globalstatus = false,
     refresh = {
       statusline = 1000,
@@ -37,17 +37,19 @@ lualine.setup ({
   },
   sections = {
     lualine_a = {'mode'},
-    lualine_b = {'branch', 'diff', 'diagnostics'},
+    lualine_b = {'branch'},
     lualine_c = {'filename'},
-    lualine_x = {'encoding', 'fileformat', 'filetype'},
+    lualine_x = {'encoding',' filetype'},
     lualine_y = {'progress'},
-    lualine_z = {'location'}
+    lualine_z = {
+	    {'location', color = 'Normal'}
+    }
   },
   inactive_sections = {
     lualine_a = {},
     lualine_b = {},
-    lualine_c = {'filename'},
-    lualine_x = {'location'},
+    lualine_c = {},
+    lualine_x = {'encoding',},
     lualine_y = {'progress'},
     lualine_z = {'location'}
   },
