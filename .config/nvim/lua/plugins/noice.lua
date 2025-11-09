@@ -1,4 +1,5 @@
 return {
+  -- Copyright (c) 2025 zqw. All Rights Reserved.
   "folke/noice.nvim",
   event = "VeryLazy",
   opts = {
@@ -19,9 +20,9 @@ return {
       enabled = true,
       view = "cmdline_popup", -- "cmdline" (bottom) or "cmdline_popup" (floating)
       format = {
-        cmdline = { icon = "" },
-        search_down = { icon = "⌄" },
-        search_up = { icon = "⌃" },
+        cmdline = { icon = "" },
+        search_down = { icon = "⌄" },
+        search_up = { icon = "⌃" },
       },
     },
     messages = {
@@ -50,24 +51,24 @@ return {
       popupmenu = {
         relative = "editor",
         position = { row = 8, col = "50%" },
-        size = { width = 60, height = 10 },
+        size = { width = 30, height = 6 },
         border = { style = "rounded", padding = { 0, 1 } },
         win_options = {
-        winhighlight = {
-          Normal = "Normal",
-          FloatBorder = "DiagnosticInfo",
+          winhighlight = {
+            Normal = "Normal",
+            FloatBorder = "DiagnosticInfo",
           },
         },
       },
     },
   },
   dependencies = {
-	  "MunifTanjim/nui.nvim",
-	  {
-		  "rcarriga/nvim-notify",
-		  opts ={
-			  background_colour = "#000000",
-		  },
-	  },
-  }
+    "MunifTanjim/nui.nvim",
+    {
+      "rcarriga/nvim-notify",
+      opts = {
+        background_colour = "#000000",
+      },
+    },
+  },
 }
