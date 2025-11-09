@@ -21,10 +21,10 @@ map("i", "<C-l>", "<Right>", { desc = "move right" })
 map("i", "<C-j>", "<Down>", { desc = "move down" })
 map("i", "<C-k>", "<Up>", { desc = "move up" })
 
-map("n", "<C-h>", "<C-w>h", { desc = "switch window left" })
-map("n", "<C-l>", "<C-w>l", { desc = "switch window right" })
-map("n", "<C-j>", "<C-w>j", { desc = "switch window down" })
-map("n", "<C-k>", "<C-w>k", { desc = "switch window up" })
+map("n", "<C-k>", "<cmd>cnext<CR>zz") 
+map("n", "<C-j>", "<cmd>cprev<CR>zz") 
+map("n", "<leader>k", "<cmd>lnext<CR>zz") 
+map("n", "<leader>j", "<cmd>lprev<CR>zz") 
 
 map("n", "<C-s>", "<cmd>w<CR>", { desc = "general save file" })
 -- map("n", "<C-c>", "<cmd>%y+<CR>", { desc = "general copy whole file" })
@@ -115,6 +115,9 @@ map("t", "<C-x>", "<C-\\><C-N>", { desc = "terminal escape terminal mode" })
 -- Move selected text
 map("v", "J", ":m '>+1<CR>gv=gv")
 map("v", "K", ":m '<-2<CR>gv=gv")
+
+-- replace current word whole file 
+map("n", "<leader>s", [[:%s/\<<C-r><C-w>\>/<C-r><C-w>/gI<Left><Left><Left>]])
 
 -- Keep cursor in the middle (Half page jumping and search)  
 map("n", "<C-d>", "<C-d>zz")
