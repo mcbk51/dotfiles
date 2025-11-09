@@ -49,21 +49,14 @@ return {
       },
       popupmenu = {
         relative = "editor",
-        anchor = "top_right",
-        position = {
-          row = 1,
-          col = "100%",
-        },
-        size = {
-          width = 40,
-          height = 5,
-        },
-        border = {
-          style = "rounded",
-        },
+        position = { row = 8, col = "50%" },
+        size = { width = 60, height = 10 },
+        border = { style = "rounded", padding = { 0, 1 } },
         win_options = {
-          winblend = 20,
-          zindex = 100,
+        winhighlight = {
+          Normal = "Normal",
+          FloatBorder = "DiagnosticInfo",
+          },
         },
       },
     },
