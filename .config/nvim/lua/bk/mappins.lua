@@ -1,8 +1,8 @@
 vim.g.mapleader = " "
 local map = function(mode, lhs, rhs, opts)
-    -- Ensure opts is a table, even if nil is passed
-    opts = opts or {}
-    vim.keymap.set(mode, lhs, rhs, opts)
+	-- Ensure opts is a table, even if nil is passed
+	opts = opts or {}
+	vim.keymap.set(mode, lhs, rhs, opts)
 end
 
 --Vim native file system navigator
@@ -26,13 +26,11 @@ map("n", "<C-l>", "<C-w>l", { desc = "switch window right" })
 map("n", "<C-j>", "<C-w>j", { desc = "switch window down" })
 map("n", "<C-k>", "<C-w>k", { desc = "switch window up" })
 
-
 map("n", "<C-s>", "<cmd>w<CR>", { desc = "general save file" })
 -- map("n", "<C-c>", "<cmd>%y+<CR>", { desc = "general copy whole file" })
 map("n", "<C-c>", function()
-  vim.cmd("%y+")
+	vim.cmd("%y+")
 end, { desc = "general copy whole file" })
-
 
 --telescope
 map("n", "<leader>fw", "<cmd>Telescope live_grep<CR>", { desc = "telescope live grep" })
@@ -66,19 +64,17 @@ end, { desc = "telescope file browser" })
 -- Buffer mappings
 map("n", "<leader>b", "<cmd>enew<CR>", { desc = "buffer new" })
 map("n", "<tab>", function()
-  vim.cmd("bnext")
+	vim.cmd("bnext")
 end, { desc = "buffer goto next" })
 map("n", "<S-tab>", function()
-  vim.cmd("bprevious")
+	vim.cmd("bprevious")
 end, { desc = "buffer goto prev" })
 map("n", "<leader>x", function()
-  vim.cmd("bdelete")
+	vim.cmd("bdelete")
 end, { desc = "buffer close" })
-
 
 --chmod
 map("n", "<leader>cx", "<cmd>!chmod +x %<CR>", { silent = true })
-
 
 -- easymotion
 map("n", "<leader><Leader>s", "<Plug>(easymotion-overwin-f2)", {})
@@ -120,7 +116,8 @@ map("n", "<leader>wk", function()
 	vim.cmd("WhichKey " .. vim.fn.input("WhichKey: "))
 end, { desc = "whichkey query lookup" })
 
+-- undotree
+map("n", "<leader>u", vim.cmd.UndotreeToggle)
+
 -- global lsp mappings
 map("n", "<leader>ds", vim.diagnostic.setloclist, { desc = "LSP diagnostic loclist" })
-
-
