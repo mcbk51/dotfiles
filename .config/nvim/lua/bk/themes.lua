@@ -6,7 +6,7 @@ require("tokyonight").setup({
 	transparent = false,
 	terminal_colors = true,
 })
-vim.cmd("colorscheme tokyonight")
+-- vim.cmd("colorscheme tokyonight")
 
 -- Optional: configure other themes without enabling them yet
 require("ayu").setup({ mirage = false, overrides = {} })
@@ -33,6 +33,7 @@ require("onedark").setup({
 		variables = "none",
 	},
 })
+vim.cmd("colorscheme onedark")
 
 -- You can configure other themes similarly but do not call vim.cmd("colorscheme ...") yet
 -- require("oxocarbon").setup({})

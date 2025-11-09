@@ -8,9 +8,9 @@ end
 --Vim native file system navigator
 map("n", "<leader>pv", vim.cmd.Ex)
 
--- nvimtree
-map("n", "<C-n>", "<cmd>NvimTreeToggle<CR>", { desc = "nvimtree toggle window" })
-map("n", "<leader>e", "<cmd>NvimTreeFocus<CR>", { desc = "nvimtree focus window" })
+-- 
+
+
 
 -- Other General changes
 map("n", "<Esc>", "<cmd>noh<CR>", { desc = "general clear highlights" })
