@@ -1,7 +1,6 @@
 {
     "layer": "top",
     "output": ["DP-6"],
-    // "output": ["*"],
     "height": 10,
     "exclusive": true,
     "passthrough": false,
