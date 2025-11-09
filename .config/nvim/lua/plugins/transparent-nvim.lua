@@ -3,6 +3,15 @@ return {
 	config = function()
 		require("transparent").setup({
 			extra_groups = {
+				--  BufferLine
+				"BufferLineTabClose",
+				"BufferLineBufferSelected",
+				"BufferLineFill",
+				"BufferLineBackground",
+				"BufferLineSeparator",
+				"BufferLineIndicatorSelected",
+
+				-- Lualine
 				"lualine_b_normal",
 				"lualine_b_insert",
 				"lualine_b_visual",
@@ -43,6 +52,5 @@ return {
 				"lualine_z_inactive",
 			},
 		})
-		-- require('transparent').clear_prefix('BufferLine')
 	end,
 }
