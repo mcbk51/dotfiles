@@ -35,6 +35,7 @@ end, { desc = "general copy whole file" })
 --telescope
 map("n", "<leader>fw", "<cmd>Telescope live_grep<CR>", { desc = "telescope live grep" })
 map("n", "<leader>fb", "<cmd>Telescope buffers<CR>", { desc = "telescope find buffers" })
+map("n", "<C-b>", "<cmd>Telescope buffers<CR>")
 map("n", "<leader>fh", "<cmd>Telescope help_tags<CR>", { desc = "telescope help page" })
 map("n", "<leader>fg", "<cmd>Telescope git_files<CR>", { desc = "Find Git Files" })
 
