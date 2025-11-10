@@ -113,6 +113,9 @@ map("n", "<C-f>", "<cmd>silent !tmux neww ~/dev/scripts/tmux/tmux-sessionizer<CR
 -- terminal
 map("t", "<C-x>", "<C-\\><C-N>", { desc = "terminal escape terminal mode" })
 
+-- Alpha
+map ("n", "<C-h>", "<cmd>Alpha<CR>", {desc = "open Alpha"})
+
 -- Move selected text
 map("v", "J", ":m '>+1<CR>gv=gv")
 map("v", "K", ":m '<-2<CR>gv=gv")
