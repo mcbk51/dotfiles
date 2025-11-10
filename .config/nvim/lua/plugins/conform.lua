@@ -34,7 +34,7 @@ return {
 			-- Conform can also run multiple formatters sequentially
 			python = { "ruff_fix", "ruff_format" },
 			go = { "goimports" },
-            c = { "clang-format" },
+			c = { "clang-format" },
 			cpp = { "clang-format" },
 			--
 			-- You can use 'stop_after_first' to run the first available formatter from the list
