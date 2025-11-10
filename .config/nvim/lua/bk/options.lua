@@ -56,5 +56,5 @@ vim.g.matchparen_insert_timeout = 20
 --removing ~
 vim.opt.fillchars:append({ eob = " " })
 -- Disable broken plugin queries
-vim.opt.runtimepath:remove(vim.fn.stdpath("data") .. "/lazy/nvim-colo")
+-- vim.opt.runtimepath:remove(vim.fn.stdpath("data") .. "/lazy/nvim-colo")
 
