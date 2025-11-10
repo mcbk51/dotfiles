@@ -108,26 +108,31 @@ map("n", "<leader>/", "gcc", { desc = "toggle comment", remap = true })
 map("v", "<leader>/", "gc", { desc = "toggle comment", remap = true })
 
 -- Tmux-sessionizer
-map("n", "<C-f>", "<cmd>silent !tmux neww ~/dev/scripts/tmux/tmux-sessionizer<CR>", { desc = "terminal escape terminal mode" })
+map(
+	"n",
+	"<C-f>",
+	"<cmd>silent !tmux neww ~/dev/scripts/tmux/tmux-sessionizer<CR>",
+	{ desc = "terminal escape terminal mode" }
+)
 
 -- terminal
 map("t", "<C-x>", "<C-\\><C-N>", { desc = "terminal escape terminal mode" })
 
 -- Alpha
-map ("n", "<C-h>", "<cmd>Alpha<CR>", {desc = "open Alpha"})
+map("n", "<C-h>", "<cmd>Alpha<CR>", { desc = "open Alpha" })
 
 -- Move selected text
 map("v", "J", ":m '>+1<CR>gv=gv")
 map("v", "K", ":m '<-2<CR>gv=gv")
 
--- Keep cursor in the middle (Half page jumping and search)  
+-- Keep cursor in the middle (Half page jumping and search)
 map("n", "<C-d>", "<C-d>zz")
 map("n", "<C-u>", "<C-u>zz")
 map("n", "n", "nzzzv")
 map("n", "N", "Nzzzv")
 
 -- Conserve the previous highlight
-map("x", "<leader>p", "\"_dP", { desc = "conserve previous highlight" })
+map("x", "<leader>p", '"_dP', { desc = "conserve previous highlight" })
 
 -- whichkey
 map("n", "<leader>wK", "<cmd>WhichKey <CR>", { desc = "whichkey all keymaps" })
