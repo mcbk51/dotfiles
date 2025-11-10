@@ -6,13 +6,12 @@ configs.setup({
 		"vim",
 		"go",
 		"python",
-    "bash",
-    "json",
-    "yaml", 
-    "html", 
-    "css", 
-    "markdown"
-    
+		"bash",
+		"json",
+		"yaml",
+		"html",
+		"css",
+		"markdown",
 	},
 
 	highlight = {
