@@ -1,12 +1,3 @@
-vim.api.nvim_create_autocmd("ColorScheme", {
-	pattern = "*",
-	callback = function()
-		vim.api.nvim_set_hl(0, "Normal", { bg = "none" })
-		vim.api.nvim_set_hl(0, "NormalFloat", { bg = "none" })
-		vim.api.nvim_set_hl(0, "NormalNC", { bg = "none" })
-	end,
-})
-
 vim.api.nvim_create_autocmd("TextYankPost", {
 	desc = "Highlight when yanking (copying) texg",
     group = vim.api.nvim_create_augroup("kickstart-highlight-yank", {clear = true}),
@@ -14,11 +5,6 @@ vim.api.nvim_create_autocmd("TextYankPost", {
 		vim.highlight.on_yank()
 	end,
 })
-
--- Apply immediately as well
-vim.api.nvim_set_hl(0, "Normal", { bg = "none" })
-vim.api.nvim_set_hl(0, "NormalFloat", { bg = "none" })
-vim.api.nvim_set_hl(0, "NormalNC", { bg = "none" })
 
 vim.opt.tabstop = 4
 vim.opt.softtabstop = 4
@@ -58,6 +44,19 @@ vim.g.matchparen_insert_timeout = 20
 
 --removing ~
 vim.opt.fillchars:append({ eob = " " })
+
 -- Disable broken plugin queries
 -- vim.opt.runtimepath:remove(vim.fn.stdpath("data") .. "/lazy/nvim-colo")
+
+-- vim.api.nvim_create_autocmd("ColorScheme", { pattern = "*",
+-- 	callback = function()
+-- 		vim.api.nvim_set_hl(0, "Normal", { bg = "none" })
+-- 		vim.api.nvim_set_hl(0, "NormalFloat", { bg = "none" })
+-- 		vim.api.nvim_set_hl(0, "NormalNC", { bg = "none" })
+-- 	end,
+-- })
+-- -- Apply immediately as well
+-- vim.api.nvim_set_hl(0, "Normal", { bg = "none" })
+-- vim.api.nvim_set_hl(0, "NormalFloat", { bg = "none" })
+-- vim.api.nvim_set_hl(0, "NormalNC", { bg = "none" })
 
