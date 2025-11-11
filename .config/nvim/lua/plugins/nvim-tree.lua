@@ -3,6 +3,8 @@ return {
   "nvim-tree/nvim-tree.lua",
   cmd = { "NvimTreeToggle", "NvimTreeFocus" },
   lazy = false,
-  opts = function()
-  end,
+	config = function()
+		require("configs.nvim-tree")
+	end,
+
 }
