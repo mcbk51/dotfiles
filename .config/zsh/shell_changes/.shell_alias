@@ -20,6 +20,7 @@ alias st='tmux source ~/.config/tmux/tmux.conf'
 alias ts='~/.local/bin/scripts/tmux/tmux-sessionizer'
 alias tw='~/.local/bin/scripts/tmux/tmux-windowizer'
 alias ssa='~/.local/bin/scripts/general/ssh-agent.sh'
+alias tb='~/.local/bin/scripts/general/git/test-branch.sh'
 
 # Arch changes
 alias up='sudo pacman -Syu'
