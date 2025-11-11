@@ -32,6 +32,8 @@ map("n", "<C-c>", function()
 	vim.cmd("%y+")
 end, { desc = "general copy whole file" })
 
+map("v", "<leader>y", '"+y', { desc = "Copy to system clipboard" })
+
 --telescope
 map("n", "<leader>fw", "<cmd>Telescope live_grep<CR>", { desc = "telescope live grep" })
 map("n", "<leader>fb", "<cmd>Telescope buffers<CR>", { desc = "telescope find buffers" })
