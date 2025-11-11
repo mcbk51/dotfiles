@@ -14,8 +14,6 @@ map("n", "<leader>e", "<cmd>NvimTreeFocus<CR>", { desc = "nvimtree focus window"
 
 -- Other General changes
 map("n", "<Esc>", "<cmd>noh<CR>", { desc = "general clear highlights" })
-map("i", "<C-b>", "<ESC>^i", { desc = "move beginning of line" })
-map("i", "<C-e>", "<End>", { desc = "move end of line" })
 map("i", "<C-h>", "<Left>", { desc = "move left" })
 map("i", "<C-l>", "<Right>", { desc = "move right" })
 map("i", "<C-j>", "<Down>", { desc = "move down" })
@@ -44,18 +42,13 @@ map("n", "<leader>fg", "<cmd>Telescope git_files<CR>", { desc = "Find Git Files"
 
 map("n", "<leader>ma", "<cmd>Telescope marks<CR>", { desc = "telescope find marks" })
 map("n", "<leader>fo", "<cmd>Telescope oldfiles<CR>", { desc = "telescope find oldfiles" })
-map("n", "<C-f>", "<cmd>Telescope current_buffer_fuzzy_find<CR>", { desc = "telescope find in current buffer" })
+map("n", "<C-z>", "<cmd>Telescope current_buffer_fuzzy_find<CR>", { desc = "telescope find in current buffer" })
 map("n", "<leader>fz", "<cmd>Telescope current_buffer_fuzzy_find<CR>", { desc = "telescope find in current buffer" })
 map("n", "<leader>cm", "<cmd>Telescope git_commits<CR>", { desc = "telescope git commits" })
 map("n", "<leader>gt", "<cmd>Telescope git_status<CR>", { desc = "telescope git status" })
 --map("n", "<leader>pt", "<cmd>Telescope terms<CR>", { desc = "telescope pick hidden term" })
 map("n", "<leader>ff", "<cmd>Telescope find_files<cr>", { desc = "telescope find files" })
-map(
-	"n",
-	"<leader>fa",
-	"<cmd>Telescope find_files follow=true no_ignore=true hidden=true<CR>",
-	{ desc = "telescope find all files" }
-)
+map("n", "<leader>fa", "<cmd>Telescope find_files follow=true no_ignore=true hidden=true<CR>",{ desc = "telescope find all files" })
 map("n", "<leader>fe", function()
 	require("telescope").extensions.file_browser.file_browser({
 		path = vim.fn.expand("%:p:h"),
@@ -113,12 +106,7 @@ map("n", "<leader>/", "gcc", { desc = "toggle comment", remap = true })
 map("v", "<leader>/", "gc", { desc = "toggle comment", remap = true })
 
 -- Tmux-sessionizer
-map(
-	"n",
-	"<C-g>",
-	"<cmd>silent !tmux neww ~/dev/scripts/tmux/tmux-sessionizer<CR>",
-	{ desc = "terminal escape terminal mode" }
-)
+map("n", "<C-f>","<cmd>silent !tmux neww ~/dev/scripts/tmux/tmux-sessionizer<CR>",{ desc = "terminal escape terminal mode" })
 
 -- terminal
 map("t", "<C-x>", "<C-\\><C-N>", { desc = "terminal escape terminal mode" })
