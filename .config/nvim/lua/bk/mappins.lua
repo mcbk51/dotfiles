@@ -83,8 +83,9 @@ map("n", "<leader>cx", "<cmd>!chmod +x %<CR>", { silent = true })
 
 -- easymotion
 map("n", "<leader><Leader>s", "<Plug>(easymotion-overwin-f2)", {})
-map("n", "<Leader><Leader>j", "<Plug>(easymotion-j)", {})
-map("n", "<Leader><Leader>k", "<Plug>(easymotion-k)", {})
+map("n", "<C-l>", "<Plug>(easymotion-overwin-f2)", {})
+map("n", "<leader><leader>j", "<Plug>(easymotion-j)", {})
+map("n", "<leader><leader>k", "<Plug>(easymotion-k)", {})
 
 -- vim test
 map("n", "<leader>t", ":TestNearest<CR>")
