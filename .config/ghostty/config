@@ -15,10 +15,10 @@ theme =  Nord
 # Remove Close Pop-up
 confirm-close-surface = false
 
-# Keybinds
-keybind = ctrl+j=scroll_page_fractional:0.5
-keybind = ctrl+k=scroll_page_fractional:-0.5
-keybind = ctrl+shift+comma=unbind
+# keybinds
+keybind=ctrl+shift+r=reload_config
+keybind=page_up=scroll_page_up 
+keybind=page_down=scroll_page_down
 
 # Example: sets top padding to 5px, bottom padding to 0px
 window-padding-y = "0,0"
