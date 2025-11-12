@@ -3,6 +3,7 @@ return {
 	config = function()
 		require("transparent").setup({
 			extra_groups = {
+
 				-- Whichkey
 				"WhichKey",
 				"WhichKeyFloat",
@@ -10,6 +11,7 @@ return {
 				"WhichKeyGroup",
 				"WhichKeyDesc",
 				"WhichKeySeparator",
+
 				-- NvimTree groups
 				"NvimTreeNormal",
 				"NvimTreeNormalNC",
@@ -18,6 +20,12 @@ return {
 				"NvimTreeStatusLine",
 				"NvimTreeStatusLineNC",
 				"NvimTreeWinSeparator",
+				--
+				-- harpoon
+				"NormalFloat",
+				"FloatBorder",
+				"HarpoonWindow",
+				"HarpoonBorder",
 
 				-- Lualine
 				"lualine_b_normal",
