@@ -3,13 +3,21 @@ return {
 	config = function()
 		require("transparent").setup({
 			extra_groups = {
-				--  BufferLine
-				-- "BufferLineTabClose",
-				-- "BufferLineBufferSelected",
-				-- "BufferLineFill",
-				-- "BufferLineBackground",
-				-- "BufferLineSeparator",
-				-- "BufferLineIndicatorSelected",
+				-- Whichkey
+				"WhichKey",
+				"WhichKeyFloat",
+				"WhichKeyBorder",
+				"WhichKeyGroup",
+				"WhichKeyDesc",
+				"WhichKeySeparator",
+				-- NvimTree groups
+				"NvimTreeNormal",
+				"NvimTreeNormalNC",
+				"NvimTreeEndOfBuffer",
+				"NvimTreeVertSplit",
+				"NvimTreeStatusLine",
+				"NvimTreeStatusLineNC",
+				"NvimTreeWinSeparator",
 
 				-- Lualine
 				"lualine_b_normal",
@@ -52,6 +60,7 @@ return {
 				"lualine_z_inactive",
 			},
 		})
-		require('transparent').clear_prefix('BufferLine')
+		require("transparent").clear_prefix("nvimtree")
+		require("transparent").clear_prefix("Whichkey")
 	end,
 }
