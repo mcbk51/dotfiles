@@ -14,32 +14,29 @@ map("n", "<leader>e", "<cmd>NvimTreeFocus<CR>", { desc = "nvimtree focus window"
 
 -- Other General changes
 map("n", "<Esc>", "<cmd>noh<CR>", { desc = "general clear highlights" })
+
+map("n", "<C-s>", "<cmd>w<CR>", { desc = "general save file" })
+map("n", "<C-c>", "<cmd>%y+<CR>", { desc = "general copy whole file" })
+
+-- moving in insert mode
 map("i", "<C-h>", "<Left>", { desc = "move left" })
 map("i", "<C-l>", "<Right>", { desc = "move right" })
 map("i", "<C-j>", "<Down>", { desc = "move down" })
 map("i", "<C-k>", "<Up>", { desc = "move up" })
 
-map("n", "<c-h>", "<c-w>h", { desc = "switch window left" })
-map("n", "<c-l>", "<c-w>l", { desc = "switch window right" })
-map("n", "<c-j>", "<c-w>j", { desc = "switch window down" })
-map("n", "<c-k>", "<c-w>k", { desc = "switch window up" })
+-- moving between panel(defaults fine)
+-- map("n", "<c-h>", "<c-w>h", { desc = "switch window left" })
+-- map("n", "<c-l>", "<c-w>l", { desc = "switch window right" })
+-- map("n", "<c-j>", "<c-w>j", { desc = "switch window down" })
+-- map("n", "<c-k>", "<c-w>k", { desc = "switch window up" })
 
-map("n", "<leader>cf", "<cmd>source %<CR>", { desc = "Execute the current file" })
-map("n", "<C-s>", "<cmd>w<CR>", { desc = "general save file" })
--- map("n", "<C-c>", "<cmd>%y+<CR>", { desc = "general copy whole file" })
-map("n", "<C-c>", function()
-	vim.cmd("%y+")
-end, { desc = "general copy whole file" })
-
---map("v", "<leader>y", '"+y', { desc = "Copy to system clipboard" })
 
 --telescope
-map("n", "<leader>fw", "<cmd>Telescope live_grep<CR>", { desc = "telescope live grep" })
+map("n", "<leader>fl", "<cmd>Telescope live_grep<CR>", { desc = "telescope live grep" })
 map("n", "<leader>fb", "<cmd>Telescope buffers<CR>", { desc = "telescope find buffers" })
 map("n", "<C-b>", "<cmd>Telescope buffers<CR>")
 map("n", "<leader>fh", "<cmd>Telescope help_tags<CR>", { desc = "telescope help page" })
 map("n", "<leader>fg", "<cmd>Telescope git_files<CR>", { desc = "Find Git Files" })
-
 map("n", "<leader>ma", "<cmd>Telescope marks<CR>", { desc = "telescope find marks" })
 map("n", "<leader>fo", "<cmd>Telescope oldfiles<CR>", { desc = "telescope find oldfiles" })
 map("n", "<C-z>", "<cmd>Telescope current_buffer_fuzzy_find<CR>", { desc = "telescope find in current buffer" })
@@ -113,6 +110,9 @@ map("t", "<C-x>", "<C-\\><C-N>", { desc = "terminal escape terminal mode" })
 
 -- Alpha
 map("n", "<C-h>", "<cmd>Alpha <CR>", { desc = "open Alpha" })
+
+-- source file
+map("n", "<leader>cf", "<cmd>source %<CR>", { desc = "Execute the current file" })
 
 -- Move selected text
 map("v", "J", ":m '>+1<CR>gv=gv")
