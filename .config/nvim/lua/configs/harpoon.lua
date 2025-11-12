@@ -66,7 +66,7 @@ vim.keymap.set("n", "<leader>hf", function()
 end, { desc = "Telescope Harpoon marks" })
 
 -- Toggle quick menu
-vim.keymap.set("n", "<C-e>", function()
+vim.keymap.set("n", "<C-n>", function()
 	harpoon.ui:toggle_quick_menu(harpoon:list())
 end, { desc = "Harpoon quick menu" })
 vim.keymap.set("n", "<leader>hh", function()

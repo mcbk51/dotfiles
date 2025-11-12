@@ -8,15 +8,14 @@ end
 --Vim native file system navigator
 map("n", "<leader>pv", vim.cmd.Ex)
 
--- nvimtree
-
-map("n", "<C-n>", function()
+-- minifiles
+map("n", "<C-e>", function()
       require("mini.files").open()
     end, { desc = "open mini.files" })
 
-map("n", "<leader>e", function()
-      require("mini.files").open()
-    end, { desc = "open mini.files" })
+-- map("n", "<leader>e", function()
+--       require("mini.files").open()
+--     end, { desc = "open mini.files" })
 
 -- Other General changes
 map("n", "<Esc>", "<cmd>noh<CR>", { desc = "general clear highlights" })
@@ -37,7 +36,7 @@ map("n", "<c-j>", "<c-w>j", { desc = "switch window down" })
 map("n", "<c-k>", "<c-w>k", { desc = "switch window up" })
 
 
---telescope
+-- telescope
 map("n", "<leader>fl", "<cmd>Telescope live_grep<CR>", { desc = "telescope live grep" })
 map("n", "<leader>fb", "<cmd>Telescope buffers<CR>", { desc = "telescope find buffers" })
 map("n", "<C-b>", "<cmd>Telescope buffers<CR>")
@@ -88,7 +87,7 @@ map("n", "<leader>t", ":TestNearest<CR>")
 map("n", "<leader>T", ":TestFile<CR>")
 map("n", "<leader>a", ":TestSuite<CR>")
 map("n", "<leader>ll", ":TestLast<CR>")
-map("n", "<leader>lg", ":TestVisit<CR>")
+map("n", "<leader>lv", ":TestVisit<CR>")
 
 -- changing working directory
 map("n", "<leader>cd", function()
@@ -98,7 +97,7 @@ map("n", "<leader>cd", function()
 end, { desc = "Set CWD to file directory" })
 
 -- adding lazygit
-map("n", "<leader>gg", function()
+map("n", "<leader>lg", function()
 	vim.cmd("split")
 	vim.cmd("terminal lazygit")
 	vim.cmd("startinsert")
