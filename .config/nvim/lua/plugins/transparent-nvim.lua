@@ -12,15 +12,19 @@ return {
 				"WhichKeyDesc",
 				"WhichKeySeparator",
 
-				-- NvimTree groups
-				"NvimTreeNormal",
-				"NvimTreeNormalNC",
-				"NvimTreeEndOfBuffer",
-				"NvimTreeVertSplit",
-				"NvimTreeStatusLine",
-				"NvimTreeStatusLineNC",
-				"NvimTreeWinSeparator",
-				--
+				-- -- NvimTree groups
+				-- "NvimTreeNormal",
+				-- "NvimTreeNormalNC",
+				-- "NvimTreeEndOfBuffer",
+				-- "NvimTreeVertSplit",
+				-- "NvimTreeStatusLine",
+				-- "NvimTreeStatusLineNC",
+				-- "NvimTreeWinSeparator",
+				-- mini.files
+				"MiniFilesNormal",
+				"MiniFilesBorder",
+				"MiniFilesTitle",
+				"MiniFilesTitleFocused",
 				-- harpoon
 				"NormalFloat",
 				"FloatBorder",
@@ -68,7 +72,7 @@ return {
 				"lualine_z_inactive",
 			},
 		})
-		require("transparent").clear_prefix("nvimtree")
+		require("transparent").clear_prefix("MiniFiles")
 		require("transparent").clear_prefix("Whichkey")
 	end,
 }

@@ -9,8 +9,14 @@ end
 map("n", "<leader>pv", vim.cmd.Ex)
 
 -- nvimtree
-map("n", "<C-n>", "<cmd>NvimTreeToggle<CR>", { desc = "nvimtree toggle window" })
-map("n", "<leader>e", "<cmd>NvimTreeFocus<CR>", { desc = "nvimtree focus window" })
+
+map("n", "<C-n>", function()
+      require("mini.files").open()
+    end, { desc = "open mini.files" })
+
+map("n", "<leader>e", function()
+      require("mini.files").open()
+    end, { desc = "open mini.files" })
 
 -- Other General changes
 map("n", "<Esc>", "<cmd>noh<CR>", { desc = "general clear highlights" })
