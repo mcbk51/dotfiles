@@ -25,10 +25,10 @@ map("i", "<C-j>", "<Down>", { desc = "move down" })
 map("i", "<C-k>", "<Up>", { desc = "move up" })
 
 -- moving between panel(defaults fine)
--- map("n", "<c-h>", "<c-w>h", { desc = "switch window left" })
--- map("n", "<c-l>", "<c-w>l", { desc = "switch window right" })
--- map("n", "<c-j>", "<c-w>j", { desc = "switch window down" })
--- map("n", "<c-k>", "<c-w>k", { desc = "switch window up" })
+map("n", "<c-h>", "<c-w>h", { desc = "switch window left" })
+map("n", "<c-l>", "<c-w>l", { desc = "switch window right" })
+map("n", "<c-j>", "<c-w>j", { desc = "switch window down" })
+map("n", "<c-k>", "<c-w>k", { desc = "switch window up" })
 
 
 --telescope
@@ -73,7 +73,7 @@ map("n", "<leader>cx", "<cmd>!chmod +x %<CR>", { silent = true })
 
 -- easymotion
 map("n", "<leader><Leader>s", "<Plug>(easymotion-overwin-f2)", {})
-map("n", "<C-l>", "<Plug>(easymotion-overwin-f2)", {})
+map("n", "<C-m>", "<Plug>(easymotion-overwin-f2)", {})
 map("n", "<leader><leader>j", "<Plug>(easymotion-j)", {})
 map("n", "<leader><leader>k", "<Plug>(easymotion-k)", {})
 
