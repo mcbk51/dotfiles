@@ -30,6 +30,11 @@ return {
 				"FloatBorder",
 				"HarpoonWindow",
 				"HarpoonBorder",
+				-- Popup menu
+				"Pmenu", -- Popup menu
+				"PmenuSel", -- Popup menu selected item
+				"PmenuSbar", -- Popup menu scrollbar
+				"PmenuThumb",
 
 				-- Lualine
 				"lualine_b_normal",
