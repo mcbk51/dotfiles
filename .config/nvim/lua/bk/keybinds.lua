@@ -10,7 +10,10 @@ map("n", "<leader>pv", vim.cmd.Ex)
 
 -- minifiles
 map("n", "<C-e>", function()
-      require("mini.files").open()
+        local minifiles = require("mini.files")
+        if not minifiles.close() then
+               minifiles.open() 
+        end
     end, { desc = "open mini.files" })
 
 -- map("n", "<leader>e", function()
