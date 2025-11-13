@@ -120,7 +120,7 @@ map("t", "<C-x>", "<C-\\><C-N>", { desc = "terminal escape terminal mode" })
 map("n", "<C-h>", "<cmd>Alpha <CR>", { desc = "open Alpha" })
 
 -- source file
-map("n", "<leader>cf", "<cmd>source %<CR>", { desc = "Execute the current file" })
+map("n", "<leader>fs", "<cmd>source %<CR>", { desc = "source current file" })
 
 -- Move selected text
 map("v", "J", ":m '>+1<CR>gv=gv")
