@@ -39,24 +39,11 @@ vim.opt.relativenumber = true -- Show relative line numbers
 vim.opt.signcolumn = "yes" -- Keep space on the left for signs (LSP, git, etc.)
 -- vim.opt.numberwidth = 3 -- Width of the number column
 
+-- Disable broken plugin queries
 vim.g.matchparen_timeout = 20
 vim.g.matchparen_insert_timeout = 20
 
 --removing ~
 vim.opt.fillchars:append({ eob = " " })
 
--- Disable broken plugin queries
 -- vim.opt.runtimepath:remove(vim.fn.stdpath("data") .. "/lazy/nvim-colo")
-
--- vim.api.nvim_create_autocmd("ColorScheme", { pattern = "*",
--- 	callback = function()
--- 		vim.api.nvim_set_hl(0, "Normal", { bg = "none" })
--- 		vim.api.nvim_set_hl(0, "NormalFloat", { bg = "none" })
--- 		vim.api.nvim_set_hl(0, "NormalNC", { bg = "none" })
--- 	end,
--- })
--- -- Apply immediately as well
--- vim.api.nvim_set_hl(0, "Normal", { bg = "none" })
--- vim.api.nvim_set_hl(0, "NormalFloat", { bg = "none" })
--- vim.api.nvim_set_hl(0, "NormalNC", { bg = "none" })
-
