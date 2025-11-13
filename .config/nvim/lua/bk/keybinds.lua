@@ -14,7 +14,7 @@ map("n", "<C-e>", function()
         if not minifiles.close() then
                minifiles.open() 
         end
-    end, { desc = "open mini.files" })
+    end, { desc = "toggle mini.files" })
 
 -- map("n", "<leader>e", function()
 --       require("mini.files").open()
