@@ -76,20 +76,19 @@ format = "[$symbol($version )]($style)"
 symbol = " "
 
 [directory]
-style = "blue"
-format = "[ $path ]($style)"
+style = "bold blue"
+format = "[$path]($style)"
 read_only = " "
-truncation_length = 3
-truncation_symbol = "…/"
-
+truncation_length = 0
+truncate_to_repo = false
+home_symbol = ""
 [directory.substitutions]
-"Documents" = "󰈙 "
-"Downloads" = " "
-"Music" = "󰝚 "
-"Pictures" = " "
-"dev" = "󰲋 "
-"~" = ""
-"Videos" = "󰕧 "
+"Documents" = "󰈙"
+"Downloads" = ""
+"Music" = "󰝚"
+"Pictures" = ""
+"dev" = ""
+"Videos" = "󰕧"
 
 [character]
 disabled = false
