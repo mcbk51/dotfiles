@@ -5,7 +5,7 @@ end
 lualine.setup({
 	options = {
 		icons_enabled = true,
-		theme = "ayu_dark",
+		theme = "iceberg_dark",
 		component_separators = "", -- no separator between components
 		section_separators = "",
 		disabled_filetypes = {
@@ -42,26 +42,12 @@ lualine.setup({
 			{ "filename", color = "Normal" },
 		},
 		lualine_c = {},
-		lualine_x = {
+		lualine_x = {},
+		lualine_y = {
 			"encoding",
-			{
-				"lsp_status",
-				icon = "", -- f013
-				symbols = {
-					-- Standard unicode symbols to cycle through for LSP progress:
-					spinner = { "⠋", "⠙", "⠹", "⠸", "⠼", "⠴", "⠦", "⠧", "⠇", "⠏" },
-					-- Standard unicode symbol for when LSP is done:
-					done = "✓",
-					-- Delimiter inserted between LSP names:
-					separator = " ",
-				},
-				-- List of LSP names to ignore (e.g., `null-ls`):
-				ignore_lsp = {},
-				-- Display the LSP name
-				show_name = false,
-			},
+			"progress",
+                        
 		},
-		lualine_y = { "progress" },
 		lualine_z = {
 			{ "location", color = "Normal" },
 		},
