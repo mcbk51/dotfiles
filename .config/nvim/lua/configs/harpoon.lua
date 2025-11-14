@@ -60,15 +60,7 @@ end, { desc = "Harpoon add file" })
 vim.keymap.set("n", "<m-a>", function()
 	harpoon:list():add()
 end, { desc = "Harpoon add file" })
--- Telescope integration
-vim.keymap.set("n", "<leader>hf", function()
-	require("telescope").extensions.harpoon.marks()
-end, { desc = "Telescope Harpoon marks" })
-
 -- Toggle quick menu
-vim.keymap.set("n", "<C-n>", function()
-	harpoon.ui:toggle_quick_menu(harpoon:list())
-end, { desc = "Harpoon quick menu" })
 vim.keymap.set("n", "<leader>hh", function()
 	harpoon.ui:toggle_quick_menu(harpoon:list())
 end, { desc = "Harpoon quick menu" })
