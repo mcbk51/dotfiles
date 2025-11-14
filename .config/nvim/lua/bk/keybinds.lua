@@ -21,7 +21,7 @@ map("n", "<C-c>", "<cmd>%y+<CR>", { desc = "general copy whole file" })
 
 map("n", "<leader>u", vim.cmd.UndotreeToggle, {desc = "toggle undo tree"})
 map("n", "<leader>ds", vim.diagnostic.setloclist, { desc = "LSP diagnostic loclist" })
-map("n", "<leader>cx", "<cmd>!chmod +x %<CR>", { silent = true, desc = "make current file executable"})
+map("n", "<leader>fx", "<cmd>!chmod +x %<CR>", { silent = true, desc = "make current file executable"})
 
 map("n", "<leader>/", "gcc", { desc = "toggle comment", remap = true })
 map("v", "<leader>/", "gc", { desc = "toggle comment", remap = true })
@@ -87,7 +87,7 @@ end, { desc = "buffer close" })
 
 
 -- easymotion
-map("n", "<C-m>", "<Plug>(easymotion-overwin-f2)")
+map("n", "<C-p>", "<Plug>(easymotion-overwin-f2)")
 map("n", "<leader>ss","<Plug>(easymotion-overwin-f2)", { desc = "easymotion search 2 characters"})
 map("n", "<leader>sj", "<Plug>(easymotion-j)", { desc = "easymotion jump down"})
 map("n", "<leader>sk", "<Plug>(easymotion-k)", { desc = "easymotion jump up"})
