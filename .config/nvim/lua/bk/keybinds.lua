@@ -63,6 +63,11 @@ map(
 	"<cmd>Telescope find_files follow=true no_ignore=true hidden=true<CR>",
 	{ desc = "telescope find all files" }
 )
+map("n", "<leader>fp", function()
+	require("telescope.builtin").lsp_document_symbols({
+                symbols = { "function", "method", "class", "struct", "string", "int", "bool","float" },
+	})
+end, { desc = "Filtered LSP symbols" })
 map("n", "<leader>fe", function()
 	require("telescope").extensions.file_browser.file_browser({
 		path = vim.fn.expand("%:p:h"),
@@ -113,6 +118,10 @@ map("n", "<leader>lg", function()
 	vim.cmd("startinsert")
 end, { desc = "Open lazygit in new tab" })
 
+-- split
+map("n", "<leader>sv", ":vsplit<CR>", { desc = "Vertical split" })
+map("n", "<leader>sh", ":split<CR>", { desc = "Horizontal split" })
+map("n", "<leader>sx", "<C-w>q", { desc = "Close split" })
 
 -- Tmux-sessionizer
 map("n","<C-f>","<cmd>silent !tmux neww ~/dev/scripts/tmux/tmux-sessionizer<CR>",{ desc = "terminal escape terminal mode" })
