@@ -8,9 +8,9 @@ return {
 			horizontal = {
 				prompt_position = "top",
 				preview_width = 0.55,
+				width = 0.87,
+				height = 0.80,
 			},
-			width = 0.87,
-			height = 0.80,
 		},
 		mappings = {
 			n = { ["q"] = require("telescope.actions").close },
@@ -18,7 +18,7 @@ return {
 	},
 	-- Add this to enable the `project` extension
 	extensions_list = { "themes", "terms", "project" },
-
+	pickers = {
 	extensions = {
 		project = {
 			base_dirs = {
