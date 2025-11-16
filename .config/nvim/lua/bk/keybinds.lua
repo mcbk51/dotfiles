@@ -9,19 +9,24 @@ end
 map("n", "<C-e>", function()
 	local minifiles = require("mini.files")
 	if not minifiles.close() then
-		minifiles.open()
+		local buf_path = vim.api.nvim_buf_get_name(0)
+		if buf_path == "" then
+			minifiles.open(vim.loop.cwd())
+		else
+			minifiles.open(buf_path)
+		end
 	end
 end, { desc = "toggle mini.files" })
 
 -- Other General changes
-map("n", "<leader>pv", vim.cmd.Ex, {desc = "native file navigator(netrw)" })
+map("n", "<leader>pv", vim.cmd.Ex, { desc = "native file navigator(netrw)" })
 map("n", "<Esc>", "<cmd>noh<CR>", { desc = "general clear highlights" })
 map("n", "<C-s>", "<cmd>w<CR>", { desc = "general save file" })
 map("n", "<C-c>", "<cmd>%y+<CR>", { desc = "general copy whole file" })
 
-map("n", "<leader>u", vim.cmd.UndotreeToggle, {desc = "toggle undo tree"})
+map("n", "<leader>u", vim.cmd.UndotreeToggle, { desc = "toggle undo tree" })
 map("n", "<leader>ds", vim.diagnostic.setloclist, { desc = "LSP diagnostic loclist" })
-map("n", "<leader>fx", "<cmd>!chmod +x %<CR>", { silent = true, desc = "make current file executable"})
+map("n", "<leader>fx", "<cmd>!chmod +x %<CR>", { silent = true, desc = "make current file executable" })
 
 map("n", "<leader>/", "gcc", { desc = "toggle comment", remap = true })
 map("v", "<leader>/", "gc", { desc = "toggle comment", remap = true })
@@ -37,7 +42,7 @@ map("i", "<C-l>", "<Right>", { desc = "move right" })
 map("i", "<C-j>", "<Down>", { desc = "move down" })
 map("i", "<C-k>", "<Up>", { desc = "move up" })
 
--- moving between panel(defaults fine)
+-- moving between panel
 map("n", "<c-h>", "<c-w>h", { desc = "switch window left" })
 map("n", "<c-l>", "<c-w>l", { desc = "switch window right" })
 map("n", "<c-j>", "<c-w>j", { desc = "switch window down" })
@@ -67,7 +72,7 @@ map(
 )
 map("n", "<leader>fp", function()
 	require("telescope.builtin").lsp_document_symbols({
-                symbols = { "function", "method", "class", "struct", "string", "int", "bool","float" },
+		symbols = { "function", "method", "class", "struct", "string", "int", "bool", "float" },
 	})
 end, { desc = "Filtered LSP symbols" })
 map("n", "<leader>fe", function()
@@ -92,12 +97,11 @@ map("n", "<leader>x", function()
 	vim.cmd("bdelete")
 end, { desc = "buffer close" })
 
-
 -- easymotion
 map("n", "<C-p>", "<Plug>(easymotion-overwin-f2)")
-map("n", "<leader>ss","<Plug>(easymotion-overwin-f2)", { desc = "easymotion search 2 characters"})
-map("n", "<leader>sj", "<Plug>(easymotion-j)", { desc = "easymotion jump down"})
-map("n", "<leader>sk", "<Plug>(easymotion-k)", { desc = "easymotion jump up"})
+map("n", "<leader>ss", "<Plug>(easymotion-overwin-f2)", { desc = "easymotion search 2 characters" })
+map("n", "<leader>sj", "<Plug>(easymotion-j)", { desc = "easymotion jump down" })
+map("n", "<leader>sk", "<Plug>(easymotion-k)", { desc = "easymotion jump up" })
 
 -- vim test
 map("n", "<leader>tt", ":TestNearest<CR>", { desc = "Test Nearest" })
@@ -126,12 +130,17 @@ map("n", "<leader>sh", ":split<CR>", { desc = "Horizontal split" })
 map("n", "<leader>sx", "<C-w>q", { desc = "Close split" })
 
 -- Tmux-sessionizer
-map("n","<C-f>","<cmd>silent !tmux neww ~/dev/scripts/tmux/tmux-sessionizer<CR>",{ desc = "terminal escape terminal mode" })
+map(
+	"n",
+	"<C-f>",
+	"<cmd>silent !tmux neww ~/dev/scripts/tmux/tmux-sessionizer<CR>",
+	{ desc = "terminal escape terminal mode" }
+)
 
 -- whichkey
 map("n", "<leader>wK", "<cmd>WhichKey <CR>", { desc = "whichkey all keymaps" })
 map("n", "<leader>wk", function()
-        vim.cmd("WhichKey " .. vim.fn.input("WhichKey: "))
+	vim.cmd("WhichKey " .. vim.fn.input("WhichKey: "))
 end, { desc = "whichkey query lookup" })
 
 -- Move selected text
@@ -143,5 +152,3 @@ map("n", "<C-d>", "<C-d>zz")
 map("n", "<C-u>", "<C-u>zz")
 map("n", "n", "nzzzv")
 map("n", "N", "Nzzzv")
-
-
