@@ -18,6 +18,7 @@ return {
     },
   },
   extensions = {
+    fzf = {},
     project = {
       base_dirs = {
         { path = "~/dev/projects", max_depth = 2 },
@@ -29,7 +30,5 @@ return {
       sync_with_nvim_tree = false,
     },
   },
-
-  extensions_list = { "themes", "terms", "project" },
+  extensions_list = { "themes", "terms", "project", "fzf" },
 }
-
