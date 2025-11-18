@@ -30,11 +30,10 @@ map("n", "<leader>fx", "<cmd>!chmod +x %<CR>", { silent = true, desc = "make cur
 
 map("n", "<leader>/", "gcc", { desc = "toggle comment", remap = true })
 map("v", "<leader>/", "gc", { desc = "toggle comment", remap = true })
-
--- map("t", "<C-x>", "<C-\\><C-N>", { desc = "terminal escape terminal mode" })
 map("n", "<leader>aa", "<cmd>Alpha <CR>", { desc = "open Alpha" })
 map("n", "<leader>fs", "<cmd>source %<CR>", { desc = "source current file" })
 map("x", "<leader>ph", '"_dP', { desc = "conserve previous highlight" })
+map("t", "<esc><esc>", "<C-\\><C-N>", { desc = "terminal escape terminal mode" })
 
 -- moving in insert mode
 map("i", "<C-h>", "<Left>", { desc = "move left" })
