@@ -1,4 +1,4 @@
-require("bk.keybinds")
+require("bk.keymaps")
 require("bk.clipboard")
 require("bk.options")
 require("bk.lazy")

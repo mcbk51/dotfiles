@@ -23,10 +23,22 @@ map("n", "<leader>pv", vim.cmd.Ex, { desc = "native file navigator(netrw)" })
 map("n", "<Esc>", "<cmd>noh<CR>", { desc = "general clear highlights" })
 map("n", "<C-s>", "<cmd>w<CR>", { desc = "general save file" })
 map("n", "<C-c>", "<cmd>%y+<CR>", { desc = "general copy whole file" })
-
 map("n", "<leader>u", vim.cmd.UndotreeToggle, { desc = "toggle undo tree" })
 map("n", "<leader>ds", vim.diagnostic.setloclist, { desc = "LSP diagnostic loclist" })
 map("n", "<leader>fx", "<cmd>!chmod +x %<CR>", { silent = true, desc = "make current file executable" })
+map("n", "<leader>zz", function()
+	require("zen-mode").setup({
+		window = {
+			width = 90,
+			options = {},
+		},
+	})
+	require("zen-mode").toggle()
+	vim.wo.wrap = false
+	vim.wo.number = false
+	vim.wo.rnu = false
+	vim.opt.colorcolumn = "0"
+end, { desc = "Toggle Zen Mode" })
 
 map("n", "<leader>/", "gcc", { desc = "toggle comment", remap = true })
 map("v", "<leader>/", "gc", { desc = "toggle comment", remap = true })
@@ -69,11 +81,21 @@ map(
 	"<cmd>Telescope find_files follow=true no_ignore=true hidden=true<CR>",
 	{ desc = "telescope find all files" }
 )
+
+-- lsp
 map("n", "<leader>fp", function()
 	require("telescope.builtin").lsp_document_symbols({
 		symbols = { "function", "method", "class", "struct", "string", "int", "bool", "float" },
 	})
-end, { desc = "Filtered LSP symbols" })
+end, { desc = "Filtere LSP symbols" })
+map("n", "gd", function() vim.lsp.buf.definition() end, opts)
+map("n", "K", function() vim.lsp.buf.hover() end, opts)
+map("n", "<leader>vws", function() vim.lsp.buf.workspace_symbol() end, opts)
+map("n", "<leader>vca", function() vim.lsp.buf.code_action() end, opts)
+map("n", "<leader>vrr", function() vim.lsp.buf.references() end, opts)
+map("n", "<leader>vrn", function() vim.lsp.buf.rename() end, opts)
+map("i", "<C-h>", function() vim.lsp.buf.signature_help() end, opts)
+
 map("n", "<leader>fe", function()
 	require("telescope").extensions.file_browser.file_browser({
 		path = vim.fn.expand("%:p:h"),
