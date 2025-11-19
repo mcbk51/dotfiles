@@ -82,6 +82,9 @@ map(
 	{ desc = "telescope find all files" }
 )
 
+map("n", "<leader>fk", function ()
+       require ("telescope.builtin").keymaps()
+end, { desc = "telescope keymaps" })
 -- lsp
 map("n", "<leader>fp", function()
 	require("telescope.builtin").lsp_document_symbols({
