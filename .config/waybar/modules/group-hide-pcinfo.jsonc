@@ -9,6 +9,7 @@
     },
     "modules": [
       "custom/right#arrow",
+      "custom/updates",
       "memory",
       "cpu",
       "custom/cpuinfo",
