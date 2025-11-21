@@ -15,7 +15,6 @@ return {
 				find_left = "<leader>sl",
 				highlight = "<leader>sh",
 				replace = "<leader>sr",
-				update_n_lines = "<leader>sn",
 			},
 		})
 	end,
