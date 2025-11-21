@@ -60,6 +60,7 @@ map("n", "<c-j>", "<c-w>j", { desc = "switch window down" })
 map("n", "<c-k>", "<c-w>k", { desc = "switch window up" })
 
 -- telescope
+map("n", "<leader>ff", "<cmd>Telescope find_files<cr>", { desc = "telescope find files" })
 map("n", "<leader>fl", "<cmd>Telescope live_grep<CR>", { desc = "telescope live grep" })
 map("n", "<leader>fb", "<cmd>Telescope buffers<CR>", { desc = "telescope find buffers" })
 map("n", "<C-b>", "<cmd>Telescope buffers<CR>")
@@ -73,7 +74,6 @@ map("n", "<leader>fz", "<cmd>Telescope current_buffer_fuzzy_find<CR>", { desc = 
 map("n", "<leader>gc", "<cmd>Telescope git_commits<CR>", { desc = "telescope git commits" })
 map("n", "<leader>gt", "<cmd>Telescope git_status<CR>", { desc = "telescope git status" })
 --map("n", "<leader>pt", "<cmd>Telescope terms<CR>", { desc = "telescope pick hidden term" })
-map("n", "<leader>ff", "<cmd>Telescope find_files<cr>", { desc = "telescope find files" })
 
 map(
 	"n",
@@ -122,7 +122,7 @@ map("n", "<leader>x", function()
 end, { desc = "buffer close" })
 
 -- easymotion
-map("n", "<C-p>", "<Plug>(easymotion-overwin-f)", {desc = "easymotion search 1 characters"})
+map("n", "<M-f>", "<Plug>(easymotion-overwin-f)", {desc = "easymotion search 1 characters"})
 map("n", "<leader>ss", "<Plug>(easymotion-overwin-f2)", { desc = "easymotion search 2 characters" })
 map("n", "<leader>sj", "<Plug>(easymotion-j)", { desc = "easymotion jump down" })
 map("n", "<leader>sk", "<Plug>(easymotion-k)", { desc = "easymotion jump up" })
