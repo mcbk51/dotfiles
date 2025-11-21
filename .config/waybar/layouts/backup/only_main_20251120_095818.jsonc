@@ -50,6 +50,7 @@
         "modules": [
             "group/hide-tray",
             "battery",
+            "custom/updates",
             "custom/dunst",
             "custom/hyde-menu",
             "custom/power"
