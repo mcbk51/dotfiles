@@ -122,10 +122,10 @@ map("n", "<leader>x", function()
 end, { desc = "buffer close" })
 
 -- easymotion
-map("n", "<M-f>", "<Plug>(easymotion-overwin-f)", {desc = "easymotion search 1 characters"})
+map("n", "<M-f>", "<Plug>(easymotion-overwin-f2)", {desc = "easymotion search 1 characters"})
 map("n", "<leader>ss", "<Plug>(easymotion-overwin-f2)", { desc = "easymotion search 2 characters" })
-map("n", "<leader>sj", "<Plug>(easymotion-j)", { desc = "easymotion jump down" })
-map("n", "<leader>sk", "<Plug>(easymotion-k)", { desc = "easymotion jump up" })
+-- map("n", "<leader>sj", "<Plug>(easymotion-j)", { desc = "easymotion jump down" })
+-- map("n", "<leader>sk", "<Plug>(easymotion-k)", { desc = "easymotion jump up" })
 
 -- vim test
 map("n", "<leader>tt", ":TestNearest<CR>", { desc = "Test Nearest" })
