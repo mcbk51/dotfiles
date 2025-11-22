@@ -21,9 +21,10 @@ alias ts='~/.local/bin/scripts/tmux/tmux-sessionizer'
 alias tw='~/.local/bin/scripts/tmux/tmux-windowizer'
 alias ssa='~/.local/bin/scripts/general/ssh-agent.sh'
 alias tb='~/.local/bin/scripts/general/git/test-branch.sh'
-alias smt='~/.local/bin/scripts/general/mount-smb.sh'
+alias poddev='~/.local/bin/scripts/containers/arch-dev_container_podman.sh'
 
 # Arch changes
+
 alias up='sudo pacman -Syu'
 alias sp='sudo pacman'
 alias in='yay -S'
