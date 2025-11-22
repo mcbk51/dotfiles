@@ -14,10 +14,10 @@ vim.opt.undofile = false
 
 vim.opt.hlsearch = true
 vim.opt.incsearch = true
+
 vim.opt.smartcase = true
-
+vim.opt.ignorecase = true
 vim.opt.linebreak = true
-
 vim.opt.scrolloff = 8
 vim.opt.updatetime = 50
 
@@ -25,8 +25,8 @@ vim.opt.updatetime = 50
 vim.opt.termguicolors = true
 
 -- set number line
-vim.opt.number = true -- Show absolute line numbers
-vim.opt.relativenumber = true -- Show relative line numbers
+vim.opt.number = true
+vim.opt.relativenumber = true
 vim.opt.signcolumn = "yes" -- Keep space on the left for signs (LSP, git, etc.)
 -- vim.opt.numberwidth = 3 -- Width of the number column
 
