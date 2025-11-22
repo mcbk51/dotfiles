@@ -26,19 +26,8 @@ map("n", "<C-c>", "<cmd>%y+<CR>", { desc = "general copy whole file" })
 map("n", "<leader>u", vim.cmd.UndotreeToggle, { desc = "toggle undo tree" })
 map("n", "<leader>ds", vim.diagnostic.setloclist, { desc = "LSP diagnostic loclist" })
 map("n", "<leader>fx", "<cmd>!chmod +x %<CR>", { silent = true, desc = "make current file executable" })
-map("n", "<leader>zz", function()
-	require("zen-mode").setup({
-		window = {
-			width = 90,
-			options = {},
-		},
-	})
-	require("zen-mode").toggle()
-	vim.wo.wrap = false
-	vim.wo.number = false
-	vim.wo.rnu = false
-	vim.opt.colorcolumn = "0"
-end, { desc = "Toggle Zen Mode" })
+
+
 
 map("n", "<leader>/", "gcc", { desc = "toggle comment", remap = true })
 map("v", "<leader>/", "gc", { desc = "toggle comment", remap = true })
@@ -82,22 +71,66 @@ map(
 	{ desc = "telescope find all files" }
 )
 
-map("n", "<leader>fk", function ()
-       require ("telescope.builtin").keymaps()
+map("n", "<leader>fk", function()
+	require("telescope.builtin").keymaps()
 end, { desc = "telescope keymaps" })
+
+-- zen mode
+map("n", "<leader>zz", function()
+	require("zen-mode").setup({
+		window = {
+			width = 90,
+			options = {},
+		},
+	})
+	require("zen-mode").toggle()
+	vim.wo.wrap = false
+	vim.wo.number = false
+	vim.wo.rnu = false
+	vim.opt.colorcolumn = "0"
+end, { desc = "Toggle Zen Mode" })
+map("n", "<leader>zZ", function()
+	require("zen-mode").setup({
+		window = {
+			width = 80,
+			options = {},
+		},
+	})
+	require("zen-mode").toggle()
+	vim.wo.wrap = false
+	vim.wo.number = false
+	vim.wo.rnu = false
+	vim.opt.colorcolumn = "0"
+	ColorMyPencils()
+end)
+
 -- lsp
 map("n", "<leader>fp", function()
 	require("telescope.builtin").lsp_document_symbols({
 		symbols = { "function", "method", "class", "struct", "string", "int", "bool", "float" },
 	})
 end, { desc = "Filtere LSP symbols" })
-map("n", "gd", function() vim.lsp.buf.definition() end, opts)
-map("n", "K", function() vim.lsp.buf.hover() end, opts)
-map("n", "<leader>vws", function() vim.lsp.buf.workspace_symbol() end, opts)
-map("n", "<leader>vca", function() vim.lsp.buf.code_action() end, opts)
-map("n", "<leader>vrr", function() vim.lsp.buf.references() end, opts)
-map("n", "<leader>vrn", function() vim.lsp.buf.rename() end, opts)
-map("i", "<C-h>", function() vim.lsp.buf.signature_help() end, opts)
+map("n", "gd", function()
+	vim.lsp.buf.definition()
+end, opts)
+map("n", "K", function()
+	vim.lsp.buf.hover()
+end, opts)
+map("n", "<leader>vws", function()
+	vim.lsp.buf.workspace_symbol()
+end, opts)
+map("n", "<leader>vca", function()
+	vim.lsp.buf.code_action()
+end, opts)
+map("n", "<leader>vrr", function()
+	vim.lsp.buf.references()
+end, opts)
+map("n", "<leader>vrn", function()
+	vim.lsp.buf.rename()
+end, opts)
+map("i", "<C-h>", function()
+	vim.lsp.buf.signature_help()
+end, opts)
 
 map("n", "<leader>fe", function()
 	require("telescope").extensions.file_browser.file_browser({
@@ -122,7 +155,7 @@ map("n", "<leader>x", function()
 end, { desc = "buffer close" })
 
 -- easymotion
-map("n", "<M-f>", "<Plug>(easymotion-overwin-f2)", {desc = "easymotion search 1 characters"})
+map("n", "<M-f>", "<Plug>(easymotion-overwin-f2)", { desc = "easymotion search 1 characters" })
 map("n", "<leader>ss", "<Plug>(easymotion-overwin-f2)", { desc = "easymotion search 2 characters" })
 -- map("n", "<leader>sj", "<Plug>(easymotion-j)", { desc = "easymotion jump down" })
 -- map("n", "<leader>sk", "<Plug>(easymotion-k)", { desc = "easymotion jump up" })
