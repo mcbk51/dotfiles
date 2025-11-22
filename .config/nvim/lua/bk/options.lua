@@ -17,6 +17,7 @@ vim.opt.incsearch = true
 
 vim.opt.smartcase = true
 vim.opt.ignorecase = true
+
 vim.opt.linebreak = true
 vim.opt.scrolloff = 8
 vim.opt.updatetime = 50
