@@ -59,7 +59,9 @@ end, { desc = "Harpoon add file" })
 
 vim.keymap.set("n", "<m-a>", function()
 	harpoon:list():add()
+	vim.notify("File added to harpoon", "info", { title = "Harpoon" })
 end, { desc = "Harpoon add file" })
+--
 -- Toggle quick menu
 vim.keymap.set("n", "<leader>hh", function()
 	harpoon.ui:toggle_quick_menu(harpoon:list())
