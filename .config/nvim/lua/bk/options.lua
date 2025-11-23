@@ -1,38 +1,43 @@
-vim.opt.tabstop = 4
-vim.opt.softtabstop = 4
-vim.opt.expandtab = true
+local opt = vim.opt
 
-vim.opt.inccommand = "split"
-vim.opt.wrap = true
+opt.tabstop = 4
+opt.softtabstop = 4
+opt.expandtab = true
 
-vim.opt.smartindent = true
-vim.opt.winborder = "rounded"
-vim.opt.swapfile = false
-vim.opt.backup = false
-vim.opt.undodir = os.getenv("HOME") .. "/.vim/undodir"
-vim.opt.undofile = false
+opt.inccommand = "split"
+opt.wrap = true
 
-vim.opt.hlsearch = true
-vim.opt.incsearch = true
+opt.smartindent = true
+opt.winborder = "rounded"
+opt.swapfile = false
+opt.backup = false
+opt.undodir = os.getenv("HOME") .. "/.vim/undodir"
+opt.undofile = false
 
-vim.opt.smartcase = true
-vim.opt.ignorecase = true
+opt.hlsearch = true
+opt.incsearch = true
 
-vim.opt.linebreak = true
-vim.opt.scrolloff = 8
-vim.opt.updatetime = 50
+opt.smartcase = true
+opt.ignorecase = true
+
+opt.linebreak = true
+opt.scrolloff = 8
+opt.updatetime = 50
+
+opt.splitbelow = true
+opt.splitright = true
 
 -- set color
-vim.opt.termguicolors = true
+opt.termguicolors = true
 
 -- set number line
-vim.opt.number = true
-vim.opt.relativenumber = true
-vim.opt.signcolumn = "yes" -- Keep space on the left for signs (LSP, git, etc.)
+opt.number = true
+opt.relativenumber = true
+opt.signcolumn = "yes" -- Keep space on the left for signs (LSP, git, etc.)
 -- vim.opt.numberwidth = 3 -- Width of the number column
 
 --removing ~
-vim.opt.fillchars:append({ eob = " " })
+opt.fillchars:append({ eob = " " })
 
 -- Disable broken plugin queries
 vim.g.matchparen_timeout = 20
