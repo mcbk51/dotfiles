@@ -35,6 +35,7 @@ opt.number = true
 opt.relativenumber = true
 opt.signcolumn = "yes" -- Keep space on the left for signs (LSP, git, etc.)
 -- vim.opt.numberwidth = 3 -- Width of the number column
+-- vim.opt.runtimepath:remove(vim.fn.stdpath("data") .. "/lazy/nvim-colo")
 
 --removing ~
 opt.fillchars:append({ eob = " " })
@@ -51,4 +52,3 @@ vim.api.nvim_create_autocmd("TextYankPost", {
                 vim.highlight.on_yank()
         end,
 })
--- vim.opt.runtimepath:remove(vim.fn.stdpath("data") .. "/lazy/nvim-colo")
