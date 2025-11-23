@@ -36,7 +36,24 @@ lualine.setup({
 		},
 	},
 	sections = {
-		lualine_a = { "mode" },
+		lualine_a = {
+			{
+				"mode",
+				fmt = function(str)
+					local mode_map = {
+						["NORMAL"] = "N",
+						["INSERT"] = "I",
+						["VISUAL"] = "V",
+						["V-LINE"] = "L",
+						["V-BLOCK"] = "B",
+						["COMMAND"] = "C",
+						["REPLACE"] = "R",
+						["TERMINAL"] = "T",
+					}
+					return mode_map[str] or str:sub(1, 1)
+				end,
+			},
+		},
 		lualine_b = {
 			"branch",
 			{ "filename", color = "Normal" },
@@ -46,7 +63,6 @@ lualine.setup({
 		lualine_y = {
 			"encoding",
 			"progress",
-                        
 		},
 		lualine_z = {
 			{ "location", color = "Normal" },
