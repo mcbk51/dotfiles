@@ -13,6 +13,7 @@ dashboard.section.buttons.val = {
 	dashboard.button("a", "📄  New file", ":ene <BAR> startinsert <CR>"),
 	dashboard.button("r", "🕘  Recent files", ":Telescope oldfiles <CR>"),
 	dashboard.button("f", "🔍  Find file", ":Telescope find_files no_ignore=true hidden=true <CR>"),
+	dashboard.button("n", "📝  Note Index", ":Telescope find_files cwd=~/Nextcloud/Notes<CR>"),
 	dashboard.button("p", "🖥️  Projects", ":Telescope find_files cwd=~/dev/projects/<CR>"),
 	dashboard.button("s", "⌨️  Scripts", ":Telescope find_files cwd=~/.local/bin/scripts/<CR>"),
 	dashboard.button("h", "🌀  Hyprland Config", ":Telescope find_files cwd=~/dotfiles/.config/hypr <CR>"),
