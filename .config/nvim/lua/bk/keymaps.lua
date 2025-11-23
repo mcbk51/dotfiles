@@ -27,8 +27,6 @@ map("n", "<leader>u", vim.cmd.UndotreeToggle, { desc = "toggle undo tree" })
 map("n", "<leader>ds", vim.diagnostic.setloclist, { desc = "LSP diagnostic loclist" })
 map("n", "<leader>fx", "<cmd>!chmod +x %<CR>", { silent = true, desc = "make current file executable" })
 
-
-
 map("n", "<leader>/", "gcc", { desc = "toggle comment", remap = true })
 map("v", "<leader>/", "gc", { desc = "toggle comment", remap = true })
 map("n", "<leader>aa", "<cmd>Alpha <CR>", { desc = "open Alpha" })
@@ -63,7 +61,6 @@ map("n", "<leader>fz", "<cmd>Telescope current_buffer_fuzzy_find<CR>", { desc = 
 map("n", "<leader>gc", "<cmd>Telescope git_commits<CR>", { desc = "telescope git commits" })
 map("n", "<leader>gt", "<cmd>Telescope git_status<CR>", { desc = "telescope git status" })
 --map("n", "<leader>pt", "<cmd>Telescope terms<CR>", { desc = "telescope pick hidden term" })
-
 map(
 	"n",
 	"<leader>fa",
@@ -74,6 +71,20 @@ map(
 map("n", "<leader>fk", function()
 	require("telescope.builtin").keymaps()
 end, { desc = "telescope keymaps" })
+
+map("n", "<leader>fw", function()
+	local word = vim.fn.expand("<cword>")
+	require("telescope.builtin").grep_string({ search = word })
+end, { desc = "telescope(grep) word under cursor" })
+
+map("n", "<leader>fW", function()
+	local word = vim.fn.expand("<cWORD>")
+	require("telescope.builtin").grep_string({ search = word })
+end, { desc = "telescope(grep) WORD under cursor" })
+
+map("n", "<leader>fS", function()
+	require("telescope.builtin").grep_string({ search = vim.fn.input("Grep > ") })
+end, { desc = "telescope(grep) input" })
 
 -- zen mode
 map("n", "<leader>zz", function()
