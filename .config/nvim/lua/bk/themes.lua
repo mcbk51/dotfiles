@@ -9,7 +9,30 @@ require("tokyonight").setup({
 -- vim.cmd("colorscheme tokyonight")
 
 -- Optional: configure other themes without enabling them yet
-require("ayu").setup({ mirage = false, overrides = {} })
+pcall(function()
+	require("ayu").setup({ mirage = false, overrides = {} })
+end)
+
+pcall(function()
+	require("moonfly").setup({})
+end)
+
+pcall(function()
+require("base16").setup({
+})
+end)
+
+pcall(function()
+	require("iceberg").setup({})
+end)
+
+pcall(function()
+	require("horizon").setup({})
+end)
+
+pcall(function()
+	require("oxocarbon").setup({})
+end)
 
 require("catppuccin").setup({
 	flavour = "mocha",
@@ -33,8 +56,5 @@ require("onedark").setup({
 		variables = "none",
 	},
 })
-vim.cmd("colorscheme onedark")
 
--- You can configure other themes similarly but do not call vim.cmd("colorscheme ...") yet
--- require("oxocarbon").setup({})
--- require("radium").setup({})
+vim.cmd("colorscheme onedark")
