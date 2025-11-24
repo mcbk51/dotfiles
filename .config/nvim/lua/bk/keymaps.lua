@@ -85,53 +85,59 @@ end, { desc = "telescope(grep) WORD under cursor" })
 map("n", "<leader>fgs", function()
 	require("telescope.builtin").grep_string({ search = vim.fn.input("Grep > ") })
 end, { desc = "telescope(grep) input" })
--- Harpoon keymaps
-local harpoon = require("harpoon")
-local harpoon_utils = require("harpoon")
 
+-- Harpoon keymaps (lazy-loaded when harpoon is available)
 -- Navigate to harpoon files (1-5)
 map("n", "<leader>1", function()
+	local harpoon_utils = require("bk.harpoon")
 	harpoon_utils.open_harpoon_file(1)
 end, { desc = "Harpoon to file 1" })
 
 map("n", "<leader>2", function()
+	local harpoon_utils = require("bk.harpoon")
 	harpoon_utils.open_harpoon_file(2)
 end, { desc = "Harpoon to file 2" })
 
 map("n", "<leader>3", function()
+	local harpoon_utils = require("bk.harpoon")
 	harpoon_utils.open_harpoon_file(3)
 end, { desc = "Harpoon to file 3" })
 
 map("n", "<leader>4", function()
+	local harpoon_utils = require("bk.harpoon")
 	harpoon_utils.open_harpoon_file(4)
 end, { desc = "Harpoon to file 4" })
 
 map("n", "<leader>5", function()
+	local harpoon_utils = require("bk.harpoon")
 	harpoon_utils.open_harpoon_file(5)
 end, { desc = "Harpoon to file 5" })
 
 -- Add file to harpoon
 map("n", "<leader>ha", function()
-	harpoon:list():add()
+	require("harpoon"):list():add()
 end, { desc = "Harpoon add file" })
 
 map("n", "<m-a>", function()
+	local harpoon = require("harpoon")
 	harpoon:list():add()
 	vim.notify("File added to harpoon", "info", { title = "Harpoon" })
 end, { desc = "Harpoon add file" })
 
 -- Toggle quick menu
 map("n", "<leader>hh", function()
+	local harpoon = require("harpoon")
 	harpoon.ui:toggle_quick_menu(harpoon:list())
 end, { desc = "Harpoon quick menu" })
 
 map("n", "<m-h>", function()
+	local harpoon = require("harpoon")
 	harpoon.ui:toggle_quick_menu(harpoon:list())
 end, { desc = "Harpoon quick menu" })
 
 -- Remove current file from harpoon
 map("n", "<leader>hr", function()
-	harpoon:list():remove()
+	require("harpoon"):list():remove()
 end, { desc = "Harpoon remove file" })
 -- zen mode
 map("n", "<leader>zz", function()
