@@ -1,5 +1,6 @@
 local harpoon = require("harpoon")
 local ui = require("harpoon.ui")
+
 -- Setup harpoon with settings from file 1
 harpoon:setup({
 	settings = {
@@ -7,11 +8,13 @@ harpoon:setup({
 		sync_on_ui_close = true,
 	},
 })
+
 -- Load telescope extension if telescope is available
 local telescope_ok, telescope = pcall(require, "telescope")
 if telescope_ok then
 	telescope.load_extension("harpoon")
 end
+
 -- Safe file opening function from file 2
 local function open_harpoon_file(n)
 	local ok, err = pcall(function()
