@@ -29,6 +29,7 @@ local function open_harpoon_file(n)
 		vim.notify("Failed to open Harpoon file " .. n .. ": " .. err, vim.log.levels.ERROR)
 	end
 end
+
 -- Key mappings from file 2
 vim.keymap.set("n", "<leader>1", function()
 	open_harpoon_file(1)
