@@ -82,12 +82,13 @@ read_only = " "
 truncation_length = 0
 truncate_to_repo = false
 home_symbol = ""
+
 [directory.substitutions]
-"Documents" = "󰈙"
+# "Documents" = "󰈙"
 "Downloads" = ""
 "Music" = "󰝚"
 "Pictures" = ""
-"dev" = ""
+# "dev" = ""
 "Videos" = "󰕧"
 
 [character]
