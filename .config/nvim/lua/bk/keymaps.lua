@@ -225,6 +225,9 @@ end, { desc = "whichkey query lookup" })
 map("v", "J", ":m '>+1<CR>gv=gv")
 map("v", "K", ":m '<-2<CR>gv=gv")
 
+map("n", "<M-j>", "<cmd>cnext<CR>")
+map("n", "<M-k>", "<cmd>cprev<CR>")
+
 -- Keep cursor in the middle (Half page jumping and search)
 map("n", "<C-d>", "<C-d>zz")
 map("n", "<C-u>", "<C-u>zz")
