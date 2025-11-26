@@ -35,6 +35,15 @@ map("n", "<leader>fs", "<cmd>source %<CR>", { desc = "source current file" })
 map("x", "<leader>ph", '"_dP', { desc = "conserve previous highlight" })
 map("t", "<esc><esc>", "<C-\\><C-N>", { desc = "terminal escape terminal mode" })
 
+map("n", "<leader>nr", function()
+	if vim.opt.relativenumber:get() then
+		vim.opt.relativenumber = false
+	else
+		vim.opt.number = true
+		vim.opt.relativenumber = true
+	end
+end, { desc = "toggle relative number" })
+
 -- moving in insert mode
 map("i", "<C-h>", "<Left>", { desc = "move left" })
 map("i", "<C-l>", "<Right>", { desc = "move right" })
@@ -101,6 +110,7 @@ map("n", "<leader>zz", function()
 	vim.wo.number = false
 	vim.wo.rnu = false
 	vim.opt.colorcolumn = "0"
+	ColorMyPencils()
 end, { desc = "Toggle Zen Mode" })
 
 map("n", "<leader>zZ", function()
@@ -126,31 +136,31 @@ map("n", "<leader>fp", function()
 end, { desc = "Filtere LSP symbols" })
 
 map("n", "gd", function()
-  vim.lsp.buf.definition()
+	vim.lsp.buf.definition()
 end, { desc = "LSP: Go to definition" })
 
 map("n", "K", function()
-  vim.lsp.buf.hover()
+	vim.lsp.buf.hover()
 end, { desc = "LSP: Hover documentation" })
 
 map("n", "<leader>vws", function()
-  vim.lsp.buf.workspace_symbol()
+	vim.lsp.buf.workspace_symbol()
 end, { desc = "LSP: Search workspace symbols" })
 
 map("n", "<leader>vca", function()
-  vim.lsp.buf.code_action()
+	vim.lsp.buf.code_action()
 end, { desc = "LSP: Code actions" })
 
 map("n", "<leader>vrr", function()
-  vim.lsp.buf.references()
+	vim.lsp.buf.references()
 end, { desc = "LSP: Find references" })
 
 map("n", "<leader>vrn", function()
-  vim.lsp.buf.rename()
+	vim.lsp.buf.rename()
 end, { desc = "LSP: Rename symbol" })
 
 map("i", "<C-h>", function()
-  vim.lsp.buf.signature_help()
+	vim.lsp.buf.signature_help()
 end, { desc = "LSP: Signature help" })
 
 map("n", "<leader>fe", function()
