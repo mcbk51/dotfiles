@@ -215,7 +215,7 @@ map(
 	{ desc = "terminal escape terminal mode" }
 )
 
--- whichkey
+-- Whichkey
 map("n", "<leader>wK", "<cmd>WhichKey <CR>", { desc = "whichkey all keymaps" })
 map("n", "<leader>wk", function()
 	vim.cmd("WhichKey " .. vim.fn.input("WhichKey: "))
@@ -225,6 +225,7 @@ end, { desc = "whichkey query lookup" })
 map("v", "J", ":m '>+1<CR>gv=gv")
 map("v", "K", ":m '<-2<CR>gv=gv")
 
+-- Quickfix
 map("n", "<M-j>", "<cmd>cnext<CR>")
 map("n", "<M-k>", "<cmd>cprev<CR>")
 
