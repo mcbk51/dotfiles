@@ -126,32 +126,32 @@ map("n", "<leader>fp", function()
 end, { desc = "Filtere LSP symbols" })
 
 map("n", "gd", function()
-	vim.lsp.buf.definition()
-end, opts)
+  vim.lsp.buf.definition()
+end, { desc = "LSP: Go to definition" })
 
 map("n", "K", function()
-	vim.lsp.buf.hover()
-end, opts)
+  vim.lsp.buf.hover()
+end, { desc = "LSP: Hover documentation" })
 
 map("n", "<leader>vws", function()
-	vim.lsp.buf.workspace_symbol()
-end, opts)
+  vim.lsp.buf.workspace_symbol()
+end, { desc = "LSP: Search workspace symbols" })
 
 map("n", "<leader>vca", function()
-	vim.lsp.buf.code_action()
-end, opts)
+  vim.lsp.buf.code_action()
+end, { desc = "LSP: Code actions" })
 
 map("n", "<leader>vrr", function()
-	vim.lsp.buf.references()
-end, opts)
+  vim.lsp.buf.references()
+end, { desc = "LSP: Find references" })
 
 map("n", "<leader>vrn", function()
-	vim.lsp.buf.rename()
-end, opts)
+  vim.lsp.buf.rename()
+end, { desc = "LSP: Rename symbol" })
 
 map("i", "<C-h>", function()
-	vim.lsp.buf.signature_help()
-end, opts)
+  vim.lsp.buf.signature_help()
+end, { desc = "LSP: Signature help" })
 
 map("n", "<leader>fe", function()
 	require("telescope").extensions.file_browser.file_browser({
