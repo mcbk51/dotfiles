@@ -238,7 +238,7 @@ map("v", "J", ":m '>+1<CR>gv=gv")
 map("v", "K", ":m '<-2<CR>gv=gv")
 
 -- Quickfix
-map("n", "<leader>q", function()
+map("n", "<leader>qf", function()
   local qf_exists = false
   for _, win in pairs(vim.fn.getwininfo()) do
     if win["quickfix"] == 1 then
@@ -252,6 +252,9 @@ map("n", "<leader>q", function()
     vim.cmd("copen")
   end
 end, { desc = "toggle quickfix" })
+map("n", "<leader>qc", function()
+  vim.fn.setqflist({})
+end, { desc = "clear quickfix" })
 map("n", "<M-j>", "<cmd>cnext<CR>")
 map("n", "<M-k>", "<cmd>cprev<CR>")
 
