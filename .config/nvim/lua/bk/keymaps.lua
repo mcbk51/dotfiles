@@ -122,7 +122,7 @@ map("n", "<leader>zZ", function()
 	})
 	require("zen-mode").toggle()
 	vim.wo.wrap = false
-	vim.wo.number = false
+	 im.wo.number = false
 	vim.wo.rnu = false
 	vim.opt.colorcolumn = "0"
 	ColorMyPencils()
@@ -151,7 +151,7 @@ map("n", "<leader>vca", function()
 	vim.lsp.buf.code_action()
 end, { desc = "LSP: Code actions" })
 
-map("n", "<leader>vrr", function()
+map("n", "<leader>vfr", function()
 	vim.lsp.buf.references()
 end, { desc = "LSP: Find references" })
 
