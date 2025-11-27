@@ -12,7 +12,7 @@ opt.winborder = "rounded"
 opt.swapfile = false
 opt.backup = false
 opt.undodir = os.getenv("HOME") .. "/.vim/undodir"
-opt.undofile = false
+opt.undofile = true
 
 opt.hlsearch = true
 opt.incsearch = true
@@ -34,8 +34,6 @@ opt.termguicolors = true
 opt.number = true
 opt.relativenumber = true
 opt.signcolumn = "yes" -- Keep space on the left for signs (LSP, git, etc.)
--- vim.opt.numberwidth = 3 -- Width of the number column
--- vim.opt.runtimepath:remove(vim.fn.stdpath("data") .. "/lazy/nvim-colo")
 
 --removing ~
 opt.fillchars:append({ eob = " " })
