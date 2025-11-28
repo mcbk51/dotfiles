@@ -5,20 +5,7 @@ local map = function(mode, lhs, rhs, opts)
 	vim.keymap.set(mode, lhs, rhs, opts)
 end
 
--- minifiles
-map("n", "<C-e>", function()
-	local minifiles = require("mini.files")
-	if not minifiles.close() then
-		local buf_path = vim.api.nvim_buf_get_name(0)
-		if buf_path == "" then
-			minifiles.open(vim.loop.cwd())
-		else
-			minifiles.open(buf_path)
-		end
-	end
-end, { desc = "toggle mini.files" })
-
--- Other General changes
+-- General binds
 map("n", "<leader>pv", vim.cmd.Ex, { desc = "native file navigator(netrw)" })
 map("n", "<Esc>", "<cmd>noh<CR>", { desc = "general clear highlights" })
 map("n", "<C-s>", "<cmd>w<CR>", { desc = "general save file" })
@@ -67,8 +54,8 @@ map("n", "<leader>fo", "<cmd>Telescope oldfiles<CR>", { desc = "telescope find o
 map("n", "<C-n>", "<cmd>Telescope harpoon marks<CR>", { desc = "telescope harpoon files" })
 map("n", "<C-z>", "<cmd>Telescope current_buffer_fuzzy_find<CR>", { desc = "telescope find in current buffer" })
 map("n", "<leader>fz", "<cmd>Telescope current_buffer_fuzzy_find<CR>", { desc = "telescope find in current buffer" })
-map("n", "<leader>gc", "<cmd>Telescope git_commits<CR>", { desc = "telescope git commits" })
-map("n", "<leader>gt", "<cmd>Telescope git_status<CR>", { desc = "telescope git status" })
+map("n", "<leader>fgc", "<cmd>Telescope git_commits<CR>", { desc = "telescope git commits" })
+map("n", "<leader>fgt", "<cmd>Telescope git_status<CR>", { desc = "telescope git status" })
 --map("n", "<leader>pt", "<cmd>Telescope terms<CR>", { desc = "telescope pick hidden term" })
 
 map(
@@ -97,6 +84,39 @@ map("n", "<leader>fgs", function()
 	require("telescope.builtin").grep_string({ search = vim.fn.input("Grep > ") })
 end, { desc = "telescope(grep) input" })
 
+map("n", "<leader>fe", function()
+	require("telescope").extensions.file_browser.file_browser({
+		path = vim.fn.expand("%:p:h"),
+		select_buffer = true,
+		hidden = true,
+		grouped = true,
+		respect_gitignore = false,
+	})
+end, { desc = "telescope file browser" })
+
+map("n", "<M-e>", function()
+	require("telescope").extensions.file_browser.file_browser({
+		path = vim.fn.expand("%:p:h"),
+		select_buffer = true,
+		hidden = true,
+		grouped = true,
+		respect_gitignore = false,
+	})
+end, { desc = "telescope file browser" })
+
+-- minifiles
+map("n", "<C-e>", function()
+	local minifiles = require("mini.files")
+	if not minifiles.close() then
+		local buf_path = vim.api.nvim_buf_get_name(0)
+		if buf_path == "" then
+			minifiles.open(vim.loop.cwd())
+		else
+			minifiles.open(buf_path)
+		end
+	end
+end, { desc = "toggle mini.files" })
+
 -- zen mode
 map("n", "<leader>zz", function()
 	require("zen-mode").setup({
@@ -122,7 +142,7 @@ map("n", "<leader>zZ", function()
 	})
 	require("zen-mode").toggle()
 	vim.wo.wrap = false
-	 im.wo.number = false
+	im.wo.number = false
 	vim.wo.rnu = false
 	vim.opt.colorcolumn = "0"
 	ColorMyPencils()
@@ -162,16 +182,6 @@ end, { desc = "LSP: Rename symbol" })
 map("i", "<C-h>", function()
 	vim.lsp.buf.signature_help()
 end, { desc = "LSP: Signature help" })
-
-map("n", "<leader>fe", function()
-	require("telescope").extensions.file_browser.file_browser({
-		path = vim.fn.expand("%:p:h"),
-		select_buffer = true,
-		hidden = true,
-		grouped = true,
-		respect_gitignore = false,
-	})
-end, { desc = "telescope file browser" })
 
 -- Buffer mappings
 map("n", "<leader>b", "<cmd>enew<CR>", { desc = "buffer new" })
@@ -239,21 +249,21 @@ map("v", "K", ":m '<-2<CR>gv=gv")
 
 -- Quickfix
 map("n", "<leader>qf", function()
-  local qf_exists = false
-  for _, win in pairs(vim.fn.getwininfo()) do
-    if win["quickfix"] == 1 then
-      qf_exists = true
-      break
-    end
-  end
-  if qf_exists then
-    vim.cmd("cclose")
-  else
-    vim.cmd("copen")
-  end
+	local qf_exists = false
+	for _, win in pairs(vim.fn.getwininfo()) do
+		if win["quickfix"] == 1 then
+			qf_exists = true
+			break
+		end
+	end
+	if qf_exists then
+		vim.cmd("cclose")
+	else
+		vim.cmd("copen")
+	end
 end, { desc = "toggle quickfix" })
 map("n", "<leader>qc", function()
-  vim.fn.setqflist({})
+	vim.fn.setqflist({})
 end, { desc = "clear quickfix" })
 map("n", "<M-j>", "<cmd>cnext<CR>")
 map("n", "<M-k>", "<cmd>cprev<CR>")
