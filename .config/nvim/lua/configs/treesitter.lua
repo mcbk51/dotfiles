@@ -13,6 +13,7 @@ configs.setup({
 		"css",
 		"markdown",
 	},
+	auto_install = true,
 
 	highlight = {
 		enable = true,

@@ -2,7 +2,7 @@ require("bk.options")
 require("bk.keymaps")
 require("bk.clipboard")
 require("bk.lazy")
-require("bk.themes")
+-- require("bk.themes")
 
 
 local augroup = vim.api.nvim_create_augroup
