@@ -63,7 +63,12 @@ return {
 		},
 	},
 	dependencies = {
-                "folke/snacks.nvim",
+		{
+			"folke/snacks.nvim",
+			opts = {
+				dashboard = { enabled = false },
+			},
+		},
 		"MunifTanjim/nui.nvim",
 		{
 			"rcarriga/nvim-notify",
