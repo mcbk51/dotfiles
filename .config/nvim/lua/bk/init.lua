@@ -1,7 +1,7 @@
-require("bk.options")
 require("bk.keymaps")
-require("bk.clipboard")
+require("bk.options")
 require("bk.lazy")
+require("bk.clipboard")
 -- require("bk.themes")
 
 

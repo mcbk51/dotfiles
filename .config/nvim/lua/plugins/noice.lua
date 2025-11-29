@@ -65,6 +65,7 @@ return {
 	dependencies = {
 		{
 			"folke/snacks.nvim",
+			lazy = false,
 			opts = {
 				dashboard = { enabled = false },
 			},
