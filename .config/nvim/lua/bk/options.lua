@@ -50,3 +50,19 @@ vim.api.nvim_create_autocmd("TextYankPost", {
                 vim.highlight.on_yank()
         end,
 })
+
+-- Show notification when recording starts/stops
+vim.api.nvim_create_autocmd("RecordingEnter", {
+  callback = function()
+    local reg = vim.fn.reg_recording()
+    vim.notify("Recording macro to register: " .. reg, vim.log.levels.INFO)
+  end,
+})
+
+vim.api.nvim_create_autocmd("RecordingLeave", {
+  callback = function()
+    vim.notify("Macro recording stopped", vim.log.levels.INFO)
+  end,
+})
+
+
