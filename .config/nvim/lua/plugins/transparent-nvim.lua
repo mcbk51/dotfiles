@@ -50,15 +50,6 @@ return {
 		-- Clear prefixes once
 		transparent.clear_prefix("MiniFiles")
 		transparent.clear_prefix("WhichKey")
-
-		-- Re-apply transparency automatically on FocusGained or ColorScheme changes
-		vim.api.nvim_create_autocmd({ "FocusGained", "ColorScheme" }, {
-			callback = function()
-				transparent.clear_prefix("MiniFiles")
-				transparent.clear_prefix("WhichKey")
-				transparent.setup()
-			end,
-		})
 	end,
 }
 
