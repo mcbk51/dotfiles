@@ -5,11 +5,11 @@ return {
 			require("configs.treesitter")
 		end,
 	},
-	{
-		"nvim-treesitter/nvim-treesitter-textobjects",
-		after = "nvim-treesitter",
-		requires = "nvim-treesitter/nvim-treesitter",
-	},
+	-- {
+	-- 	"nvim-treesitter/nvim-treesitter-textobjects",
+	-- 	after = "nvim-treesitter",
+	-- 	requires = "nvim-treesitter/nvim-treesitter",
+	-- },
 	{
 		"nvim-treesitter/nvim-treesitter-context",
 		after = "nvim-treesitter",
