@@ -13,7 +13,6 @@ map("n", "<C-c>", "<cmd>%y+<CR>", { desc = "general copy whole file" })
 map("n", "<leader>uu", function()
 	require("undotree").toggle()
 end, { noremap = true, silent = true, desc = "toggle undotree" })
-map("n", "<leader>ds", vim.diagnostic.setloclist, { desc = "LSP diagnostic loclist" })
 map("n", "<leader>fx", "<cmd>!chmod +x %<CR>", { silent = true, desc = "make current file executable" })
 map("n", "<leader>/", "gcc", { desc = "toggle comment", remap = true })
 map("v", "<leader>/", "gc", { desc = "toggle comment", remap = true })
@@ -150,6 +149,7 @@ map("n", "<leader>zZ", function()
 end)
 
 -- lsp
+map("n", "<leader>ds", vim.diagnostic.setloclist, { desc = "LSP diagnostic loclist" })
 map("n", "<leader>fp", function()
 	require("telescope.builtin").lsp_document_symbols({
 		symbols = { "function", "method", "class", "struct", "string", "int", "bool", "float" },
@@ -180,7 +180,7 @@ map("n", "<leader>vrn", function()
 	vim.lsp.buf.rename()
 end, { desc = "LSP: Rename symbol" })
 
-map("i", "<C-h>", function()
+map("i", "<C-g>", function()
 	vim.lsp.buf.signature_help()
 end, { desc = "LSP: Signature help" })
 
