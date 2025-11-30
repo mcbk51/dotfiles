@@ -45,7 +45,7 @@ return {
 				"lua_ls",
 				"rust_analyzer",
 				"gopls",
-				-- "tailwindcss",
+				"tailwindcss",
 			},
 			handlers = {
 				function(server_name) -- default handler (optional)
@@ -67,7 +67,7 @@ return {
 						},
 					})
 					vim.g.zig_fmt_parse_errors = 0
-					vim.g.zig_fmt_autosave = 0
+					vim.g.zig_fmt_autosave = 1
 				end,
 				["lua_ls"] = function()
 					local lspconfig = require("lspconfig")
@@ -124,7 +124,7 @@ return {
 				["<C-Space>"] = cmp.mapping.complete(),
 			}),
 			sources = cmp.config.sources({
-				{ name = "copilot", group_index = 2 },
+                -- { name = "copilot", group_index = 2 },
 				{ name = "nvim_lsp" },
 				{ name = "luasnip" }, -- For luasnip users.
 			}, {
