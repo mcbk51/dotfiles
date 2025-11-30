@@ -31,7 +31,7 @@ map("n", "<leader>nr", function()
 end, { desc = "toggle relative number" })
 
 -- moving in insert mode
-map("i", "<C-h>", "<Left>", { desc = "move left" })
+map("i", "<C-h>", "<Left>", {remap = true , desc = "move left" })
 map("i", "<C-l>", "<Right>", { desc = "move right" })
 map("i", "<C-j>", "<Down>", { desc = "move down" })
 map("i", "<C-k>", "<Up>", { desc = "move up" })
@@ -188,10 +188,10 @@ end, { desc = "LSP: Signature help" })
 map("n", "<leader>bn", "<cmd>enew<CR>", { desc = "buffer new" })
 
 map("n", "<leader>bx", function()
-        vim.cmd("bdelete")
+	vim.cmd("bdelete")
 end, { desc = "buffer close" })
 map("n", "<C-X>", function()
-        vim.cmd("bdelete")
+	vim.cmd("bdelete")
 end, { desc = "buffer close" })
 
 map("n", "<tab>", function()
@@ -200,7 +200,6 @@ end, { desc = "buffer goto next" })
 map("n", "<S-tab>", function()
 	vim.cmd("bprevious")
 end, { desc = "buffer goto prev" })
-
 
 -- easymotion
 map("n", "<M-f>", "<Plug>(easymotion-overwin-f2)", { desc = "easymotion search 1 characters" })
