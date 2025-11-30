@@ -186,17 +186,21 @@ end, { desc = "LSP: Signature help" })
 
 -- Buffer mappings
 map("n", "<leader>bn", "<cmd>enew<CR>", { desc = "buffer new" })
+
+map("n", "<leader>bx", function()
+        vim.cmd("bdelete")
+end, { desc = "buffer close" })
+map("n", "<C-X>", function()
+        vim.cmd("bdelete")
+end, { desc = "buffer close" })
+
 map("n", "<tab>", function()
 	vim.cmd("bnext")
 end, { desc = "buffer goto next" })
-
 map("n", "<S-tab>", function()
 	vim.cmd("bprevious")
 end, { desc = "buffer goto prev" })
 
-map("n", "<C-X>", function()
-	vim.cmd("bdelete")
-end, { desc = "buffer close" })
 
 -- easymotion
 map("n", "<M-f>", "<Plug>(easymotion-overwin-f2)", { desc = "easymotion search 1 characters" })
