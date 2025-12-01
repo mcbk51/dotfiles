@@ -1,8 +1,6 @@
 vim.g.mapleader = " "
 
 local opt = vim.opt
-local api = vim.api
-
 
 opt.tabstop = 4
 opt.softtabstop = 4
@@ -42,30 +40,8 @@ opt.signcolumn = "yes" -- Keep space on the left for signs (LSP, git, etc.)
 --removing ~
 opt.fillchars:append({ eob = " " })
 
+-- Not sure if anything under this line is needed   
+
 -- Disable broken plugin queries
 -- vim.g.matchparen_timeout = 20
 -- vim.g.matchparen_insert_timeout = 20
-
-api.nvim_create_autocmd("TextYankPost", {
-        desc = "Highlight when yanking (copying) texg",
-        group = vim.api.nvim_create_augroup("kickstart-highlight-yank", {clear = true}),
-        callback = function()
-                vim.highlight.on_yank()
-        end,
-})
-
--- Show notification when recording starts/stops
-api.nvim_create_autocmd("RecordingEnter", {
-  callback = function()
-    local reg = vim.fn.reg_recording()
-    vim.notify("Recording macro to register: " .. reg, vim.log.levels.INFO)
-  end,
-})
-
-api.nvim_create_autocmd("RecordingLeave", {
-  callback = function()
-    vim.notify("Macro recording stopped", vim.log.levels.INFO)
-  end,
-})
-
-
