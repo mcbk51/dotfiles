@@ -90,6 +90,7 @@ map("n", "<leader>fe", function()
 		hidden = true,
 		grouped = true,
 		respect_gitignore = false,
+		depth = 2,
 	})
 end, { desc = "telescope file browser" })
 

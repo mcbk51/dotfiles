@@ -40,7 +40,7 @@ opt.signcolumn = "yes" -- Keep space on the left for signs (LSP, git, etc.)
 --removing ~
 opt.fillchars:append({ eob = " " })
 
--- Not sure if anything under this line is needed   
+-- Not sure if anything under this line is needed
 
 -- Disable broken plugin queries
 -- vim.g.matchparen_timeout = 20
