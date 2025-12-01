@@ -1,7 +1,7 @@
 require("bk.options")
 require("bk.keymaps")
-require("bk.lazy")
 require("bk.clipboard")
+require("bk.lazy")
 -- require("bk.themes")
 
 local api = vim.api
