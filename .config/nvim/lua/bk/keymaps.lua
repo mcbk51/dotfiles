@@ -1,4 +1,3 @@
-vim.g.mapleader = " "
 local map = function(mode, lhs, rhs, opts)
 	-- Ensure opts is a table, even if nil is passed
 	opts = opts or {}
@@ -31,7 +30,7 @@ map("n", "<leader>nr", function()
 end, { desc = "toggle relative number" })
 
 -- moving in insert mode
-map("i", "<C-h>", "<Left>", {remap = true , desc = "move left" })
+map("i", "<C-h>", "<Left>", { remap = true, desc = "move left" })
 map("i", "<C-l>", "<Right>", { desc = "move right" })
 map("i", "<C-j>", "<Down>", { desc = "move down" })
 map("i", "<C-k>", "<Up>", { desc = "move up" })
@@ -202,7 +201,7 @@ map("n", "<S-tab>", function()
 end, { desc = "buffer goto prev" })
 
 -- easymotion
-map("n", "<M-f>", "<Plug>(easymotion-overwin-f2)", { desc = "easymotion search 1 characters" })
+map("n", "<M-f>", "<Plug>(easymotion-overwin-f)", { desc = "easymotion search 1 characters" })
 map("n", "<leader>ss", "<Plug>(easymotion-overwin-f2)", { desc = "easymotion search 2 characters" })
 -- map("n", "<leader>sj", "<Plug>(easymotion-j)", { desc = "easymotion jump down" })
 -- map("n", "<leader>sk", "<Plug>(easymotion-k)", { desc = "easymotion jump up" })
