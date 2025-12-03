@@ -150,6 +150,10 @@ end)
 
 -- lsp
 map("n", "<leader>ds", vim.diagnostic.setloclist, { desc = "LSP diagnostic loclist" })
+map("n", "<leader>de", function()
+	vim.diagnostic.open_float(nil, { scope = "line" })
+end, { desc = "Show line diagnostics (Error/Warning)" })
+
 map("n", "<leader>fp", function()
 	require("telescope.builtin").lsp_document_symbols({
 		symbols = { "function", "method", "class", "struct", "string", "int", "bool", "float" },
