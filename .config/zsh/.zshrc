@@ -26,9 +26,10 @@ export PATH="$HOME/bin:$HOME/.local/bin:/usr/local/bin:$HOME/.atuin/bin:/home/bk
 set -o vi
 
 # fzf options
-zstyle  ':completion:*' menu no
+zstyle  ':completion:*' menu select
 zstyle  ':fzf-tab:complete:cd:*' fzf-preview 'ls --color $realpath' 
 zstyle  'fzf-tab:complete:__zoxide_z:*' fzf-preview 'ls --color $realpath'
+
 
 # ------History----- 
 HISTFILE=~/.zsh_history
