@@ -104,6 +104,9 @@ map("n", "<M-e>", function()
 	})
 end, { desc = "telescope file browser" })
 
+-- fugitive
+map("n", "<leader>gs", vim.cmd.Git, { desc = "Git Status" })
+
 -- minifiles
 map("n", "<C-e>", function()
 	local minifiles = require("mini.files")
