@@ -62,6 +62,8 @@ bindkey -s '^F' 'fcd\n'
 
 # Other
 alias docker='podman'
+unalias go
 ## Not in use
+#
 
 #alias n='nnnalias'
