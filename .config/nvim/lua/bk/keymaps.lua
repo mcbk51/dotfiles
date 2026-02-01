@@ -151,6 +151,21 @@ map("n", "<leader>zZ", function()
 	ColorMyPencils()
 end)
 
+-- opencode
+map({ "n", "x" }, "<leader>oa", function() require("opencode").ask("@this: ", { submit = true }) end, { desc = "Ask opencode…" })
+map({ "n", "x" }, "<leader>ox", function() require("opencode").select() end,                          { desc = "Execute opencode action…" })
+map({ "n", "t" }, "<leader>oc", function() require("opencode").toggle() end,                          { desc = "Toggle opencode" })
+
+map({ "n", "x" }, "go",  function() return require("opencode").operator("@this ") end,        { desc = "Add range to opencode", expr = true })
+map("n",          "goo", function() return require("opencode").operator("@this ") .. "_" end, { desc = "Add line to opencode", expr = true })
+
+map("n", "<S-C-u>", function() require("opencode").command("session.half.page.up") end,   { desc = "Scroll opencode up" })
+map("n", "<S-C-d>", function() require("opencode").command("session.half.page.down") end, { desc = "Scroll opencode down" })
+
+-- -- You may want these if you stick with the opinionated "<C-a>" and "<C-x>" above — otherwise consider "<leader>o…".
+-- map("n", "+", "<C-a>", { desc = "Increment under cursor", noremap = true })
+-- map("n", "-", "<C-x>", { desc = "Decrement under cursor", noremap = true })
+
 -- lsp
 map("n", "<leader>ds", vim.diagnostic.setloclist, { desc = "LSP diagnostic loclist" })
 map("n", "<leader>de", function()
