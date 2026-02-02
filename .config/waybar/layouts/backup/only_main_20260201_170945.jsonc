@@ -12,14 +12,14 @@
     ],
 
     "modules-left": [
-        "group/pill#left1"
+        "group/pill#left1",
     ],
     "group/pill#left1": {
         "modules": [
             "hyprland/workspaces",
-            "group/hide-pcinfo"
+            "group/hide-pcinfo",
         ],
-        "orientation": "inherit"
+        "orientation": "inherit",
     },
 
     "modules-center": [
@@ -28,22 +28,21 @@
     "group/pill#center": {
         "modules": [
             "custom/hyprsunset",
-            "custom/weather",
             "clock",
-            "idle_inhibitor"
+            "idle_inhibitor",
         ],
         "orientation": "inherit"
     },
 
     "modules-right": [
         "group/pill#right1",
-        "group/pill#right2"
+        "group/pill#right2",
     ],
     "group/pill#right1": {
         "modules": [
             "mpris",
             "pulseaudio",
-            "pulseaudio#microphone"
+            "pulseaudio#microphone",
         ],
         "orientation": "inherit"
   },

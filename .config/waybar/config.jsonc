@@ -28,6 +28,7 @@
     "group/pill#center": {
         "modules": [
             "custom/hyprsunset",
+            "custom/weather",
             "clock",
             "idle_inhibitor",
         ],
