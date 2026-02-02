@@ -8,7 +8,10 @@ return {
             -- logging mechanisms within 99.  This is for more debugging purposes
             local cwd = vim.uv.cwd()
             local basename = vim.fs.basename(cwd)
+            local providers = require("99.providers")
 			_99.setup({
+                provider = providers.ClaudeCodeProvider,
+
 				logger = {
 					level = _99.DEBUG,
 					path = "/tmp/" .. basename .. ".99.debug",
