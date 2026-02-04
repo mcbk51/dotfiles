@@ -168,9 +168,9 @@ map("n", "<S-C-d>", function() require("opencode").command("session.half.page.do
 
 -- 99
 map("n", "<leader>9f", function() require("99").fill_in_function() end, { desc = "Fill in function" })
-map("n", "<leader>9pf", function() require("99").fill_in_function_prompt() end, { desc = "Fill in function prompt" })
+map("n", "<leader>9p", function() require("99").fill_in_function_prompt() end, { desc = "Fill in function prompt" })
 map("v", "<leader>9v", function() require("99").visual() end, { desc = "Visual mode" })
-map("v", "<leader>9pv", function() require("99").visual_prompt() end, { desc = "Visual mode prompt" })
+map("v", "<leader>9p", function() require("99").visual_prompt() end, { desc = "Visual mode prompt" })
 map("v", "<leader>9s", function() require("99").stop_all_requests() end, { desc = "Stop all requests" })
 
 -- lsp
