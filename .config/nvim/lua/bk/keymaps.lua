@@ -151,27 +151,16 @@ map("n", "<leader>zZ", function()
 	ColorMyPencils()
 end)
 
--- opencode
-map({ "n", "x" }, "<leader>oa", function() require("opencode").ask("@this: ", { submit = true }) end, { desc = "Ask opencode…" })
-map({ "n", "x" }, "<leader>ox", function() require("opencode").select() end,                          { desc = "Execute opencode action…" })
-map({ "n", "t" }, "<leader>oc", function() require("opencode").toggle() end,                          { desc = "Toggle opencode" })
-
-map({ "n", "x" }, "go",  function() return require("opencode").operator("@this ") end,        { desc = "Add range to opencode", expr = true })
-map("n",          "goo", function() return require("opencode").operator("@this ") .. "_" end, { desc = "Add line to opencode", expr = true })
-
-map("n", "<S-C-u>", function() require("opencode").command("session.half.page.up") end,   { desc = "Scroll opencode up" })
-map("n", "<S-C-d>", function() require("opencode").command("session.half.page.down") end, { desc = "Scroll opencode down" })
-
 -- -- You may want these if you stick with the opinionated "<C-a>" and "<C-x>" above — otherwise consider "<leader>o…".
 -- map("n", "+", "<C-a>", { desc = "Increment under cursor", noremap = true })
 -- map("n", "-", "<C-x>", { desc = "Decrement under cursor", noremap = true })
 
 -- 99
-map("n", "<leader>9f", function() require("99").fill_in_function() end, { desc = "Fill in function" })
-map("n", "<leader>9p", function() require("99").fill_in_function_prompt() end, { desc = "Fill in function prompt" })
-map("v", "<leader>9v", function() require("99").visual() end, { desc = "Visual mode" })
-map("v", "<leader>9p", function() require("99").visual_prompt() end, { desc = "Visual mode prompt" })
-map("v", "<leader>9s", function() require("99").stop_all_requests() end, { desc = "Stop all requests" })
+map("n", "<leader>af", function() require("99").fill_in_function() end, { desc = "Fill in function" })
+map("n", "<leader>ap", function() require("99").fill_in_function_prompt() end, { desc = "Fill in function prompt" })
+map("v", "<leader>av", function() require("99").visual() end, { desc = "Visual mode" })
+map("v", "<leader>ap", function() require("99").visual_prompt() end, { desc = "Visual mode prompt" })
+map("v", "<leader>as", function() require("99").stop_all_requests() end, { desc = "Stop all requests" })
 
 -- lsp
 map("n", "<leader>ds", vim.diagnostic.setloclist, { desc = "LSP diagnostic loclist" })
