@@ -18,7 +18,8 @@ return {
 		},
 		cmdline = {
 			enabled = true,
-			view = "cmdline_popup", -- "cmdline" (bottom) or "cmdline_popup" (floating)
+			-- view = "cmdline_popup", -- "cmdline" (bottom) or "cmdline_popup" (floating)
+			view = "cmdline", -- "cmdline" (bottom) or "cmdline_popup" (floating)
 			format = {
 				cmdline = { icon = "" },
 				search_down = { icon = "⌄" },

@@ -13,7 +13,7 @@ end
 
 -- Function to update harpoon keymaps with current file names
 local function update_harpoon_keymaps()
-	for _, idx in ipairs({ 1, 2, 3, 4, 5 }) do
+	for _, idx in ipairs({ 1, 2, 3, 4, 5, 6, 7, 8, 9 }) do
 		local item = harpoon:list():get(idx)
 		local desc = item and string.format("%d: %s", idx, item.value) or string.format("%d: [empty]", idx)
 		
