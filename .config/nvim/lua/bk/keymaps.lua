@@ -240,12 +240,8 @@ map("n", "<leader>sh", ":split<CR>", { desc = "Horizontal split" })
 map("n", "<leader>sx", "<C-w>q", { desc = "Close split" })
 
 -- Tmux-sessionizer
-map(
-	"n",
-	"<C-f>",
-	"<cmd>silent !tmux neww ~/dev/scripts/tmux/tmux-sessionizer<CR>",
-	{ desc = "terminal escape terminal mode" }
-)
+map("n","<C-f>", "<cmd>silent !tmux neww ~/dev/scripts/tmux/tmux-sessionizer<CR>",
+{ desc = "terminal escape terminal mode" })
 
 -- Whichkey
 map("n", "<leader>wK", "<cmd>WhichKey <CR>", { desc = "whichkey all keymaps" })
