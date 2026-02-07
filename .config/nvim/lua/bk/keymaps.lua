@@ -163,6 +163,13 @@ map("v", "<leader>ap", function() require("99").visual_prompt() end, { desc = "V
 map("n", "<leader>as", function() require("99").stop_all_requests() end, { desc = "Stop all requests" })
 map("v", "<leader>as", function() require("99").stop_all_requests() end, { desc = "Stop all requests" })
 
+-- Trouble
+map("n", "<leader>tr", function() require("trouble").toggle({mode = "diagnostics", jump = true}); end, { desc = "Trouble toggle" })
+
+map("n", "[t", function() require("trouble").next({skip_groups = true, jump = true}); end, { desc = "Trouble next" })
+
+map("n", "]t", function() require("trouble").previous({skip_groups = true, jump = true}); end, { desc = "Trouble previous" })
+
 -- lsp
 map("n", "<leader>ds", vim.diagnostic.setloclist, { desc = "LSP diagnostic loclist" })
 map("n", "<leader>de", function()
