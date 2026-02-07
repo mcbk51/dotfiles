@@ -1,7 +1,7 @@
 local map = function(mode, lhs, rhs, opts)
 	-- Ensure opts is a table, even if nil is passed
 	opts = opts or {}
-	vim.keymap.set(mode, lhs, rhs, opts)
+vim.keymap.set(mode, lhs, rhs, opts)
 end
 
 -- General binds
@@ -165,9 +165,7 @@ map("v", "<leader>as", function() require("99").stop_all_requests() end, { desc 
 
 -- Trouble
 map("n", "<leader>tr", function() require("trouble").toggle({mode = "diagnostics", jump = true}); end, { desc = "Trouble toggle" })
-
 map("n", "[t", function() require("trouble").next({skip_groups = true, jump = true}); end, { desc = "Trouble next" })
-
 map("n", "]t", function() require("trouble").previous({skip_groups = true, jump = true}); end, { desc = "Trouble previous" })
 
 -- lsp
@@ -182,37 +180,16 @@ map("n", "<leader>fp", function()
 	})
 end, { desc = "Filtere LSP symbols" })
 
-map("n", "gd", function()
-	vim.lsp.buf.definition()
-end, { desc = "LSP: Go to definition" })
-
-map("n", "K", function()
-	vim.lsp.buf.hover()
-end, { desc = "LSP: Hover documentation" })
-
-map("n", "<leader>vws", function()
-	vim.lsp.buf.workspace_symbol()
-end, { desc = "LSP: Search workspace symbols" })
-
-map("n", "<leader>vca", function()
-	vim.lsp.buf.code_action()
-end, { desc = "LSP: Code actions" })
-
-map("n", "<leader>vfr", function()
-	vim.lsp.buf.references()
-end, { desc = "LSP: Find references" })
-
-map("n", "<leader>vrn", function()
-	vim.lsp.buf.rename()
-end, { desc = "LSP: Rename symbol" })
-
-map("i", "<C-g>", function()
-	vim.lsp.buf.signature_help()
-end, { desc = "LSP: Signature help" })
+map("n", "gd", function() vim.lsp.buf.definition() end, { desc = "LSP: Go to definition" })
+map("n", "K", function() vim.lsp.buf.hover() end, { desc = "LSP: Hover documentation" })
+map("n", "<leader>vws", function() vim.lsp.buf.workspace_symbol() end, { desc = "LSP: Search workspace symbols" })
+map("n", "<leader>vca", function() vim.lsp.buf.code_action() end, { desc = "LSP: Code actions" })
+map("n", "<leader>vfr", function() vim.lsp.buf.references() end, { desc = "LSP: Find references" })
+map("n", "<leader>vrn", function() vim.lsp.buf.rename() end, { desc = "LSP: Rename symbol" })
+map("i", "<C-g>", function() vim.lsp.buf.signature_help() end, { desc = "LSP: Signature help" })
 
 -- Buffer mappings
 map("n", "<leader>bn", "<cmd>enew<CR>", { desc = "buffer new" })
-
 map("n", "<leader>bx", function()
 	vim.cmd("bdelete")
 end, { desc = "buffer close" })
