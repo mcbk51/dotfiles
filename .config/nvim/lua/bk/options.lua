@@ -1,5 +1,4 @@
 vim.g.mapleader = " "
-
 local opt = vim.opt
 
 opt.tabstop = 4
