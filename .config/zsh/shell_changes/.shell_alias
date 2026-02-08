@@ -22,14 +22,14 @@ alias tw='~/.local/bin/scripts/tmux/tmux-windowizer'
 alias ssa='~/.local/bin/scripts/general/ssh-agent.sh'
 alias tb='~/.local/bin/scripts/general/git/test-branch.sh'
 alias poddev='~/.local/bin/scripts/containers/arch-dev_container_podman.sh'
-
+alias '??'='~/.local/bin/scripts/general/llm-search.sh'
 # Arch changes
 
 alias up='sudo pacman -Syu'
 alias sp='sudo pacman'
 alias in='yay -S'
 alias un='sudo pacman -Rns'
-
+#
 # Vim
 alias v='nvim'
 alias sv='sudo nvim'
@@ -62,7 +62,6 @@ bindkey -s '^F' 'fcd\n'
 
 # Other
 alias docker='podman'
-unalias go
 ## Not in use
 #
 
