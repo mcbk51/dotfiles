@@ -156,7 +156,7 @@ end)
 -- map("n", "-", "<C-x>", { desc = "Decrement under cursor", noremap = true })
 
 -- LLM 
-map('v', '<leader>ar', ":'<,'>!~/.local/bin/scripts/general/llm-search.sh<CR>", { desc = 'Replace with Claude response' })
+map('v', '<leader>ar', ":'<,'>!~/.local/bin/scripts/general/llm-search.sh<CR>", { desc = 'Replace with LLM response' })
 -- 99
 map("n", "<leader>af", function() require("99").fill_in_function() end, { desc = "Fill in function" })
 map("n", "<leader>ap", function() require("99").fill_in_function_prompt() end, { desc = "Fill in function prompt" })
