@@ -159,10 +159,7 @@ end)
 -- LLM 
 map('v', '<leader>ar', ":'<,'>!~/.local/bin/scripts/general/llm-search.sh<CR>", { desc = 'Replace with LLM response' })
 -- 99
-map("n", "<leader>af", function() require("99").fill_in_function() end, { desc = "Fill in function" })
-map("n", "<leader>ap", function() require("99").fill_in_function_prompt() end, { desc = "Fill in function prompt" })
-map("v", "<leader>av", function() require("99").visual() end, { desc = "Visual mode" })
-map("v", "<leader>ap", function() require("99").visual_prompt() end, { desc = "Visual mode prompt" })
+map("v", "<leader>av", function() require("99").visual() end, { desc = "Visual mode with prompt" })
 map("n", "<leader>as", function() require("99").stop_all_requests() end, { desc = "Stop all requests" })
 map("v", "<leader>as", function() require("99").stop_all_requests() end, { desc = "Stop all requests" })
 
