@@ -184,10 +184,10 @@ end, { desc = "Filtere LSP symbols" })
 
 map("n", "gd", function() vim.lsp.buf.definition() end, { desc = "LSP: Go to definition" })
 map("n", "K", function() vim.lsp.buf.hover() end, { desc = "LSP: Hover documentation" })
-map("n", "<leader>lws", function() vim.lsp.buf.workspace_symbol() end, { desc = "LSP: Search workspace symbols" })
-map("n", "<leader>lca", function() vim.lsp.buf.code_action() end, { desc = "LSP: Code actions" })
-map("n", "<leader>lfr", function() vim.lsp.buf.references() end, { desc = "LSP: Find references" })
-map("n", "<leader>vrn", function() vim.lsp.buf.rename() end, { desc = "LSP: Rename symbol" })
+map("n", "<leader>lw", function() vim.lsp.buf.workspace_symbol() end, { desc = "LSP: Search workspace symbols" })
+map("n", "<leader>lc", function() vim.lsp.buf.code_action() end, { desc = "LSP: Code actions" })
+map("n", "<leader>lr", function() vim.lsp.buf.references() end, { desc = "LSP: Find references" })
+map("n", "<leader>vr", function() vim.lsp.buf.rename() end, { desc = "LSP: Rename symbol" })
 map("i", "<C-g>", function() vim.lsp.buf.signature_help() end, { desc = "LSP: Signature help" })
 
 -- Buffer mappings
