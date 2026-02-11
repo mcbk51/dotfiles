@@ -68,6 +68,7 @@ map("n", "<leader>fk", function()
 	require("telescope.builtin").keymaps()
 end, { desc = "telescope keymaps" })
 
+map("n", "<leader>fr", function() vim.lsp.buf.references() end, { desc = "LSP: Find references" })
 map("n", "<leader>fgl", "<cmd>Telescope live_grep<CR>", { desc = "telescope live grep" })
 map("n", "<leader>fgw", function()
 	local word = vim.fn.expand("<cword>")
