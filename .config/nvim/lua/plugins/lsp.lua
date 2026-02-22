@@ -46,6 +46,7 @@ return {
 				"rust_analyzer",
 				"gopls",
 				"tailwindcss",
+                "zls",
 			},
 			handlers = {
 				function(server_name) -- default handler (optional)
@@ -58,6 +59,7 @@ return {
 					local lspconfig = require("lspconfig")
 					lspconfig.zls.setup({
 						root_dir = lspconfig.util.root_pattern(".git", "build.zig", "zls.json"),
+                        single_file_support = true,
 						settings = {
 							zls = {
 								enable_inlay_hints = true,

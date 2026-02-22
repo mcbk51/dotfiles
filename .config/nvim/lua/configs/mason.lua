@@ -8,7 +8,7 @@ end
 local mason_lsp_status, mason_lsp = pcall(require, "mason-lspconfig")
 if mason_lsp_status then
   mason_lsp.setup({
-    ensure_installed = { "pyright", "tsserver", "gopls", "rust_analyzer" },
+    ensure_installed = { "pyright", "tsserver", "gopls", "rust_analyzer", "zls" },
   })
 end
 
